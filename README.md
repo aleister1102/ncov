@@ -47,3 +47,20 @@ This part will handle event and response information for user via View from data
 So, we have three big folders for those file which is handle their jobs as **model**, **view** and **controller**.
 All of this will be in **src** folder.   
 Beside, we will have a **release** folder cointaining executable file. Also, we also have a **report file** in PDF format.
+
+## Git
+
+### Commit Message
+Should be short, such as a formula like this:  
+
+`do + something + in some file`  
+
+Example:  
+
+`update convention in readme.md`
+
+### Branch
+Whenever a member has a new feature to do, he must create a new branch with that feature name. Until the next meeting, he can not merge that branch into main branch.
+
+### Pull
+If somebody has conflict with the code between local repository and global repository, he have to make a pull request from global repository and modify his local repository first. Then, after resolving, he can push those changes to global repository.
