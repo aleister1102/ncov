@@ -1,6 +1,6 @@
 # NCovid Information Project
 
-This project is create by there members of 20CTT3 - FITHCMUS: 20120348, 20120356 and 20120386
+This project is create by there members of 20CTT3 - FITHCMUS: 20120348, 20120356 and 20120386  
 Due to require from our teachers, we can not use Javascript, so we use Python.
 
 ## Convention
