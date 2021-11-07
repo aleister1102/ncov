@@ -21,8 +21,6 @@ Due to require from our teachers, we can not use Javascript, so we use Python.
 ### 3. Line Lenght **< 80** (column **< 80**)
 
 ### 4. Block of code
-
-- Always end a block of code with semicolon (even unesscarry)
 - Seperate two block of code by a blank space
 
 By the way, we can use Prettier extension in VS Code for code formatting
