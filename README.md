@@ -26,6 +26,20 @@ Due to require from our teachers, we can not use Javascript, so we use Python.
 
 By the way, we can use Prettier extension in VS Code for code formatting
 
+### 5. Comment
+- Maybe there are some function used by some other files or other function. So with those functions, we have to write comment with format like this:
+`def newFunction(p1, p2):
+    """
+    newFunction does something.
+
+    p1: describe about parameter p1
+    p2: describe about parameter p2
+    
+    return: describe what it returns
+    """ 
+    print("hello world")
+    return 1`
+
 ## Source Code Organization
 
 We mimic the MVC Design Patern, with three parts:
