@@ -12,6 +12,7 @@ Due to require from our teachers, we can not use Javascript, so we use Python.
 - Global variable name: **UPPERCASE**
 - Constant (such as PI): **UPPERCASE**
 - File name: **lowercase** (may be mix with "-" or "\_")
+- All of name have to be meaningful
 
 ### 2. Parameters
 
@@ -62,3 +63,6 @@ Whenever a member has a new feature to do, he must create a new branch with that
 
 ### Pull
 If somebody has conflict with the code between local repository and global repository, he have to make a pull request from global repository and modify his local repository first. Then, after resolving, he can push those changes to global repository.
+
+### Update
+Everybody have to pull code from github and resolve conflicts before doing something
