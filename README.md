@@ -11,7 +11,7 @@ Due to require from our teachers, we can not use Javascript, so we use Python.
 - Function name : **camelCase**, action in **lowercase** and noun in **UPPERCASE**.
 - Global variable name: **UPPERCASE**
 - Constant (such as PI): **UPPERCASE**
-- File name: **lowercase** (may be mix with "-" or "\_")
+- File name: **lowercase** (may be mix with "-" or "_")
 - All of name have to be meaningful
 
 ### 2. Parameters
