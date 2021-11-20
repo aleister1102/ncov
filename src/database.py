@@ -1,0 +1,62 @@
+import json
+
+def listToDict(list):
+    
+    account = {
+    "username": "",
+    "password": ""
+    }   
+    
+    account['username'] = list[0]
+    account['password'] = list[1]
+    
+    return account
+
+def getData():
+
+    f = open('accounts.json', 'r')
+    data = json.load(f)
+    f.close()
+    return data
+
+def printData(data):
+    
+    for account in data['account']:
+        print(account)
+
+def checkAccount(data, clientAccount):
+
+    for account in data['account']:
+        if(account['username'] == clientAccount['username'] and account['password'] == clientAccount['password']):
+            return True
+    
+    print('False')
+    return False
+
+def createAccount(clientAccount):
+
+    data = getData()
+    clientAccount = listToDict(clientAccount)
+    if(checkAccount(data, clientAccount) == False):
+        data['account'].append(clientAccount)
+        
+    return data
+
+def updateData(data):
+    f = open('accounts.json', 'w')
+    json.dump(data, f, indent=2)
+    f.close()
+
+
+# list = ['','']
+# list[0] = input("username: \n")
+# list[1] = input("password: \n")
+
+# data = getData()
+# printData(data)
+# data = createAccount(list)
+# printData(data)
+# updateData(data)
+
+        
+
