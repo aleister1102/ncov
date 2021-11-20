@@ -47,23 +47,7 @@ def newFunction(p1, p2):
 
 ## Source Code Organization
 
-We mimic the MVC Design Patern, with three parts:
-
-### Model (M)
-
-This part handles database request from user and communicate with Controller.
-
-### View (V)
-
-This part displays button, UI/GUI for user and send event to Controller, but does not handle it.
-
-### Controller (C)
-
-This part will handle event and response information for user via View from database of Model.  
-
-### Other
-So, we have three big folders for those file which is handle their jobs as **model**, **view** and **controller**.
-All of this will be in **src** folder.   
+All of code will be in **src** folder.   
 Beside, we will have a **release** folder cointaining executable file. Also, we also have a **report file** in PDF format.
 
 ## Git
