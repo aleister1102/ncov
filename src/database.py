@@ -12,20 +12,12 @@ def accountToDict(list):
 
     return account
 
-
 def getAccount():
 
     f = open('accounts.json', 'r')
     data = json.load(f)
     f.close()
     return data
-
-
-def printAccount(data):
-
-    for account in data['account']:
-        print(account)
-
 
 def checkAccount(data, clientAccount):
 
@@ -43,7 +35,6 @@ def checkAccount(data, clientAccount):
     print('False')
     return False
 
-
 def createAccount(clientAccount):
 
     """
@@ -60,7 +51,6 @@ def createAccount(clientAccount):
         return False
     
     return True
-
 
 def updateJSON(file, data):
     
