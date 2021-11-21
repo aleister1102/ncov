@@ -1,0 +1,30 @@
+Phú
+Client: 
+Bắt sự kiện nút đăng nhập -> SIGN IN
+Đăng ký -> SIGN UP
+Bắt buộc phải có thông tin mới cho đn hoặc đk
+
+Xuất thông tin từ giao diện
+
+Server:
+Chạy server
+Tắt server
+
+Xuất thông tin người đang kết nối
+
+Toàn
+Gửi tin
+Nhận tin
+
+SIGN IN
+Sign up
+
+Hàm mở server
+Hàm tắt server
+
+
+
+Quân
+
+checkAccount
+createAccount
