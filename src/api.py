@@ -63,8 +63,12 @@ def fetchVietnamCovid(option):
 
     responseVietnam = json.loads(requests.get(VIETNAM).content)['locations']
     db.updateJSON(FILE_VIETNAM, responseVietnam)
+    
+    for province in responseVietnam:
+        if(province['name'] == option):
+            print(province)
 
-
+            
 def getVietnamCovid():
 
     file = open(FILE_VIETNAM, 'r')

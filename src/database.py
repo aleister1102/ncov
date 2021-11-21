@@ -1,5 +1,4 @@
 import json
-import codecs
 
 def listToDict(list):
 
