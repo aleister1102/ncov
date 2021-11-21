@@ -1,6 +1,8 @@
 import requests
 import json
+import os.path
 import database as db
+from string import Template
 
 
 # World API
@@ -21,59 +23,76 @@ FILE_WORLD = 'src/world.json'
 VIETNAM = 'https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true&utf8=1'
 FILE_VIETNAM = 'src/vietnam.json'
 
+# def getCountriesCode():
 
-def fetchWorldCovid(option):
+#     response = json.loads(requests.get(
+#         'https://api.covid19api.com/countries').content)
+#     list = []
+    
+#     for country in response:
+#         dict = {'country': country['Country'], 'code': country['ISO2']}
+#         list.append(dict)
+        
+#     f = open('src/countries_code.json', 'a')
+#     json.dump(list, f, indent=2)
+
+
+def fetchCountry(name):
+    
+    print('fetching',name)
+    if(name == 'Saint Vincent and Grenadines'):
+        return
+    try:
+        response = requests.get(Template('https://api.covid19api.com/dayone/country/$name/status/confirmed').substitute(name = name))
+        if(response.status_code != 200):
+            return
+        
+        string = json.loads(response.content)
+        db.updateJSON(Template('src/countries/$name.json').substitute(name = name),string)
+    except:
+        return
+
+def fetchWorld():
     """
     Fetch Covid information of world.
     option: date
     """
 
-    filePath = ""
-    if(option != TODAY):
-        return
-    if(option == TWO_DAYS_AGO):
-        responseWorld = requests.get(WORLD_TWO_DAYS_AGO)
-        filePath = FILE_WORLD2
-    if(option == YESTERDAY):
-        responseWorld = requests.get(WORLD_YESTERDAY)
-        filePath = FILE_WORLD1
-    else:
-        responseWorld = requests.get(WORLD)
-        filePath = FILE_WORLD
+    f = open('src/countries_code.json', 'r')
+    worlds = json.load(f)
+    
+    for country in worlds:
+        fetchCountry(country['country'])
 
-    Worlds = json.loads(responseWorld.content)
-    db.updateJSON(filePath, Worlds)
-
-
-def getWorldCovid(option):
-
-    filePath = ""
-    if(option == TWO_DAYS_AGO):
-        filePath = FILE_WORLD2
-    elif(option == YESTERDAY):
-        filePath = FILE_WORLD1
-    else:
-        filePath = FILE_WORLD
-
-    file = open(filePath, "r")
-    return json.load(file)
+def getWorld(option):
+    
+    f = open('src/countries_code.json', 'r')
+    worlds = json.load(f)
+    i = 0
+    for country in worlds:
+        i+=1
+        print(i)
+        print(country)
 
 
-def fetchVietnamCovid(option):
+def fetchVietnam(option):
 
     responseVietnam = json.loads(requests.get(VIETNAM).content)['locations']
     db.updateJSON(FILE_VIETNAM, responseVietnam)
-    
+
     for province in responseVietnam:
         if(province['name'] == option):
             print(province)
 
-            
-def getVietnamCovid():
+
+def getVietnam():
 
     file = open(FILE_VIETNAM, 'r')
     return json.load(file)
 
 
-# fetchVietnamCovid('')
-print(getVietnamCovid())
+fetchWorld()
+
+    
+    
+    
