@@ -4,12 +4,22 @@ import socket
 
 SERVER_PORT = 52467
 
-CLIENT_PORT = 8001
 FORMAT = "utf8"
 
 #HOST = input("Input Server's IP: ")
 
 HOST = "192.168.1.13"
+
+
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print("CLIENT SIDE")
+
+
+def inputIP():
+    HOST = input("Input Server's IP: ")
+
+    return HOST
 
 
 def sendList(client, list):
@@ -23,52 +33,68 @@ def sendList(client, list):
     return msgServer
 
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.bind((HOST, CLIENT_PORT))
+def connectToServer():
 
-print("CLIENT SIDE")
+    try:
 
-try:
-
-    connect = 0
-    connectTime = 0
-    check = client.connect_ex((HOST, SERVER_PORT))
-    while(connectTime <= 10 and check != 0):
-        if(connect == 0):
-            print("Waiting for Server open the connection ...")
-            connect = 1
+        connect = 0
+        connectTime = 0
 
         check = client.connect_ex((HOST, SERVER_PORT))
+        # Vòng lặp chờ Server mở kết nối
+        while(connectTime <= 10 and check != 0):
+            if(connect == 0):
+                print("Waiting for Server open the connection ...")
+                connect = 1
+
+            check = client.connect_ex((HOST, SERVER_PORT))
+
+            if(check == 0):
+                break
+
+            connectTime += 1
+            time.sleep(1)
+
         if(check == 0):
-            break
-        connectTime += 1
-        time.sleep(1)
+            print("Client address: ", client.getsockname())
 
-    if(check == 0):
-        print("Client address: ", client.getsockname())
+            msgClient = None
 
-        list = ["LePhuocToan", "20120386"]
+            while(msgClient != "x"):
 
-        msgClient = None
-        msgServer = None
+                list = ["LePhuocToan", "20120386"]
+                msgServer = None
+                msgClient = input("Client talks somethings: ")
 
-        while(msgClient != "x"):
-            msgClient = input("Client talks somethings: ")
-            client.sendall(msgClient.encode(FORMAT))
-            client.recv(1024).decode(FORMAT)
-            if(msgClient == "SIGN IN"):
-                msgServer = sendList(client, list)
-                print(msgServer)
+                client.sendall(msgClient.encode(FORMAT))
+                client.recv(1024).decode(FORMAT)
 
-            else:
-                print(msgServer)
+                if(msgClient == "SIGN IN"):
+                    msgServer = sendList(client, list)
+                    if(msgServer == "TRUE"):
+                        print("Login successed !!!")
+
+                    else:
+                        print("Login failed !!!")
+
+                elif(msgClient == "SIGN UP"):
+                    msgServer = sendList(client, list)
+                    if(msgServer == "TRUE"):
+                        print("Register successed !!!")
+
+                    else:
+                        print("Register failed !!!")
+
+            client.close()
+        else:
+
+            client.close()
+            print("Time out")
+    except:
 
         client.close()
-    else:
-        print("Time out")
-        client.close()
+        print("ERROR !!!")
+        print("Server is disconnected !!!")
 
-except:
-    print("ERROR !!!")
-    print("Server is disconnected !!!")
-    client.close()
+
+connectToServer()

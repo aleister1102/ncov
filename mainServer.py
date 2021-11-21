@@ -3,7 +3,6 @@ import threading
 
 
 HOST = socket.gethostbyname(socket.gethostname())
-
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -19,45 +18,67 @@ print("Server: ", HOST, SERVER_PORT)
 print("Waiting for Client ...")
 
 
-def checkAccount(list):
-    return "True"
+def checkAccount(clientAccount):
+    return True
 
 
-def recvList(connection):
+def createAccount(clientAccount):
+    return True
+
+
+def recvListLogin(connection):
+
     list = []
     item = None
-    msgServer = "Server received the messages !!!"
+    msgServer = "FALSE"
     while(item != "end"):
         item = connection.recv(1024).decode(FORMAT)
         if(item != "end"):
             list.append(item)
         else:
-            if(checkAccount(list) == "True"):
-                msgServer = "True"
-            else:
-                msgServer = "False"
-                # Server response
+            print(list)
+            if(checkAccount(list) == True):
+                msgServer = "TRUE"
+        # Server response
+        connection.sendall(msgServer.encode(FORMAT))
+
+
+def recvListRegister(connection):
+
+    list = []
+    item = None
+    msgServer = "FALSE"
+    while(item != "end"):
+        item = connection.recv(1024).decode(FORMAT)
+        if(item != "end"):
+            list.append(item)
+        else:
+            print(list)
+            if(createAccount(list) == True):
+                msgServer = "TRUE"
+        # Server response
         connection.sendall(msgServer.encode(FORMAT))
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
+
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
 
     msgClient = None
-    msgServer = None
-    type = None
 
     check = True
     while(msgClient != "x"):
         try:
             msgClient = connection.recv(1024).decode(FORMAT)
             print("Client", address, "says: ", msgClient)
-            msgServer = "Server received the messages !!!"
-            connection.sendall(msgServer.encode(FORMAT))
+            connection.sendall(msgClient.encode(FORMAT))
 
             if(msgClient == "SIGN IN"):
-                list = recvList(connection)
+                recvListLogin(connection)
+
+            elif(msgClient == "SIGN UP"):
+                recvListRegister(connection)
 
         except:
             check = False
@@ -67,28 +88,30 @@ def handleClient(connection, address):  # Xử lý đa luồng
         print("Client: ", address, " finished !!!")
         print(connection.getsockname(), " closed !!!")
         connection.close()
-        type = input()
-        if(type == "x"):
-            s.close()
-            exit(1)
 
     else:
         print("Client", address, " is disconnected !!!")
         connection.close()
 
 
-while(1):
+def openServer(s):
 
-    try:
-        connection, address = s.accept()
-        thr = threading.Thread(target=handleClient, args=(connection, address))
-        thr.daemon = False
-        thr.start()
+    while(1):
+        try:
+            connection, address = s.accept()
+            thr = threading.Thread(target=handleClient,
+                                   args=(connection, address))
+            thr.daemon = False
+            thr.start()
 
-    except:
-        print("Server is closed !!!")
-        break
+        except:
+            print("Server is closed !!!")
+            break
 
 
-print("\t--- END SERVER ---")
-s.close()
+def closeServer(s):
+    print("\t--- END SERVER ---")
+    s.close()
+
+
+openServer(s)
