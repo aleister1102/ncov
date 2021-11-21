@@ -13,24 +13,14 @@ WORLD_CODE = 'src/countries_code.json'
 # Vietnam API
 
 VIETNAM = 'https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true&utf8=1'
-FILE_VIETNAM = 'src/vietnam/vietnam.json'
-
-# def getCountriesCode():
-
-#     response = json.loads(requests.get(
-#         'https://api.covid19api.com/countries').content)
-#     list = []
-    
-#     for country in response:
-#         dict = {'country': country['Country'], 'code': country['ISO2']}
-#         list.append(dict)
-        
-#     f = open('src/countries_code.json', 'a')
-#     json.dump(list, f, indent=2)
-
+FILE_VIETNAM = 'src/vietnam_specific.json'
 
 def fetchCountry(name):
     
+    """
+    Cập nhật thông tin covid của một quốc gia
+    name: tên quốc gia
+    """
     print('Fetching',name)
     if(name == 'Saint Vincent and Grenadines'):
         return
@@ -49,21 +39,21 @@ def fetchCountry(name):
 
 def fetchWorld():
     
+    """
+    Cập nhật thông tin covid của toàn thế giới và lưu về data base
+    """
     f = open(WORLD_CODE, 'r')
     worlds = json.load(f)
     
     for country in worlds:
         fetchCountry(country['country'])
 
-
-def getWorld(name):
-    
-    pass
- 
-
-
 def fetchVietnam(option):
 
+    """
+    Cập nhật thông tin covid các tỉnh thành của Việt Nam trong một ngày
+    option: tên tỉnh thành
+    """
     responseVietnam = json.loads(requests.get(VIETNAM).content)['locations']
     db.updateJSON(FILE_VIETNAM, responseVietnam)
 
@@ -72,13 +62,7 @@ def fetchVietnam(option):
     #         print(province)
 
 
-def getVietnam():
-
-    pass
 
 
-
-
-    
     
     

@@ -1,6 +1,6 @@
 import json
 
-def listToDict(list):
+def accountToDict(list):
 
     account = {
         "username": "",
@@ -29,6 +29,13 @@ def printAccount(data):
 
 def checkAccount(data, clientAccount):
 
+    """
+    Hàm đăng nhập, kiểm tra tài khoản có tồn tại chưa
+    data: dữ liệu tên đăng nhập từ database, lấy bằng hàm getAccount()
+    clientAccount: list gồm username và password
+    return: True nếu như tài khoản tồn tại, cho phép đăng nhập, False nếu ngược lại
+    """
+    
     for account in data['account']:
         if(account['username'] == clientAccount['username'] and account['password'] == clientAccount['password']):
             return True
@@ -39,8 +46,14 @@ def checkAccount(data, clientAccount):
 
 def createAccount(clientAccount):
 
+    """
+    Hàm tạo tài khoản
+    clientAccount: list gồm username và password
+    return: True nếu như tạo tài khoản thành công, False nếu như tạo thất bại
+    """
+    
     data = getAccount()
-    clientAccount = listToDict(clientAccount)
+    clientAccount = accountToDict(clientAccount)
     if(checkAccount(data, clientAccount) == False):
         data['account'].append(clientAccount)
     else:
