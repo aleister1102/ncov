@@ -1,24 +1,26 @@
-import socket
 import time
+import socket
+
 
 SERVER_PORT = 52467
 
 CLIENT_PORT = 8001
 FORMAT = "utf8"
 
-HOST = input("Input Server's IP: ")
+#HOST = input("Input Server's IP: ")
+
+HOST = "192.168.1.13"
 
 
 def sendList(client, list):
     msgServer = None
+    list.append("end")
     for item in list:
         client.sendall(item.encode(FORMAT))
         # Wait response from server
         msgServer = client.recv(1024).decode(FORMAT)
 
-    print(msgServer)
-    msg = "end"
-    client.sendall(msg.encode(FORMAT))
+    return msgServer
 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -45,7 +47,7 @@ try:
     if(check == 0):
         print("Client address: ", client.getsockname())
 
-        list = ["LePhuocToan", "20120386", "20CTT3"]
+        list = ["LePhuocToan", "20120386"]
 
         msgClient = None
         msgServer = None
@@ -53,11 +55,12 @@ try:
         while(msgClient != "x"):
             msgClient = input("Client talks somethings: ")
             client.sendall(msgClient.encode(FORMAT))
-            if(msgClient == "list"):
-                client.recv(1024).decode(FORMAT)
-                sendList(client, list)
+            client.recv(1024).decode(FORMAT)
+            if(msgClient == "SIGN IN"):
+                msgServer = sendList(client, list)
+                print(msgServer)
+
             else:
-                msgServer = client.recv(1024).decode(FORMAT)
                 print(msgServer)
 
         client.close()

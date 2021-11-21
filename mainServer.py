@@ -19,6 +19,10 @@ print("Server: ", HOST, SERVER_PORT)
 print("Waiting for Client ...")
 
 
+def checkAccount(list):
+    return "True"
+
+
 def recvList(connection):
     list = []
     item = None
@@ -27,10 +31,13 @@ def recvList(connection):
         item = connection.recv(1024).decode(FORMAT)
         if(item != "end"):
             list.append(item)
-        # Server response
+        else:
+            if(checkAccount(list) == "True"):
+                msgServer = "True"
+            else:
+                msgServer = "False"
+                # Server response
         connection.sendall(msgServer.encode(FORMAT))
-
-    return list
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
@@ -49,9 +56,8 @@ def handleClient(connection, address):  # Xử lý đa luồng
             msgServer = "Server received the messages !!!"
             connection.sendall(msgServer.encode(FORMAT))
 
-            if(msgClient == "list"):
+            if(msgClient == "SIGN IN"):
                 list = recvList(connection)
-                print(list)
 
         except:
             check = False
