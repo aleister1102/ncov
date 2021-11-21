@@ -44,8 +44,10 @@ def createAccount(clientAccount):
     clientAccount = listToDict(clientAccount)
     if(checkAccount(data, clientAccount) == False):
         data['account'].append(clientAccount)
-
-    return data
+    else:
+        return False
+    
+    return True
 
 
 def updateJSON(file, data):
@@ -54,13 +56,3 @@ def updateJSON(file, data):
     json.dump(data, f, indent=2)
     f.close()
 
-
-# list = ['','']
-# list[0] = input("username: \n")
-# list[1] = input("password: \n")
-
-# data = getData()
-# printData(data)
-# data = createAccount(list)
-# printData(data)
-# updateData('account.py',data)
