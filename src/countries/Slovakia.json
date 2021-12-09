@@ -43,7 +43,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 3,
+    "Cases": 5,
     "Status": "confirmed",
     "Date": "2020-03-09T00:00:00Z"
   },
@@ -67,7 +67,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 10,
+    "Cases": 7,
     "Status": "confirmed",
     "Date": "2020-03-11T00:00:00Z"
   },
@@ -79,7 +79,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 16,
+    "Cases": 10,
     "Status": "confirmed",
     "Date": "2020-03-12T00:00:00Z"
   },
@@ -91,7 +91,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 32,
+    "Cases": 21,
     "Status": "confirmed",
     "Date": "2020-03-13T00:00:00Z"
   },
@@ -103,7 +103,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 44,
+    "Cases": 32,
     "Status": "confirmed",
     "Date": "2020-03-14T00:00:00Z"
   },
@@ -115,7 +115,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 54,
+    "Cases": 44,
     "Status": "confirmed",
     "Date": "2020-03-15T00:00:00Z"
   },
@@ -127,7 +127,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 63,
+    "Cases": 61,
     "Status": "confirmed",
     "Date": "2020-03-16T00:00:00Z"
   },
@@ -151,7 +151,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 105,
+    "Cases": 96,
     "Status": "confirmed",
     "Date": "2020-03-18T00:00:00Z"
   },
@@ -163,7 +163,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 123,
+    "Cases": 104,
     "Status": "confirmed",
     "Date": "2020-03-19T00:00:00Z"
   },
@@ -175,7 +175,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 137,
+    "Cases": 123,
     "Status": "confirmed",
     "Date": "2020-03-20T00:00:00Z"
   },
@@ -187,7 +187,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 178,
+    "Cases": 137,
     "Status": "confirmed",
     "Date": "2020-03-21T00:00:00Z"
   },
@@ -199,7 +199,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 185,
+    "Cases": 178,
     "Status": "confirmed",
     "Date": "2020-03-22T00:00:00Z"
   },
@@ -211,7 +211,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 186,
+    "Cases": 185,
     "Status": "confirmed",
     "Date": "2020-03-23T00:00:00Z"
   },
@@ -2659,7 +2659,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 20886,
+    "Cases": 20926,
     "Status": "confirmed",
     "Date": "2020-10-13T00:00:00Z"
   },
@@ -2671,7 +2671,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 22296,
+    "Cases": 22420,
     "Status": "confirmed",
     "Date": "2020-10-14T00:00:00Z"
   },
@@ -2683,7 +2683,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 24225,
+    "Cases": 24380,
     "Status": "confirmed",
     "Date": "2020-10-15T00:00:00Z"
   },
@@ -2695,7 +2695,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 26300,
+    "Cases": 26491,
     "Status": "confirmed",
     "Date": "2020-10-16T00:00:00Z"
   },
@@ -2707,7 +2707,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 28268,
+    "Cases": 28486,
     "Status": "confirmed",
     "Date": "2020-10-17T00:00:00Z"
   },
@@ -2719,7 +2719,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 29835,
+    "Cases": 30053,
     "Status": "confirmed",
     "Date": "2020-10-18T00:00:00Z"
   },
@@ -2731,7 +2731,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 30695,
+    "Cases": 30913,
     "Status": "confirmed",
     "Date": "2020-10-19T00:00:00Z"
   },
@@ -2743,7 +2743,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 31400,
+    "Cases": 31687,
     "Status": "confirmed",
     "Date": "2020-10-20T00:00:00Z"
   },
@@ -2755,7 +2755,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 33602,
+    "Cases": 33927,
     "Status": "confirmed",
     "Date": "2020-10-21T00:00:00Z"
   },
@@ -2767,7 +2767,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 35330,
+    "Cases": 35703,
     "Status": "confirmed",
     "Date": "2020-10-22T00:00:00Z"
   },
@@ -2779,7 +2779,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 37911,
+    "Cases": 38425,
     "Status": "confirmed",
     "Date": "2020-10-23T00:00:00Z"
   },
@@ -2791,7 +2791,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 40801,
+    "Cases": 41434,
     "Status": "confirmed",
     "Date": "2020-10-24T00:00:00Z"
   },
@@ -2803,7 +2803,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 43843,
+    "Cases": 44541,
     "Status": "confirmed",
     "Date": "2020-10-25T00:00:00Z"
   },
@@ -2815,7 +2815,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 45155,
+    "Cases": 45893,
     "Status": "confirmed",
     "Date": "2020-10-26T00:00:00Z"
   },
@@ -2827,7 +2827,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 46056,
+    "Cases": 47025,
     "Status": "confirmed",
     "Date": "2020-10-27T00:00:00Z"
   },
@@ -2839,7 +2839,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 48943,
+    "Cases": 50146,
     "Status": "confirmed",
     "Date": "2020-10-28T00:00:00Z"
   },
@@ -2851,7 +2851,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 51728,
+    "Cases": 53156,
     "Status": "confirmed",
     "Date": "2020-10-29T00:00:00Z"
   },
@@ -2863,7 +2863,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 55091,
+    "Cases": 56758,
     "Status": "confirmed",
     "Date": "2020-10-30T00:00:00Z"
   },
@@ -2875,7 +2875,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 57664,
+    "Cases": 59823,
     "Status": "confirmed",
     "Date": "2020-10-31T00:00:00Z"
   },
@@ -2887,7 +2887,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 59946,
+    "Cases": 63080,
     "Status": "confirmed",
     "Date": "2020-11-01T00:00:00Z"
   },
@@ -2899,7 +2899,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 61829,
+    "Cases": 65339,
     "Status": "confirmed",
     "Date": "2020-11-02T00:00:00Z"
   },
@@ -2911,7 +2911,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 63556,
+    "Cases": 68397,
     "Status": "confirmed",
     "Date": "2020-11-03T00:00:00Z"
   },
@@ -2923,7 +2923,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 66772,
+    "Cases": 71711,
     "Status": "confirmed",
     "Date": "2020-11-04T00:00:00Z"
   },
@@ -2935,7 +2935,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 68734,
+    "Cases": 73755,
     "Status": "confirmed",
     "Date": "2020-11-05T00:00:00Z"
   },
@@ -2947,7 +2947,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 71088,
+    "Cases": 76249,
     "Status": "confirmed",
     "Date": "2020-11-06T00:00:00Z"
   },
@@ -2959,7 +2959,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 73667,
+    "Cases": 79155,
     "Status": "confirmed",
     "Date": "2020-11-07T00:00:00Z"
   },
@@ -2971,7 +2971,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 75495,
+    "Cases": 81422,
     "Status": "confirmed",
     "Date": "2020-11-08T00:00:00Z"
   },
@@ -2983,7 +2983,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 76072,
+    "Cases": 82142,
     "Status": "confirmed",
     "Date": "2020-11-09T00:00:00Z"
   },
@@ -2995,7 +2995,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 77123,
+    "Cases": 84347,
     "Status": "confirmed",
     "Date": "2020-11-10T00:00:00Z"
   },
@@ -3007,7 +3007,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 79181,
+    "Cases": 86545,
     "Status": "confirmed",
     "Date": "2020-11-11T00:00:00Z"
   },
@@ -3019,7 +3019,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 81772,
+    "Cases": 89237,
     "Status": "confirmed",
     "Date": "2020-11-12T00:00:00Z"
   },
@@ -3031,7 +3031,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 83796,
+    "Cases": 91434,
     "Status": "confirmed",
     "Date": "2020-11-13T00:00:00Z"
   },
@@ -3043,7 +3043,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 85567,
+    "Cases": 93363,
     "Status": "confirmed",
     "Date": "2020-11-14T00:00:00Z"
   },
@@ -3055,7 +3055,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 86767,
+    "Cases": 94662,
     "Status": "confirmed",
     "Date": "2020-11-15T00:00:00Z"
   },
@@ -3067,7 +3067,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 87276,
+    "Cases": 95204,
     "Status": "confirmed",
     "Date": "2020-11-16T00:00:00Z"
   },
@@ -3079,7 +3079,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 88602,
+    "Cases": 96816,
     "Status": "confirmed",
     "Date": "2020-11-17T00:00:00Z"
   },
@@ -3091,7 +3091,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 89913,
+    "Cases": 98351,
     "Status": "confirmed",
     "Date": "2020-11-18T00:00:00Z"
   },
@@ -3103,7 +3103,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 91578,
+    "Cases": 100458,
     "Status": "confirmed",
     "Date": "2020-11-19T00:00:00Z"
   },
@@ -3115,7 +3115,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 93396,
+    "Cases": 103046,
     "Status": "confirmed",
     "Date": "2020-11-20T00:00:00Z"
   },
@@ -3127,7 +3127,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 95257,
+    "Cases": 105518,
     "Status": "confirmed",
     "Date": "2020-11-21T00:00:00Z"
   },
@@ -3139,7 +3139,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 96241,
+    "Cases": 106824,
     "Status": "confirmed",
     "Date": "2020-11-22T00:00:00Z"
   },
@@ -3151,7 +3151,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 96472,
+    "Cases": 107112,
     "Status": "confirmed",
     "Date": "2020-11-23T00:00:00Z"
   },
@@ -3163,7 +3163,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 97493,
+    "Cases": 109017,
     "Status": "confirmed",
     "Date": "2020-11-24T00:00:00Z"
   },
@@ -3175,7 +3175,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 99304,
+    "Cases": 111722,
     "Status": "confirmed",
     "Date": "2020-11-25T00:00:00Z"
   },
@@ -3187,7 +3187,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 101257,
+    "Cases": 114408,
     "Status": "confirmed",
     "Date": "2020-11-26T00:00:00Z"
   },
@@ -3199,7 +3199,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 103106,
+    "Cases": 117124,
     "Status": "confirmed",
     "Date": "2020-11-27T00:00:00Z"
   },
@@ -3211,7 +3211,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 104632,
+    "Cases": 119438,
     "Status": "confirmed",
     "Date": "2020-11-28T00:00:00Z"
   },
@@ -3223,7 +3223,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 105733,
+    "Cases": 120971,
     "Status": "confirmed",
     "Date": "2020-11-29T00:00:00Z"
   },
@@ -3235,7 +3235,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 105929,
+    "Cases": 121347,
     "Status": "confirmed",
     "Date": "2020-11-30T00:00:00Z"
   },
@@ -3247,7 +3247,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 107183,
+    "Cases": 124318,
     "Status": "confirmed",
     "Date": "2020-12-01T00:00:00Z"
   },
@@ -3259,7 +3259,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 109226,
+    "Cases": 127958,
     "Status": "confirmed",
     "Date": "2020-12-02T00:00:00Z"
   },
@@ -3271,7 +3271,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 111208,
+    "Cases": 131603,
     "Status": "confirmed",
     "Date": "2020-12-03T00:00:00Z"
   },
@@ -3283,7 +3283,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 113392,
+    "Cases": 135061,
     "Status": "confirmed",
     "Date": "2020-12-04T00:00:00Z"
   },
@@ -3295,7 +3295,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 115462,
+    "Cases": 138391,
     "Status": "confirmed",
     "Date": "2020-12-05T00:00:00Z"
   },
@@ -3307,7 +3307,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 116731,
+    "Cases": 140027,
     "Status": "confirmed",
     "Date": "2020-12-06T00:00:00Z"
   },
@@ -3319,7 +3319,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 117283,
+    "Cases": 140708,
     "Status": "confirmed",
     "Date": "2020-12-07T00:00:00Z"
   },
@@ -3331,7 +3331,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 119232,
+    "Cases": 144821,
     "Status": "confirmed",
     "Date": "2020-12-08T00:00:00Z"
   },
@@ -3343,7 +3343,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 121796,
+    "Cases": 150345,
     "Status": "confirmed",
     "Date": "2020-12-09T00:00:00Z"
   },
@@ -3355,7 +3355,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 124921,
+    "Cases": 155776,
     "Status": "confirmed",
     "Date": "2020-12-10T00:00:00Z"
   },
@@ -3367,7 +3367,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 127087,
+    "Cases": 161050,
     "Status": "confirmed",
     "Date": "2020-12-11T00:00:00Z"
   },
@@ -3379,7 +3379,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 130794,
+    "Cases": 167317,
     "Status": "confirmed",
     "Date": "2020-12-12T00:00:00Z"
   },
@@ -3391,7 +3391,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 132984,
+    "Cases": 170507,
     "Status": "confirmed",
     "Date": "2020-12-13T00:00:00Z"
   },
@@ -3403,7 +3403,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 133489,
+    "Cases": 171111,
     "Status": "confirmed",
     "Date": "2020-12-14T00:00:00Z"
   },
@@ -3415,7 +3415,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 135523,
+    "Cases": 176317,
     "Status": "confirmed",
     "Date": "2020-12-15T00:00:00Z"
   },
@@ -3427,7 +3427,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 139088,
+    "Cases": 184020,
     "Status": "confirmed",
     "Date": "2020-12-16T00:00:00Z"
   },
@@ -3439,7 +3439,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 142133,
+    "Cases": 190616,
     "Status": "confirmed",
     "Date": "2020-12-17T00:00:00Z"
   },
@@ -3451,7 +3451,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 146124,
+    "Cases": 198451,
     "Status": "confirmed",
     "Date": "2020-12-18T00:00:00Z"
   },
@@ -3463,7 +3463,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 149275,
+    "Cases": 204973,
     "Status": "confirmed",
     "Date": "2020-12-19T00:00:00Z"
   },
@@ -3475,7 +3475,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 151336,
+    "Cases": 208055,
     "Status": "confirmed",
     "Date": "2020-12-20T00:00:00Z"
   },
@@ -3487,7 +3487,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 152555,
+    "Cases": 209770,
     "Status": "confirmed",
     "Date": "2020-12-21T00:00:00Z"
   },
@@ -3499,7 +3499,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 155218,
+    "Cases": 219523,
     "Status": "confirmed",
     "Date": "2020-12-22T00:00:00Z"
   },
@@ -3511,7 +3511,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 158905,
+    "Cases": 228738,
     "Status": "confirmed",
     "Date": "2020-12-23T00:00:00Z"
   },
@@ -3523,7 +3523,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 161562,
+    "Cases": 236092,
     "Status": "confirmed",
     "Date": "2020-12-24T00:00:00Z"
   },
@@ -3535,7 +3535,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 165608,
+    "Cases": 241156,
     "Status": "confirmed",
     "Date": "2020-12-25T00:00:00Z"
   },
@@ -3547,7 +3547,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 166649,
+    "Cases": 242338,
     "Status": "confirmed",
     "Date": "2020-12-26T00:00:00Z"
   },
@@ -3559,7 +3559,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 167523,
+    "Cases": 243424,
     "Status": "confirmed",
     "Date": "2020-12-27T00:00:00Z"
   },
@@ -3571,7 +3571,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 168092,
+    "Cases": 244297,
     "Status": "confirmed",
     "Date": "2020-12-28T00:00:00Z"
   },
@@ -3583,7 +3583,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 170187,
+    "Cases": 252945,
     "Status": "confirmed",
     "Date": "2020-12-29T00:00:00Z"
   },
@@ -3595,7 +3595,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 173228,
+    "Cases": 262688,
     "Status": "confirmed",
     "Date": "2020-12-30T00:00:00Z"
   },
@@ -3607,7 +3607,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 179543,
+    "Cases": 274603,
     "Status": "confirmed",
     "Date": "2020-12-31T00:00:00Z"
   },
@@ -3619,7 +3619,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 184508,
+    "Cases": 285079,
     "Status": "confirmed",
     "Date": "2021-01-01T00:00:00Z"
   },
@@ -3631,7 +3631,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 186244,
+    "Cases": 287405,
     "Status": "confirmed",
     "Date": "2021-01-02T00:00:00Z"
   },
@@ -3643,7 +3643,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 187463,
+    "Cases": 289150,
     "Status": "confirmed",
     "Date": "2021-01-03T00:00:00Z"
   },
@@ -3655,7 +3655,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 188099,
+    "Cases": 290058,
     "Status": "confirmed",
     "Date": "2021-01-04T00:00:00Z"
   },
@@ -3667,7 +3667,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 191088,
+    "Cases": 300405,
     "Status": "confirmed",
     "Date": "2021-01-05T00:00:00Z"
   },
@@ -3679,7 +3679,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 196047,
+    "Cases": 311485,
     "Status": "confirmed",
     "Date": "2021-01-06T00:00:00Z"
   },
@@ -3691,7 +3691,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 198184,
+    "Cases": 314650,
     "Status": "confirmed",
     "Date": "2021-01-07T00:00:00Z"
   },
@@ -3703,7 +3703,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 201164,
+    "Cases": 322941,
     "Status": "confirmed",
     "Date": "2021-01-08T00:00:00Z"
   },
@@ -3715,7 +3715,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 205236,
+    "Cases": 330944,
     "Status": "confirmed",
     "Date": "2021-01-09T00:00:00Z"
   },
@@ -3727,7 +3727,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 208209,
+    "Cases": 335804,
     "Status": "confirmed",
     "Date": "2021-01-10T00:00:00Z"
   },
@@ -3739,7 +3739,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 209069,
+    "Cases": 337589,
     "Status": "confirmed",
     "Date": "2021-01-11T00:00:00Z"
   },
@@ -3751,7 +3751,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 211479,
+    "Cases": 343293,
     "Status": "confirmed",
     "Date": "2021-01-12T00:00:00Z"
   },
@@ -3763,7 +3763,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 215055,
+    "Cases": 349898,
     "Status": "confirmed",
     "Date": "2021-01-13T00:00:00Z"
   },
@@ -3775,7 +3775,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 217978,
+    "Cases": 355451,
     "Status": "confirmed",
     "Date": "2021-01-14T00:00:00Z"
   },
@@ -3787,7 +3787,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 220707,
+    "Cases": 360473,
     "Status": "confirmed",
     "Date": "2021-01-15T00:00:00Z"
   },
@@ -3799,7 +3799,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 222752,
+    "Cases": 364694,
     "Status": "confirmed",
     "Date": "2021-01-16T00:00:00Z"
   },
@@ -3811,7 +3811,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 223325,
+    "Cases": 366395,
     "Status": "confirmed",
     "Date": "2021-01-17T00:00:00Z"
   },
@@ -3823,7 +3823,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 224385,
+    "Cases": 369089,
     "Status": "confirmed",
     "Date": "2021-01-18T00:00:00Z"
   },
@@ -3835,7 +3835,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 226294,
+    "Cases": 374383,
     "Status": "confirmed",
     "Date": "2021-01-19T00:00:00Z"
   },
@@ -3847,7 +3847,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 228778,
+    "Cases": 379537,
     "Status": "confirmed",
     "Date": "2021-01-20T00:00:00Z"
   },
@@ -3859,7 +3859,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 231242,
+    "Cases": 384329,
     "Status": "confirmed",
     "Date": "2021-01-21T00:00:00Z"
   },
@@ -3871,7 +3871,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 233027,
+    "Cases": 389217,
     "Status": "confirmed",
     "Date": "2021-01-22T00:00:00Z"
   },
@@ -3883,7 +3883,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 234571,
+    "Cases": 393609,
     "Status": "confirmed",
     "Date": "2021-01-23T00:00:00Z"
   },
@@ -3895,7 +3895,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 236476,
+    "Cases": 402029,
     "Status": "confirmed",
     "Date": "2021-01-24T00:00:00Z"
   },
@@ -3907,7 +3907,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 237027,
+    "Cases": 406373,
     "Status": "confirmed",
     "Date": "2021-01-25T00:00:00Z"
   },
@@ -3919,7 +3919,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 238617,
+    "Cases": 410701,
     "Status": "confirmed",
     "Date": "2021-01-26T00:00:00Z"
   },
@@ -3931,7 +3931,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 241392,
+    "Cases": 416143,
     "Status": "confirmed",
     "Date": "2021-01-27T00:00:00Z"
   },
@@ -3943,7 +3943,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 243427,
+    "Cases": 419905,
     "Status": "confirmed",
     "Date": "2021-01-28T00:00:00Z"
   },
@@ -3955,7 +3955,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 246008,
+    "Cases": 424576,
     "Status": "confirmed",
     "Date": "2021-01-29T00:00:00Z"
   },
@@ -3967,7 +3967,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 248190,
+    "Cases": 429474,
     "Status": "confirmed",
     "Date": "2021-01-30T00:00:00Z"
   },
@@ -3979,7 +3979,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 249913,
+    "Cases": 436016,
     "Status": "confirmed",
     "Date": "2021-01-31T00:00:00Z"
   },
@@ -3991,7 +3991,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 250357,
+    "Cases": 439325,
     "Status": "confirmed",
     "Date": "2021-02-01T00:00:00Z"
   },
@@ -4003,7 +4003,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 252094,
+    "Cases": 444562,
     "Status": "confirmed",
     "Date": "2021-02-02T00:00:00Z"
   },
@@ -4015,7 +4015,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 254826,
+    "Cases": 451043,
     "Status": "confirmed",
     "Date": "2021-02-03T00:00:00Z"
   },
@@ -4027,7 +4027,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 256903,
+    "Cases": 455693,
     "Status": "confirmed",
     "Date": "2021-02-04T00:00:00Z"
   },
@@ -4039,7 +4039,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 259533,
+    "Cases": 461246,
     "Status": "confirmed",
     "Date": "2021-02-05T00:00:00Z"
   },
@@ -4051,7 +4051,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 261774,
+    "Cases": 466535,
     "Status": "confirmed",
     "Date": "2021-02-06T00:00:00Z"
   },
@@ -4063,7 +4063,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 263326,
+    "Cases": 473575,
     "Status": "confirmed",
     "Date": "2021-02-07T00:00:00Z"
   },
@@ -4075,7 +4075,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 264083,
+    "Cases": 477647,
     "Status": "confirmed",
     "Date": "2021-02-08T00:00:00Z"
   },
@@ -4087,7 +4087,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 265807,
+    "Cases": 483002,
     "Status": "confirmed",
     "Date": "2021-02-09T00:00:00Z"
   },
@@ -4099,7 +4099,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 268986,
+    "Cases": 489218,
     "Status": "confirmed",
     "Date": "2021-02-10T00:00:00Z"
   },
@@ -4111,7 +4111,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 271473,
+    "Cases": 494688,
     "Status": "confirmed",
     "Date": "2021-02-11T00:00:00Z"
   },
@@ -4123,7 +4123,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 273904,
+    "Cases": 499593,
     "Status": "confirmed",
     "Date": "2021-02-12T00:00:00Z"
   },
@@ -4135,7 +4135,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 276234,
+    "Cases": 505266,
     "Status": "confirmed",
     "Date": "2021-02-13T00:00:00Z"
   },
@@ -4147,7 +4147,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 277682,
+    "Cases": 511547,
     "Status": "confirmed",
     "Date": "2021-02-14T00:00:00Z"
   },
@@ -4159,7 +4159,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 278254,
+    "Cases": 515038,
     "Status": "confirmed",
     "Date": "2021-02-15T00:00:00Z"
   },
@@ -4171,7 +4171,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 279696,
+    "Cases": 519763,
     "Status": "confirmed",
     "Date": "2021-02-16T00:00:00Z"
   },
@@ -4183,7 +4183,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 282864,
+    "Cases": 525692,
     "Status": "confirmed",
     "Date": "2021-02-17T00:00:00Z"
   },
@@ -4195,7 +4195,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 285419,
+    "Cases": 531043,
     "Status": "confirmed",
     "Date": "2021-02-18T00:00:00Z"
   },
@@ -4207,7 +4207,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 287752,
+    "Cases": 536173,
     "Status": "confirmed",
     "Date": "2021-02-19T00:00:00Z"
   },
@@ -4219,7 +4219,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 290457,
+    "Cases": 542452,
     "Status": "confirmed",
     "Date": "2021-02-20T00:00:00Z"
   },
@@ -4231,7 +4231,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 292143,
+    "Cases": 549434,
     "Status": "confirmed",
     "Date": "2021-02-21T00:00:00Z"
   },
@@ -4243,7 +4243,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 292792,
+    "Cases": 552972,
     "Status": "confirmed",
     "Date": "2021-02-22T00:00:00Z"
   },
@@ -4255,7 +4255,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 294790,
+    "Cases": 558407,
     "Status": "confirmed",
     "Date": "2021-02-23T00:00:00Z"
   },
@@ -4267,7 +4267,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 298337,
+    "Cases": 564839,
     "Status": "confirmed",
     "Date": "2021-02-24T00:00:00Z"
   },
@@ -4279,7 +4279,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 300775,
+    "Cases": 570287,
     "Status": "confirmed",
     "Date": "2021-02-25T00:00:00Z"
   },
@@ -4291,7 +4291,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 303420,
+    "Cases": 575542,
     "Status": "confirmed",
     "Date": "2021-02-26T00:00:00Z"
   },
@@ -4303,7 +4303,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 306268,
+    "Cases": 581724,
     "Status": "confirmed",
     "Date": "2021-02-27T00:00:00Z"
   },
@@ -4315,7 +4315,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 308083,
+    "Cases": 588671,
     "Status": "confirmed",
     "Date": "2021-02-28T00:00:00Z"
   },
@@ -4327,7 +4327,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 308925,
+    "Cases": 592135,
     "Status": "confirmed",
     "Date": "2021-03-01T00:00:00Z"
   },
@@ -4339,7 +4339,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 311002,
+    "Cases": 597397,
     "Status": "confirmed",
     "Date": "2021-03-02T00:00:00Z"
   },
@@ -4351,7 +4351,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 314359,
+    "Cases": 603500,
     "Status": "confirmed",
     "Date": "2021-03-03T00:00:00Z"
   },
@@ -4363,7 +4363,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 317159,
+    "Cases": 608790,
     "Status": "confirmed",
     "Date": "2021-03-04T00:00:00Z"
   },
@@ -4375,7 +4375,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 319582,
+    "Cases": 613613,
     "Status": "confirmed",
     "Date": "2021-03-05T00:00:00Z"
   },
@@ -4387,7 +4387,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 322104,
+    "Cases": 618978,
     "Status": "confirmed",
     "Date": "2021-03-06T00:00:00Z"
   },
@@ -4399,7 +4399,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 323390,
+    "Cases": 624188,
     "Status": "confirmed",
     "Date": "2021-03-07T00:00:00Z"
   },
@@ -4411,7 +4411,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 323786,
+    "Cases": 626882,
     "Status": "confirmed",
     "Date": "2021-03-08T00:00:00Z"
   },
@@ -4423,7 +4423,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 325993,
+    "Cases": 631700,
     "Status": "confirmed",
     "Date": "2021-03-09T00:00:00Z"
   },
@@ -4435,7 +4435,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 329593,
+    "Cases": 637344,
     "Status": "confirmed",
     "Date": "2021-03-10T00:00:00Z"
   },
@@ -4447,7 +4447,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 331571,
+    "Cases": 641295,
     "Status": "confirmed",
     "Date": "2021-03-11T00:00:00Z"
   },
@@ -4459,7 +4459,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 333872,
+    "Cases": 645457,
     "Status": "confirmed",
     "Date": "2021-03-12T00:00:00Z"
   },
@@ -4471,7 +4471,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 336235,
+    "Cases": 650209,
     "Status": "confirmed",
     "Date": "2021-03-13T00:00:00Z"
   },
@@ -4483,7 +4483,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 337503,
+    "Cases": 654912,
     "Status": "confirmed",
     "Date": "2021-03-14T00:00:00Z"
   },
@@ -4495,7 +4495,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 337960,
+    "Cases": 657214,
     "Status": "confirmed",
     "Date": "2021-03-15T00:00:00Z"
   },
@@ -4507,7 +4507,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 339538,
+    "Cases": 661025,
     "Status": "confirmed",
     "Date": "2021-03-16T00:00:00Z"
   },
@@ -4519,7 +4519,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 342430,
+    "Cases": 665746,
     "Status": "confirmed",
     "Date": "2021-03-17T00:00:00Z"
   },
@@ -4531,7 +4531,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 344470,
+    "Cases": 669337,
     "Status": "confirmed",
     "Date": "2021-03-18T00:00:00Z"
   },
@@ -4543,7 +4543,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 346149,
+    "Cases": 672631,
     "Status": "confirmed",
     "Date": "2021-03-19T00:00:00Z"
   },
@@ -4555,7 +4555,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 347944,
+    "Cases": 676460,
     "Status": "confirmed",
     "Date": "2021-03-20T00:00:00Z"
   },
@@ -4567,7 +4567,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 348869,
+    "Cases": 680076,
     "Status": "confirmed",
     "Date": "2021-03-21T00:00:00Z"
   },
@@ -4579,7 +4579,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 349270,
+    "Cases": 682042,
     "Status": "confirmed",
     "Date": "2021-03-22T00:00:00Z"
   },
@@ -4591,7 +4591,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 350551,
+    "Cases": 685094,
     "Status": "confirmed",
     "Date": "2021-03-23T00:00:00Z"
   },
@@ -4603,7 +4603,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 352528,
+    "Cases": 688587,
     "Status": "confirmed",
     "Date": "2021-03-24T00:00:00Z"
   },
@@ -4615,7 +4615,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 354182,
+    "Cases": 691648,
     "Status": "confirmed",
     "Date": "2021-03-25T00:00:00Z"
   },
@@ -4627,7 +4627,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 355454,
+    "Cases": 694284,
     "Status": "confirmed",
     "Date": "2021-03-26T00:00:00Z"
   },
@@ -4639,7 +4639,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 356985,
+    "Cases": 697479,
     "Status": "confirmed",
     "Date": "2021-03-27T00:00:00Z"
   },
@@ -4651,7 +4651,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 357910,
+    "Cases": 700607,
     "Status": "confirmed",
     "Date": "2021-03-28T00:00:00Z"
   },
@@ -4663,7 +4663,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 358115,
+    "Cases": 702117,
     "Status": "confirmed",
     "Date": "2021-03-29T00:00:00Z"
   },
@@ -4675,7 +4675,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 359330,
+    "Cases": 704811,
     "Status": "confirmed",
     "Date": "2021-03-30T00:00:00Z"
   },
@@ -4687,7 +4687,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 361185,
+    "Cases": 707876,
     "Status": "confirmed",
     "Date": "2021-03-31T00:00:00Z"
   },
@@ -4699,7 +4699,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 362489,
+    "Cases": 710422,
     "Status": "confirmed",
     "Date": "2021-04-01T00:00:00Z"
   },
@@ -4711,7 +4711,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 363874,
+    "Cases": 713050,
     "Status": "confirmed",
     "Date": "2021-04-02T00:00:00Z"
   },
@@ -4723,7 +4723,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 364622,
+    "Cases": 714421,
     "Status": "confirmed",
     "Date": "2021-04-03T00:00:00Z"
   },
@@ -4735,7 +4735,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 365242,
+    "Cases": 716997,
     "Status": "confirmed",
     "Date": "2021-04-04T00:00:00Z"
   },
@@ -4747,7 +4747,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 365400,
+    "Cases": 717704,
     "Status": "confirmed",
     "Date": "2021-04-05T00:00:00Z"
   },
@@ -4759,7 +4759,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 365733,
+    "Cases": 718676,
     "Status": "confirmed",
     "Date": "2021-04-06T00:00:00Z"
   },
@@ -4771,7 +4771,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 366894,
+    "Cases": 721316,
     "Status": "confirmed",
     "Date": "2021-04-07T00:00:00Z"
   },
@@ -4783,7 +4783,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 368470,
+    "Cases": 723860,
     "Status": "confirmed",
     "Date": "2021-04-08T00:00:00Z"
   },
@@ -4795,7 +4795,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 369393,
+    "Cases": 725589,
     "Status": "confirmed",
     "Date": "2021-04-09T00:00:00Z"
   },
@@ -4807,7 +4807,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 370473,
+    "Cases": 727606,
     "Status": "confirmed",
     "Date": "2021-04-10T00:00:00Z"
   },
@@ -4819,7 +4819,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 371062,
+    "Cases": 729587,
     "Status": "confirmed",
     "Date": "2021-04-11T00:00:00Z"
   },
@@ -4831,7 +4831,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 371168,
+    "Cases": 730428,
     "Status": "confirmed",
     "Date": "2021-04-12T00:00:00Z"
   },
@@ -4843,7 +4843,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 372038,
+    "Cases": 732212,
     "Status": "confirmed",
     "Date": "2021-04-13T00:00:00Z"
   },
@@ -4855,7 +4855,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 373107,
+    "Cases": 733974,
     "Status": "confirmed",
     "Date": "2021-04-14T00:00:00Z"
   },
@@ -4867,7 +4867,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 373950,
+    "Cases": 735497,
     "Status": "confirmed",
     "Date": "2021-04-15T00:00:00Z"
   },
@@ -4879,7 +4879,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 374586,
+    "Cases": 736807,
     "Status": "confirmed",
     "Date": "2021-04-16T00:00:00Z"
   },
@@ -4891,7 +4891,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 375336,
+    "Cases": 738393,
     "Status": "confirmed",
     "Date": "2021-04-17T00:00:00Z"
   },
@@ -4903,7 +4903,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 375974,
+    "Cases": 740038,
     "Status": "confirmed",
     "Date": "2021-04-18T00:00:00Z"
   },
@@ -4915,7 +4915,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 376067,
+    "Cases": 740766,
     "Status": "confirmed",
     "Date": "2021-04-19T00:00:00Z"
   },
@@ -4927,7 +4927,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 376709,
+    "Cases": 742236,
     "Status": "confirmed",
     "Date": "2021-04-20T00:00:00Z"
   },
@@ -4939,7 +4939,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 377473,
+    "Cases": 743647,
     "Status": "confirmed",
     "Date": "2021-04-21T00:00:00Z"
   },
@@ -4951,7 +4951,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 378150,
+    "Cases": 744982,
     "Status": "confirmed",
     "Date": "2021-04-22T00:00:00Z"
   },
@@ -4963,7 +4963,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 378635,
+    "Cases": 746030,
     "Status": "confirmed",
     "Date": "2021-04-23T00:00:00Z"
   },
@@ -4975,7 +4975,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 379476,
+    "Cases": 747566,
     "Status": "confirmed",
     "Date": "2021-04-24T00:00:00Z"
   },
@@ -4987,7 +4987,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 379911,
+    "Cases": 748935,
     "Status": "confirmed",
     "Date": "2021-04-25T00:00:00Z"
   },
@@ -4999,7 +4999,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 380010,
+    "Cases": 749627,
     "Status": "confirmed",
     "Date": "2021-04-26T00:00:00Z"
   },
@@ -5011,7 +5011,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 380498,
+    "Cases": 750817,
     "Status": "confirmed",
     "Date": "2021-04-27T00:00:00Z"
   },
@@ -5023,7 +5023,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 381180,
+    "Cases": 752009,
     "Status": "confirmed",
     "Date": "2021-04-28T00:00:00Z"
   },
@@ -5035,7 +5035,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 381744,
+    "Cases": 753075,
     "Status": "confirmed",
     "Date": "2021-04-29T00:00:00Z"
   },
@@ -5047,7 +5047,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 382211,
+    "Cases": 754078,
     "Status": "confirmed",
     "Date": "2021-04-30T00:00:00Z"
   },
@@ -5059,7 +5059,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 382720,
+    "Cases": 755233,
     "Status": "confirmed",
     "Date": "2021-05-01T00:00:00Z"
   },
@@ -5071,7 +5071,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 383098,
+    "Cases": 756249,
     "Status": "confirmed",
     "Date": "2021-05-02T00:00:00Z"
   },
@@ -5083,7 +5083,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 383228,
+    "Cases": 756876,
     "Status": "confirmed",
     "Date": "2021-05-03T00:00:00Z"
   },
@@ -5095,7 +5095,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 383609,
+    "Cases": 757806,
     "Status": "confirmed",
     "Date": "2021-05-04T00:00:00Z"
   },
@@ -5107,7 +5107,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 384317,
+    "Cases": 758896,
     "Status": "confirmed",
     "Date": "2021-05-05T00:00:00Z"
   },
@@ -5119,7 +5119,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 384660,
+    "Cases": 759611,
     "Status": "confirmed",
     "Date": "2021-05-06T00:00:00Z"
   },
@@ -5131,7 +5131,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 385022,
+    "Cases": 760362,
     "Status": "confirmed",
     "Date": "2021-05-07T00:00:00Z"
   },
@@ -5143,7 +5143,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 385395,
+    "Cases": 761194,
     "Status": "confirmed",
     "Date": "2021-05-08T00:00:00Z"
   },
@@ -5155,7 +5155,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 385475,
+    "Cases": 761546,
     "Status": "confirmed",
     "Date": "2021-05-09T00:00:00Z"
   },
@@ -5167,7 +5167,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 385786,
+    "Cases": 762257,
     "Status": "confirmed",
     "Date": "2021-05-10T00:00:00Z"
   },
@@ -5179,7 +5179,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 386136,
+    "Cases": 763041,
     "Status": "confirmed",
     "Date": "2021-05-11T00:00:00Z"
   },
@@ -5191,7 +5191,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 386540,
+    "Cases": 763714,
     "Status": "confirmed",
     "Date": "2021-05-12T00:00:00Z"
   },
@@ -5203,7 +5203,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 386868,
+    "Cases": 764321,
     "Status": "confirmed",
     "Date": "2021-05-13T00:00:00Z"
   },
@@ -5215,7 +5215,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 387162,
+    "Cases": 764881,
     "Status": "confirmed",
     "Date": "2021-05-14T00:00:00Z"
   },
@@ -5227,7 +5227,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 387420,
+    "Cases": 765492,
     "Status": "confirmed",
     "Date": "2021-05-15T00:00:00Z"
   },
@@ -5239,7 +5239,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 387523,
+    "Cases": 765867,
     "Status": "confirmed",
     "Date": "2021-05-16T00:00:00Z"
   },
@@ -5251,7 +5251,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 387659,
+    "Cases": 766253,
     "Status": "confirmed",
     "Date": "2021-05-17T00:00:00Z"
   },
@@ -5263,7 +5263,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 387892,
+    "Cases": 766804,
     "Status": "confirmed",
     "Date": "2021-05-18T00:00:00Z"
   },
@@ -5275,7 +5275,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388138,
+    "Cases": 767276,
     "Status": "confirmed",
     "Date": "2021-05-19T00:00:00Z"
   },
@@ -5287,7 +5287,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388391,
+    "Cases": 767731,
     "Status": "confirmed",
     "Date": "2021-05-20T00:00:00Z"
   },
@@ -5299,7 +5299,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388529,
+    "Cases": 768041,
     "Status": "confirmed",
     "Date": "2021-05-21T00:00:00Z"
   },
@@ -5311,7 +5311,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388719,
+    "Cases": 768439,
     "Status": "confirmed",
     "Date": "2021-05-22T00:00:00Z"
   },
@@ -5323,7 +5323,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388835,
+    "Cases": 768747,
     "Status": "confirmed",
     "Date": "2021-05-23T00:00:00Z"
   },
@@ -5335,7 +5335,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388854,
+    "Cases": 768955,
     "Status": "confirmed",
     "Date": "2021-05-24T00:00:00Z"
   },
@@ -5347,7 +5347,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 388986,
+    "Cases": 769351,
     "Status": "confirmed",
     "Date": "2021-05-25T00:00:00Z"
   },
@@ -5359,7 +5359,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389176,
+    "Cases": 769748,
     "Status": "confirmed",
     "Date": "2021-05-26T00:00:00Z"
   },
@@ -5371,7 +5371,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389344,
+    "Cases": 770058,
     "Status": "confirmed",
     "Date": "2021-05-27T00:00:00Z"
   },
@@ -5383,7 +5383,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389440,
+    "Cases": 770311,
     "Status": "confirmed",
     "Date": "2021-05-28T00:00:00Z"
   },
@@ -5395,7 +5395,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389440,
+    "Cases": 770629,
     "Status": "confirmed",
     "Date": "2021-05-29T00:00:00Z"
   },
@@ -5407,7 +5407,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389690,
+    "Cases": 770851,
     "Status": "confirmed",
     "Date": "2021-05-30T00:00:00Z"
   },
@@ -5419,7 +5419,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389721,
+    "Cases": 771008,
     "Status": "confirmed",
     "Date": "2021-05-31T00:00:00Z"
   },
@@ -5431,7 +5431,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389866,
+    "Cases": 771363,
     "Status": "confirmed",
     "Date": "2021-06-01T00:00:00Z"
   },
@@ -5443,7 +5443,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 389990,
+    "Cases": 771621,
     "Status": "confirmed",
     "Date": "2021-06-02T00:00:00Z"
   },
@@ -5455,7 +5455,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390129,
+    "Cases": 771879,
     "Status": "confirmed",
     "Date": "2021-06-03T00:00:00Z"
   },
@@ -5467,7 +5467,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390223,
+    "Cases": 772106,
     "Status": "confirmed",
     "Date": "2021-06-04T00:00:00Z"
   },
@@ -5479,7 +5479,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390340,
+    "Cases": 772358,
     "Status": "confirmed",
     "Date": "2021-06-05T00:00:00Z"
   },
@@ -5491,7 +5491,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390436,
+    "Cases": 772528,
     "Status": "confirmed",
     "Date": "2021-06-06T00:00:00Z"
   },
@@ -5503,7 +5503,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390451,
+    "Cases": 772630,
     "Status": "confirmed",
     "Date": "2021-06-07T00:00:00Z"
   },
@@ -5515,7 +5515,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390546,
+    "Cases": 772873,
     "Status": "confirmed",
     "Date": "2021-06-08T00:00:00Z"
   },
@@ -5527,7 +5527,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390693,
+    "Cases": 773114,
     "Status": "confirmed",
     "Date": "2021-06-09T00:00:00Z"
   },
@@ -5539,7 +5539,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390809,
+    "Cases": 773280,
     "Status": "confirmed",
     "Date": "2021-06-10T00:00:00Z"
   },
@@ -5551,7 +5551,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390893,
+    "Cases": 773436,
     "Status": "confirmed",
     "Date": "2021-06-11T00:00:00Z"
   },
@@ -5563,7 +5563,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 390984,
+    "Cases": 773611,
     "Status": "confirmed",
     "Date": "2021-06-12T00:00:00Z"
   },
@@ -5575,7 +5575,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391026,
+    "Cases": 773710,
     "Status": "confirmed",
     "Date": "2021-06-13T00:00:00Z"
   },
@@ -5587,7 +5587,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391038,
+    "Cases": 773779,
     "Status": "confirmed",
     "Date": "2021-06-14T00:00:00Z"
   },
@@ -5599,7 +5599,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391087,
+    "Cases": 773906,
     "Status": "confirmed",
     "Date": "2021-06-15T00:00:00Z"
   },
@@ -5611,7 +5611,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391149,
+    "Cases": 774015,
     "Status": "confirmed",
     "Date": "2021-06-16T00:00:00Z"
   },
@@ -5623,7 +5623,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391210,
+    "Cases": 774115,
     "Status": "confirmed",
     "Date": "2021-06-17T00:00:00Z"
   },
@@ -5635,7 +5635,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391248,
+    "Cases": 774196,
     "Status": "confirmed",
     "Date": "2021-06-18T00:00:00Z"
   },
@@ -5647,7 +5647,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391248,
+    "Cases": 774299,
     "Status": "confirmed",
     "Date": "2021-06-19T00:00:00Z"
   },
@@ -5659,7 +5659,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391248,
+    "Cases": 774350,
     "Status": "confirmed",
     "Date": "2021-06-20T00:00:00Z"
   },
@@ -5671,7 +5671,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391326,
+    "Cases": 774392,
     "Status": "confirmed",
     "Date": "2021-06-21T00:00:00Z"
   },
@@ -5683,7 +5683,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391385,
+    "Cases": 774510,
     "Status": "confirmed",
     "Date": "2021-06-22T00:00:00Z"
   },
@@ -5695,7 +5695,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391420,
+    "Cases": 774575,
     "Status": "confirmed",
     "Date": "2021-06-23T00:00:00Z"
   },
@@ -5707,7 +5707,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391456,
+    "Cases": 774642,
     "Status": "confirmed",
     "Date": "2021-06-24T00:00:00Z"
   },
@@ -5719,7 +5719,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391490,
+    "Cases": 774712,
     "Status": "confirmed",
     "Date": "2021-06-25T00:00:00Z"
   },
@@ -5731,7 +5731,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391531,
+    "Cases": 774786,
     "Status": "confirmed",
     "Date": "2021-06-26T00:00:00Z"
   },
@@ -5743,7 +5743,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391551,
+    "Cases": 774838,
     "Status": "confirmed",
     "Date": "2021-06-27T00:00:00Z"
   },
@@ -5755,7 +5755,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391566,
+    "Cases": 774875,
     "Status": "confirmed",
     "Date": "2021-06-28T00:00:00Z"
   },
@@ -5767,7 +5767,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391609,
+    "Cases": 774954,
     "Status": "confirmed",
     "Date": "2021-06-29T00:00:00Z"
   },
@@ -5779,7 +5779,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391642,
+    "Cases": 775011,
     "Status": "confirmed",
     "Date": "2021-06-30T00:00:00Z"
   },
@@ -5791,7 +5791,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391659,
+    "Cases": 775066,
     "Status": "confirmed",
     "Date": "2021-07-01T00:00:00Z"
   },
@@ -5803,7 +5803,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391676,
+    "Cases": 775094,
     "Status": "confirmed",
     "Date": "2021-07-02T00:00:00Z"
   },
@@ -5815,7 +5815,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391696,
+    "Cases": 775128,
     "Status": "confirmed",
     "Date": "2021-07-03T00:00:00Z"
   },
@@ -5827,7 +5827,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391717,
+    "Cases": 775157,
     "Status": "confirmed",
     "Date": "2021-07-04T00:00:00Z"
   },
@@ -5839,7 +5839,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391720,
+    "Cases": 775169,
     "Status": "confirmed",
     "Date": "2021-07-05T00:00:00Z"
   },
@@ -5851,7 +5851,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391735,
+    "Cases": 775193,
     "Status": "confirmed",
     "Date": "2021-07-06T00:00:00Z"
   },
@@ -5863,7 +5863,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391780,
+    "Cases": 775249,
     "Status": "confirmed",
     "Date": "2021-07-07T00:00:00Z"
   },
@@ -5875,7 +5875,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391813,
+    "Cases": 775297,
     "Status": "confirmed",
     "Date": "2021-07-08T00:00:00Z"
   },
@@ -5887,7 +5887,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391852,
+    "Cases": 775347,
     "Status": "confirmed",
     "Date": "2021-07-09T00:00:00Z"
   },
@@ -5899,7 +5899,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391893,
+    "Cases": 775405,
     "Status": "confirmed",
     "Date": "2021-07-10T00:00:00Z"
   },
@@ -5911,7 +5911,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391918,
+    "Cases": 775439,
     "Status": "confirmed",
     "Date": "2021-07-11T00:00:00Z"
   },
@@ -5923,7 +5923,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391925,
+    "Cases": 775454,
     "Status": "confirmed",
     "Date": "2021-07-12T00:00:00Z"
   },
@@ -5935,7 +5935,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391953,
+    "Cases": 775495,
     "Status": "confirmed",
     "Date": "2021-07-13T00:00:00Z"
   },
@@ -5947,7 +5947,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 391971,
+    "Cases": 775527,
     "Status": "confirmed",
     "Date": "2021-07-14T00:00:00Z"
   },
@@ -5959,7 +5959,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392000,
+    "Cases": 775566,
     "Status": "confirmed",
     "Date": "2021-07-15T00:00:00Z"
   },
@@ -5971,7 +5971,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392034,
+    "Cases": 775609,
     "Status": "confirmed",
     "Date": "2021-07-16T00:00:00Z"
   },
@@ -5983,7 +5983,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392034,
+    "Cases": 775657,
     "Status": "confirmed",
     "Date": "2021-07-17T00:00:00Z"
   },
@@ -5995,7 +5995,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392100,
+    "Cases": 775694,
     "Status": "confirmed",
     "Date": "2021-07-18T00:00:00Z"
   },
@@ -6007,7 +6007,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392104,
+    "Cases": 775705,
     "Status": "confirmed",
     "Date": "2021-07-19T00:00:00Z"
   },
@@ -6019,7 +6019,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392139,
+    "Cases": 775757,
     "Status": "confirmed",
     "Date": "2021-07-20T00:00:00Z"
   },
@@ -6031,7 +6031,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392185,
+    "Cases": 775809,
     "Status": "confirmed",
     "Date": "2021-07-21T00:00:00Z"
   },
@@ -6043,7 +6043,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392219,
+    "Cases": 775859,
     "Status": "confirmed",
     "Date": "2021-07-22T00:00:00Z"
   },
@@ -6055,7 +6055,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392259,
+    "Cases": 775926,
     "Status": "confirmed",
     "Date": "2021-07-23T00:00:00Z"
   },
@@ -6067,7 +6067,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392259,
+    "Cases": 775979,
     "Status": "confirmed",
     "Date": "2021-07-24T00:00:00Z"
   },
@@ -6079,7 +6079,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392348,
+    "Cases": 776037,
     "Status": "confirmed",
     "Date": "2021-07-25T00:00:00Z"
   },
@@ -6091,7 +6091,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392355,
+    "Cases": 776056,
     "Status": "confirmed",
     "Date": "2021-07-26T00:00:00Z"
   },
@@ -6103,7 +6103,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392406,
+    "Cases": 776129,
     "Status": "confirmed",
     "Date": "2021-07-27T00:00:00Z"
   },
@@ -6115,7 +6115,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392488,
+    "Cases": 776229,
     "Status": "confirmed",
     "Date": "2021-07-28T00:00:00Z"
   },
@@ -6127,7 +6127,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392537,
+    "Cases": 776298,
     "Status": "confirmed",
     "Date": "2021-07-29T00:00:00Z"
   },
@@ -6139,7 +6139,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392581,
+    "Cases": 776358,
     "Status": "confirmed",
     "Date": "2021-07-30T00:00:00Z"
   },
@@ -6151,7 +6151,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392647,
+    "Cases": 776444,
     "Status": "confirmed",
     "Date": "2021-07-31T00:00:00Z"
   },
@@ -6163,7 +6163,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392704,
+    "Cases": 776512,
     "Status": "confirmed",
     "Date": "2021-08-01T00:00:00Z"
   },
@@ -6175,7 +6175,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392710,
+    "Cases": 776534,
     "Status": "confirmed",
     "Date": "2021-08-02T00:00:00Z"
   },
@@ -6187,7 +6187,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392751,
+    "Cases": 776608,
     "Status": "confirmed",
     "Date": "2021-08-03T00:00:00Z"
   },
@@ -6199,7 +6199,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392845,
+    "Cases": 776716,
     "Status": "confirmed",
     "Date": "2021-08-04T00:00:00Z"
   },
@@ -6211,7 +6211,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392898,
+    "Cases": 776781,
     "Status": "confirmed",
     "Date": "2021-08-05T00:00:00Z"
   },
@@ -6223,7 +6223,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 392898,
+    "Cases": 776867,
     "Status": "confirmed",
     "Date": "2021-08-06T00:00:00Z"
   },
@@ -6235,7 +6235,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393007,
+    "Cases": 776934,
     "Status": "confirmed",
     "Date": "2021-08-07T00:00:00Z"
   },
@@ -6247,7 +6247,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393040,
+    "Cases": 776988,
     "Status": "confirmed",
     "Date": "2021-08-08T00:00:00Z"
   },
@@ -6259,7 +6259,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393059,
+    "Cases": 777021,
     "Status": "confirmed",
     "Date": "2021-08-09T00:00:00Z"
   },
@@ -6271,7 +6271,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393160,
+    "Cases": 777140,
     "Status": "confirmed",
     "Date": "2021-08-10T00:00:00Z"
   },
@@ -6283,7 +6283,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393228,
+    "Cases": 777237,
     "Status": "confirmed",
     "Date": "2021-08-11T00:00:00Z"
   },
@@ -6295,7 +6295,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393302,
+    "Cases": 777332,
     "Status": "confirmed",
     "Date": "2021-08-12T00:00:00Z"
   },
@@ -6307,7 +6307,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393361,
+    "Cases": 777417,
     "Status": "confirmed",
     "Date": "2021-08-13T00:00:00Z"
   },
@@ -6319,7 +6319,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393455,
+    "Cases": 777545,
     "Status": "confirmed",
     "Date": "2021-08-14T00:00:00Z"
   },
@@ -6331,7 +6331,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393529,
+    "Cases": 777640,
     "Status": "confirmed",
     "Date": "2021-08-15T00:00:00Z"
   },
@@ -6343,7 +6343,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393536,
+    "Cases": 777668,
     "Status": "confirmed",
     "Date": "2021-08-16T00:00:00Z"
   },
@@ -6355,7 +6355,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393610,
+    "Cases": 777787,
     "Status": "confirmed",
     "Date": "2021-08-17T00:00:00Z"
   },
@@ -6367,7 +6367,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393722,
+    "Cases": 777924,
     "Status": "confirmed",
     "Date": "2021-08-18T00:00:00Z"
   },
@@ -6379,7 +6379,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393799,
+    "Cases": 778055,
     "Status": "confirmed",
     "Date": "2021-08-19T00:00:00Z"
   },
@@ -6391,7 +6391,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393883,
+    "Cases": 778177,
     "Status": "confirmed",
     "Date": "2021-08-20T00:00:00Z"
   },
@@ -6403,7 +6403,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 393977,
+    "Cases": 778322,
     "Status": "confirmed",
     "Date": "2021-08-21T00:00:00Z"
   },
@@ -6415,7 +6415,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394082,
+    "Cases": 778450,
     "Status": "confirmed",
     "Date": "2021-08-22T00:00:00Z"
   },
@@ -6427,7 +6427,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394093,
+    "Cases": 778501,
     "Status": "confirmed",
     "Date": "2021-08-23T00:00:00Z"
   },
@@ -6439,7 +6439,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394204,
+    "Cases": 778664,
     "Status": "confirmed",
     "Date": "2021-08-24T00:00:00Z"
   },
@@ -6451,7 +6451,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394285,
+    "Cases": 778774,
     "Status": "confirmed",
     "Date": "2021-08-25T00:00:00Z"
   },
@@ -6463,7 +6463,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394446,
+    "Cases": 778983,
     "Status": "confirmed",
     "Date": "2021-08-26T00:00:00Z"
   },
@@ -6475,7 +6475,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394535,
+    "Cases": 779136,
     "Status": "confirmed",
     "Date": "2021-08-27T00:00:00Z"
   },
@@ -6487,7 +6487,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394657,
+    "Cases": 779324,
     "Status": "confirmed",
     "Date": "2021-08-28T00:00:00Z"
   },
@@ -6499,7 +6499,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394742,
+    "Cases": 779460,
     "Status": "confirmed",
     "Date": "2021-08-29T00:00:00Z"
   },
@@ -6511,7 +6511,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394791,
+    "Cases": 779540,
     "Status": "confirmed",
     "Date": "2021-08-30T00:00:00Z"
   },
@@ -6523,7 +6523,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 394923,
+    "Cases": 779767,
     "Status": "confirmed",
     "Date": "2021-08-31T00:00:00Z"
   },
@@ -6535,7 +6535,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 395122,
+    "Cases": 780075,
     "Status": "confirmed",
     "Date": "2021-09-01T00:00:00Z"
   },
@@ -6547,7 +6547,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 395300,
+    "Cases": 780305,
     "Status": "confirmed",
     "Date": "2021-09-02T00:00:00Z"
   },
@@ -6559,7 +6559,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 395532,
+    "Cases": 780689,
     "Status": "confirmed",
     "Date": "2021-09-03T00:00:00Z"
   },
@@ -6571,7 +6571,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 395861,
+    "Cases": 781164,
     "Status": "confirmed",
     "Date": "2021-09-04T00:00:00Z"
   },
@@ -6583,7 +6583,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 396080,
+    "Cases": 781455,
     "Status": "confirmed",
     "Date": "2021-09-05T00:00:00Z"
   },
@@ -6595,7 +6595,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 396181,
+    "Cases": 781644,
     "Status": "confirmed",
     "Date": "2021-09-06T00:00:00Z"
   },
@@ -6607,7 +6607,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 396487,
+    "Cases": 782148,
     "Status": "confirmed",
     "Date": "2021-09-07T00:00:00Z"
   },
@@ -6619,7 +6619,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 396904,
+    "Cases": 782740,
     "Status": "confirmed",
     "Date": "2021-09-08T00:00:00Z"
   },
@@ -6631,7 +6631,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 397382,
+    "Cases": 783397,
     "Status": "confirmed",
     "Date": "2021-09-09T00:00:00Z"
   },
@@ -6643,7 +6643,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 397759,
+    "Cases": 783959,
     "Status": "confirmed",
     "Date": "2021-09-10T00:00:00Z"
   },
@@ -6655,7 +6655,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 398278,
+    "Cases": 784662,
     "Status": "confirmed",
     "Date": "2021-09-11T00:00:00Z"
   },
@@ -6667,7 +6667,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 398690,
+    "Cases": 785184,
     "Status": "confirmed",
     "Date": "2021-09-12T00:00:00Z"
   },
@@ -6679,7 +6679,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 398744,
+    "Cases": 785387,
     "Status": "confirmed",
     "Date": "2021-09-13T00:00:00Z"
   },
@@ -6691,7 +6691,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 399218,
+    "Cases": 786153,
     "Status": "confirmed",
     "Date": "2021-09-14T00:00:00Z"
   },
@@ -6703,7 +6703,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 399978,
+    "Cases": 787184,
     "Status": "confirmed",
     "Date": "2021-09-15T00:00:00Z"
   },
@@ -6715,7 +6715,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 400348,
+    "Cases": 787646,
     "Status": "confirmed",
     "Date": "2021-09-16T00:00:00Z"
   },
@@ -6727,7 +6727,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 401250,
+    "Cases": 788941,
     "Status": "confirmed",
     "Date": "2021-09-17T00:00:00Z"
   },
@@ -6739,7 +6739,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 402066,
+    "Cases": 790041,
     "Status": "confirmed",
     "Date": "2021-09-18T00:00:00Z"
   },
@@ -6751,7 +6751,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 402808,
+    "Cases": 790957,
     "Status": "confirmed",
     "Date": "2021-09-19T00:00:00Z"
   },
@@ -6763,7 +6763,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 402922,
+    "Cases": 791268,
     "Status": "confirmed",
     "Date": "2021-09-20T00:00:00Z"
   },
@@ -6775,7 +6775,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 403802,
+    "Cases": 792516,
     "Status": "confirmed",
     "Date": "2021-09-21T00:00:00Z"
   },
@@ -6787,7 +6787,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 404982,
+    "Cases": 794018,
     "Status": "confirmed",
     "Date": "2021-09-22T00:00:00Z"
   },
@@ -6799,7 +6799,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 405931,
+    "Cases": 795286,
     "Status": "confirmed",
     "Date": "2021-09-23T00:00:00Z"
   },
@@ -6811,7 +6811,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 406760,
+    "Cases": 796411,
     "Status": "confirmed",
     "Date": "2021-09-24T00:00:00Z"
   },
@@ -6823,7 +6823,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 407799,
+    "Cases": 797808,
     "Status": "confirmed",
     "Date": "2021-09-25T00:00:00Z"
   },
@@ -6835,7 +6835,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 408488,
+    "Cases": 798722,
     "Status": "confirmed",
     "Date": "2021-09-26T00:00:00Z"
   },
@@ -6847,7 +6847,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 408609,
+    "Cases": 799121,
     "Status": "confirmed",
     "Date": "2021-09-27T00:00:00Z"
   },
@@ -6859,7 +6859,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 409621,
+    "Cases": 800730,
     "Status": "confirmed",
     "Date": "2021-09-28T00:00:00Z"
   },
@@ -6871,7 +6871,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 411080,
+    "Cases": 802589,
     "Status": "confirmed",
     "Date": "2021-09-29T00:00:00Z"
   },
@@ -6883,7 +6883,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 412507,
+    "Cases": 804372,
     "Status": "confirmed",
     "Date": "2021-09-30T00:00:00Z"
   },
@@ -6895,7 +6895,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 413723,
+    "Cases": 805983,
     "Status": "confirmed",
     "Date": "2021-10-01T00:00:00Z"
   },
@@ -6907,7 +6907,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 413723,
+    "Cases": 807709,
     "Status": "confirmed",
     "Date": "2021-10-02T00:00:00Z"
   },
@@ -6919,7 +6919,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 415993,
+    "Cases": 808960,
     "Status": "confirmed",
     "Date": "2021-10-03T00:00:00Z"
   },
@@ -6931,7 +6931,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 416260,
+    "Cases": 809552,
     "Status": "confirmed",
     "Date": "2021-10-04T00:00:00Z"
   },
@@ -6943,7 +6943,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 417502,
+    "Cases": 811438,
     "Status": "confirmed",
     "Date": "2021-10-05T00:00:00Z"
   },
@@ -6955,7 +6955,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 419473,
+    "Cases": 813926,
     "Status": "confirmed",
     "Date": "2021-10-06T00:00:00Z"
   },
@@ -6967,7 +6967,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 420924,
+    "Cases": 815858,
     "Status": "confirmed",
     "Date": "2021-10-07T00:00:00Z"
   },
@@ -6979,7 +6979,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 422614,
+    "Cases": 818022,
     "Status": "confirmed",
     "Date": "2021-10-08T00:00:00Z"
   },
@@ -6991,7 +6991,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 424407,
+    "Cases": 820303,
     "Status": "confirmed",
     "Date": "2021-10-09T00:00:00Z"
   },
@@ -7003,7 +7003,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 425569,
+    "Cases": 821714,
     "Status": "confirmed",
     "Date": "2021-10-10T00:00:00Z"
   },
@@ -7015,7 +7015,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 425971,
+    "Cases": 822475,
     "Status": "confirmed",
     "Date": "2021-10-11T00:00:00Z"
   },
@@ -7027,7 +7027,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 427480,
+    "Cases": 824687,
     "Status": "confirmed",
     "Date": "2021-10-12T00:00:00Z"
   },
@@ -7039,7 +7039,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 429886,
+    "Cases": 827648,
     "Status": "confirmed",
     "Date": "2021-10-13T00:00:00Z"
   },
@@ -7051,7 +7051,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 431757,
+    "Cases": 830031,
     "Status": "confirmed",
     "Date": "2021-10-14T00:00:00Z"
   },
@@ -7063,7 +7063,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 433709,
+    "Cases": 832457,
     "Status": "confirmed",
     "Date": "2021-10-15T00:00:00Z"
   },
@@ -7075,7 +7075,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 433709,
+    "Cases": 834975,
     "Status": "confirmed",
     "Date": "2021-10-16T00:00:00Z"
   },
@@ -7087,7 +7087,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 437385,
+    "Cases": 837146,
     "Status": "confirmed",
     "Date": "2021-10-17T00:00:00Z"
   },
@@ -7099,7 +7099,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 437938,
+    "Cases": 838331,
     "Status": "confirmed",
     "Date": "2021-10-18T00:00:00Z"
   },
@@ -7111,7 +7111,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 439735,
+    "Cases": 841322,
     "Status": "confirmed",
     "Date": "2021-10-19T00:00:00Z"
   },
@@ -7123,7 +7123,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 443214,
+    "Cases": 845619,
     "Status": "confirmed",
     "Date": "2021-10-20T00:00:00Z"
   },
@@ -7135,7 +7135,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 446305,
+    "Cases": 849611,
     "Status": "confirmed",
     "Date": "2021-10-21T00:00:00Z"
   },
@@ -7147,7 +7147,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 449775,
+    "Cases": 854024,
     "Status": "confirmed",
     "Date": "2021-10-22T00:00:00Z"
   },
@@ -7159,7 +7159,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 453231,
+    "Cases": 858435,
     "Status": "confirmed",
     "Date": "2021-10-23T00:00:00Z"
   },
@@ -7171,7 +7171,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 456438,
+    "Cases": 862348,
     "Status": "confirmed",
     "Date": "2021-10-24T00:00:00Z"
   },
@@ -7183,7 +7183,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 457431,
+    "Cases": 864213,
     "Status": "confirmed",
     "Date": "2021-10-25T00:00:00Z"
   },
@@ -7195,7 +7195,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 460281,
+    "Cases": 868738,
     "Status": "confirmed",
     "Date": "2021-10-26T00:00:00Z"
   },
@@ -7207,7 +7207,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 465027,
+    "Cases": 874816,
     "Status": "confirmed",
     "Date": "2021-10-27T00:00:00Z"
   },
@@ -7219,7 +7219,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 470008,
+    "Cases": 881087,
     "Status": "confirmed",
     "Date": "2021-10-28T00:00:00Z"
   },
@@ -7231,7 +7231,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 474595,
+    "Cases": 887197,
     "Status": "confirmed",
     "Date": "2021-10-29T00:00:00Z"
   },
@@ -7243,7 +7243,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 479737,
+    "Cases": 893866,
     "Status": "confirmed",
     "Date": "2021-10-30T00:00:00Z"
   },
@@ -7255,7 +7255,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 483773,
+    "Cases": 898926,
     "Status": "confirmed",
     "Date": "2021-10-31T00:00:00Z"
   },
@@ -7267,7 +7267,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 485629,
+    "Cases": 902044,
     "Status": "confirmed",
     "Date": "2021-11-01T00:00:00Z"
   },
@@ -7279,7 +7279,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 487916,
+    "Cases": 905284,
     "Status": "confirmed",
     "Date": "2021-11-02T00:00:00Z"
   },
@@ -7291,7 +7291,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 493277,
+    "Cases": 913536,
     "Status": "confirmed",
     "Date": "2021-11-03T00:00:00Z"
   },
@@ -7303,7 +7303,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 499990,
+    "Cases": 922403,
     "Status": "confirmed",
     "Date": "2021-11-04T00:00:00Z"
   },
@@ -7315,7 +7315,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 506795,
+    "Cases": 931129,
     "Status": "confirmed",
     "Date": "2021-11-05T00:00:00Z"
   },
@@ -7327,7 +7327,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 513297,
+    "Cases": 939755,
     "Status": "confirmed",
     "Date": "2021-11-06T00:00:00Z"
   },
@@ -7339,7 +7339,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 518635,
+    "Cases": 946520,
     "Status": "confirmed",
     "Date": "2021-11-07T00:00:00Z"
   },
@@ -7351,7 +7351,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 521650,
+    "Cases": 951417,
     "Status": "confirmed",
     "Date": "2021-11-08T00:00:00Z"
   },
@@ -7363,7 +7363,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 526608,
+    "Cases": 959699,
     "Status": "confirmed",
     "Date": "2021-11-09T00:00:00Z"
   },
@@ -7375,7 +7375,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 533663,
+    "Cases": 969099,
     "Status": "confirmed",
     "Date": "2021-11-10T00:00:00Z"
   },
@@ -7387,7 +7387,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 540209,
+    "Cases": 978203,
     "Status": "confirmed",
     "Date": "2021-11-11T00:00:00Z"
   },
@@ -7399,7 +7399,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 547052,
+    "Cases": 987623,
     "Status": "confirmed",
     "Date": "2021-11-12T00:00:00Z"
   },
@@ -7411,7 +7411,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 554296,
+    "Cases": 997514,
     "Status": "confirmed",
     "Date": "2021-11-13T00:00:00Z"
   },
@@ -7423,7 +7423,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 560100,
+    "Cases": 1005182,
     "Status": "confirmed",
     "Date": "2021-11-14T00:00:00Z"
   },
@@ -7435,7 +7435,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 563445,
+    "Cases": 1010857,
     "Status": "confirmed",
     "Date": "2021-11-15T00:00:00Z"
   },
@@ -7447,7 +7447,7 @@
     "CityCode": "",
     "Lat": "48.67",
     "Lon": "19.7",
-    "Cases": 569866,
+    "Cases": 1021273,
     "Status": "confirmed",
     "Date": "2021-11-16T00:00:00Z"
   },
@@ -7497,6 +7497,222 @@
     "Lon": "19.7",
     "Cases": 1064680,
     "Status": "confirmed",
+    "Date": "2021-11-20T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1074264,
+    "Status": "confirmed",
     "Date": "2021-11-21T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1081626,
+    "Status": "confirmed",
+    "Date": "2021-11-22T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1092704,
+    "Status": "confirmed",
+    "Date": "2021-11-23T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1105970,
+    "Status": "confirmed",
+    "Date": "2021-11-24T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1119111,
+    "Status": "confirmed",
+    "Date": "2021-11-25T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1131206,
+    "Status": "confirmed",
+    "Date": "2021-11-26T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1143068,
+    "Status": "confirmed",
+    "Date": "2021-11-27T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1152125,
+    "Status": "confirmed",
+    "Date": "2021-11-28T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1159767,
+    "Status": "confirmed",
+    "Date": "2021-11-29T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1170200,
+    "Status": "confirmed",
+    "Date": "2021-11-30T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1182562,
+    "Status": "confirmed",
+    "Date": "2021-12-01T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1192439,
+    "Status": "confirmed",
+    "Date": "2021-12-02T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1209977,
+    "Status": "confirmed",
+    "Date": "2021-12-03T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1221771,
+    "Status": "confirmed",
+    "Date": "2021-12-04T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1230343,
+    "Status": "confirmed",
+    "Date": "2021-12-05T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1234982,
+    "Status": "confirmed",
+    "Date": "2021-12-06T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1244362,
+    "Status": "confirmed",
+    "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1255086,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
   }
 ]
