@@ -50,7 +50,7 @@ def fetchWorld():
         print("World database is already updated")
         return False  # Nếu không có cập nhật
 
-    with open(WORLD_CODE, mode = "r") as f:
+    with open(WORLD_CODE, mode="r") as f:
         worlds = json.load(f)
 
     print("Fetching World's database")
@@ -93,25 +93,62 @@ def fetchData():
         db.writeLatestTime(db.getCurrentTime())
     print("Fetching is done")
 
+
 def getCountryData(countryName):
-    
-    with open(WORLD_CODE, mode = "r") as f:
+
+    with open(WORLD_CODE, mode="r") as f:
         worlds = json.load(f)
 
     print("Searching World's database")
     for country in worlds:
         if(country['country'] == countryName):
-            path = Template("WORLD_FILE = '../db/worlds/$name.json").substitute(name=countryName)
-            with open(path, mode = 'r') as f:
+            path = Template(WORLD_FILE).substitute(name=countryName)
+            with open(path, mode='r') as f:
                 data = json.load(f)
                 # Đảo ngược danh sách cho ngày mới nhất lên đầu
-                return data.reverse() 
+                return data.reverse()
 
     print("Cannot find")
     return []
 
 
+def getProvinceData(province):
+
+    with open(VIETNAM_FILE, mode="r") as f:
+        provinces = json.load(f)
+
+    for province in provinces:
+        # Tên tỉnh phải có dấu
+        if(province['name'] == province):
+            path = VIETNAM_FILE
+            with open(path, mode='r') as f:
+                data = json.load(f)
+                return data
+
+    print("Cannot find")
+    return []
 
 
-    
+def covidDictToString(dict, option):
+    """
+        Hàm chuyển một dictionary thông tin covid thành một chuỗi.
+        Muốn thay đổi cách hiển thị thì chỉnh biến str
+
+        dict: dictionary đầu vào
+    """
+
+    # Thông tin của
+    if(option == 1):  # thế giới
+        str = "Country name: $name\nDates: $date\nCases: $cases\n"
+        str = Template(str).substitute(
+            name=dict['Country'], date=dict['Date'], cases=dict['Cases'])
+        return str
+    elif(option == 2): #Việt Nam
+        str = "Province name: $name\nDeath: $death\nCases: $cases\nToday cases: $casesToday\n"
+        str = Template(str).substitute(
+            name=dict['name'], death=dict['death'], cases=dict['cases'], casesToday=dict['casesToday'])
+        return str
+
+    return ""
+
 fetchData()

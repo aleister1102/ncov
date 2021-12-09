@@ -118,7 +118,3 @@ def updateJSON(file, data):
 
     with open(file,mode =  "w") as f:
         json.dump(data, f, indent=2)
-
-
-account = ["20120344","1"]
-createAccount(account)
