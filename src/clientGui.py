@@ -1,6 +1,5 @@
 import tkinter as tk
-from tkinter import  Entry, StringVar, messagebox
-from tkinter import font
+from tkinter import  StringVar, messagebox
 from tkinter import ttk
 from tkinter.constants import ANCHOR, BOTH, CENTER, INSERT, LEFT, RIGHT
 import requests
@@ -8,17 +7,19 @@ import json
 import re
 
 
+
 global window
 window = tk.Tk()
 
 window.title("nCovi_client")
-window.iconbitmap('../imgs/logo.ico')
+window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
 window.geometry("600x400")
 window.resizable(width=False, height=False)
 
 frame2 = tk.Frame(window, highlightbackground="green", highlightthickness=3)
 frame1 = tk.Frame(window, highlightbackground="red", highlightthickness=3)
 frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=3)
+
 
 # kiểm tra đăng nhập
 def check_login():
@@ -38,7 +39,7 @@ def check_login():
          messagebox.showinfo("","Error! Only letters a-z allowed!")
     else:
         homePage()
-        
+
 # đăng kí tài khoảng
 def create_Account():
     account_send = []
@@ -51,6 +52,8 @@ def create_Account():
         messagebox.showinfo("", "Blank not allowed")
     elif (len(username) >= 30) or (len(password) >= 30):
         messagebox.showinfo("","Too much character" + "\n" + "The username or password must less than 30 character")
+    elif not (re.match("^[a-zA-Z0-9]*$",username) and re.match("^[a-zA-Z0-9]*$",password)):
+         messagebox.showinfo("","Error! Only letters a-z allowed!")
     else:
         if confirm_password == password:
             account_send.append(sign_up_usn)
@@ -140,7 +143,7 @@ def get_info():
     api = json.loads(api_request.content)
     api_request_VN = requests.get("https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true&utf8=1")
     api_VN = json.loads(api_request_VN.content)
-    location = api_VN['locations']
+    location_VN = api_VN['locations']
     
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
@@ -150,27 +153,31 @@ def get_info():
     if selected == "Search by.....":
         info_page.insert(0.0, "You forgot to pick a dropdown menu!")
     elif selected == "World":
-        for i in range(len(api)):
-            if text_1 == api[i]['country']:
-                info_page.insert(0.0,"Country: " + str(api[i]['country']) + "\n" + 
-                                     "Cases: " + str(api[i]['cases'])+ "\n" + 
-                                     "Deaths: " + str(api[i]['deaths']) + "\n" +
-                                     "Recovered: " + str(api[i]['recovered']) + "\n")
+            for i in range(len(api)):
+                if text_1 == api[i]['country']:
+                    info_page.insert(0.0,"Country: " + str(api[i]['country']) + "\n" + 
+                                        "Cases: " + str(api[i]['cases'])+ "\n" + 
+                                        "Deaths: " + str(api[i]['deaths']) + "\n" +
+                                        "Recovered: " + str(api[i]['recovered']) + "\n")
     elif selected == "Viet Nam":
-        for s in range(len(location)):
-            if text_1 == location[s]['name']:
-                info_page.insert(0.0,"Province: " + str(location[s]['name'] + "\n") 
-                    +"Deaths: " + str(location[s]['death']) + "\n"
-                    + "Cases: " + str(location[s]['cases']) + "\n"
-                    + "Recovered" + str(location[s]['recovered']))
+        for s in range(len(location_VN)):
+            if text_1 == location_VN[s]['name']:
+                info_page.insert(0.0,"Province: " + str(location_VN[s]['name'] + "\n") 
+                                    +"Deaths: " + str(location_VN[s]['death']) + "\n"
+                                    +"Cases: " + str(location_VN[s]['cases']) + "\n"
+                                    +"Recovered: " + str(location_VN[s]['recovered']))
     
+# Thoát chương trình
+def close_App():
+    if messagebox.askokcancel("Quit", "Do you want to quit?"):
+        window.destroy()
 
 # đây là trang xem thông tin
 def homePage():
     hide_frame()
     
     label_title = tk.Label(frame2,text='Home Page', font=("Georgia", 20), foreground="blue")
-    logout_button = tk.Button(frame2, text='Log out', width=10,command=lambda:startPage())
+    logout_button = tk.Button(frame2, text='Logout', width=10,command=lambda:startPage())
     
     global info_entry
     global info_page
@@ -178,13 +185,18 @@ def homePage():
     info_entry = StringVar()
 
     info_entry = tk.Entry(frame2, width=30)
-    info_page = tk.Text(frame2,width=50, height=15)
+    info_page = tk.Text(frame2, font=("Arial", 12),width=50, height=15)
     info_page.insert(0.0, "write without accents ")
-    ok_button = tk.Button(frame2,text="ok",width=5,bg="cyan" ,command=get_info)
+
+    ok_button = tk.Button(frame2,text="Ok",width=5,bg="cyan" ,command=get_info)
+    quit_button = tk.Button(frame2, text='Quit',width=10, command=close_App)
     #combobox
     drop = ttk.Combobox(frame2, values=["Search by.....","World","Viet Nam"])
     drop.current(0)
     
+    def click(event):
+        info_entry.configure(state="normal")
+        info_entry.delete(0, "end")
 
     frame2.pack(fill=BOTH, expand=1)
 
@@ -192,10 +204,12 @@ def homePage():
     logout_button.place(x = 500, y = 10)
     info_page.place(x= 100,y=100)
     info_entry.place(x = 10, y=50)
-    #info_entry.insert(0, "enter your location")
-    ok_button.place(x = 500, y=45)
+    info_entry.insert(0, "enter your location")
+    info_entry.configure(state="disabled")
+    info_entry.bind("<Button-1>", click)
+    ok_button.place(x = 350, y=47)
+    quit_button.place(x=500,y = 45)
     drop.place(x = 200, y = 50)
-
 
 
 startPage()
