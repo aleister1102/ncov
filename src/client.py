@@ -6,12 +6,9 @@ SERVER_PORT = 52467
 
 FORMAT = "utf8"
 
-#HOST = input("Input Server's IP: ")
+# HOST = input("Input Server's IP: ")
 
-HOST = "192.168.1.13"
-
-
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+HOST = "192.168.198.1"
 
 print("CLIENT SIDE")
 
@@ -32,11 +29,22 @@ def sendList(client, list):
 
     return msgServer
 
+# Trả về socket Client
+
+
+def openConnection():
+    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    return client
+
+
+def closeConnection(client):
+    client.close()
+
 
 def connectToServer():
 
     try:
-
+        client = openConnection()
         connect = 0
         connectTime = 0
 
@@ -64,12 +72,14 @@ def connectToServer():
 
                 list = ["LePhuocToan", "20120386"]
                 msgServer = None
+                # Nếu có hàm lấy sự kiện từ giao diện thì nếu bấm login sẽ trả về 0
+                # Bấm Regis sẽ trả về 1
                 msgClient = input("Client talks somethings: ")
 
                 client.sendall(msgClient.encode(FORMAT))
                 client.recv(1024).decode(FORMAT)
 
-                if(msgClient == "SIGN IN"):
+                if(msgClient == "1"):
                     msgServer = sendList(client, list)
                     if(msgServer == "TRUE"):
                         print("Login successed !!!")
@@ -77,7 +87,7 @@ def connectToServer():
                     else:
                         print("Login failed !!!")
 
-                elif(msgClient == "SIGN UP"):
+                elif(msgClient == "0"):
                     msgServer = sendList(client, list)
                     if(msgServer == "TRUE"):
                         print("Register successed !!!")
@@ -85,16 +95,16 @@ def connectToServer():
                     else:
                         print("Register failed !!!")
 
-            client.close()
+            closeConnection(client)
         else:
 
-            client.close()
             print("Time out")
+            closeConnection(client)
     except:
 
-        client.close()
         print("ERROR !!!")
         print("Server is disconnected !!!")
+        closeConnection(client)
 
 
 connectToServer()
