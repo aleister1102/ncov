@@ -48,32 +48,28 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
-
-    msgClient = None
-
     check = True
-    while(msgClient != "x"):
-        try:
-            msgClient = connection.recv(1024).decode(FORMAT)
-            print("Client", address, "says: ", msgClient)
-            connection.sendall(msgClient.encode(FORMAT))
+    try:
+        msgClient = connection.recv(1024).decode(FORMAT)
+        print("Client", address, "says: ", msgClient)
+        connection.sendall(msgClient.encode(FORMAT))
+
+        if(msgClient != "x"):
             # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
             # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
             if(msgClient == "1"):
                 recvList(connection, 1)
             elif(msgClient == "0"):
                 recvList(connection, 0)
+        else:
 
-        except:
-            check = False
-            msgClient = "x"
+            print("Client: ", address, " finished !!!")
+            print(connection.getsockname(), " closed !!!")
+            connection.close()
+    except:
+        check = False
 
-    if(check == True):
-        print("Client: ", address, " finished !!!")
-        print(connection.getsockname(), " closed !!!")
-        connection.close()
-
-    else:
+    if(check == False):
         print("Client", address, " is disconnected !!!")
         connection.close()
 
@@ -89,17 +85,17 @@ def openServer():
     s.listen()
     while(1):
         try:
-            type = input()
-            if(type != "x"):
-                connection, address = s.accept()
-                thr = threading.Thread(target=handleClient,
-                                       args=(connection, address))
-                thr.daemon = False
-                thr.start()
-            else:
-                print("Server is closed !!!")
-                closeServer(s)
-                break
+            #type = input()
+            # if(type != "x"):
+            connection, address = s.accept()
+            thr = threading.Thread(target=handleClient,
+                                   args=(connection, address))
+            thr.daemon = False
+            thr.start()
+            # else:
+            # print("Server is closed !!!")
+            # closeServer(s)
+            # break
         except:
             print("Server is closed !!!")
             closeServer(s)
