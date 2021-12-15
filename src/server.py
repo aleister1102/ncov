@@ -2,15 +2,13 @@ import socket
 import threading
 
 
-HOST = socket.gethostbyname(socket.gethostname())
+# HOST = socket.gethostbyname(socket.gethostname())
+HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
 
-print("SERVER SIDE")
 
-print("Server: ", HOST, SERVER_PORT)
-print("Waiting for Client ...")
 
 
 def checkAccount(clientAccount):
@@ -80,6 +78,11 @@ def createServer():
 
 
 def openServer():
+
+    print("SERVER SIDE")
+    print("Server: ", HOST, SERVER_PORT)
+    print("Waiting for Client ...")
+    
     s = createServer()
     s.bind((HOST, SERVER_PORT))
     s.listen()

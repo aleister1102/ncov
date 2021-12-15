@@ -2,13 +2,13 @@ import time
 import socket
 
 
+HOST = "127.0.0.1"
 SERVER_PORT = 52467
-
 FORMAT = "utf8"
+
 
 # HOST = input("Input Server's IP: ")
 
-HOST = "192.168.198.1"
 
 print("CLIENT SIDE")
 
