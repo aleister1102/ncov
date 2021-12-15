@@ -8,7 +8,7 @@ FORMAT = "utf8"
 
 # HOST = input("Input Server's IP: ")
 
-HOST = "127.0.0.1"
+HOST = "192.168.198.1"
 
 print("CLIENT SIDE")
 
@@ -29,10 +29,43 @@ def sendList(client, list):
 
     return msgServer
 
+
+def checkList(client, check):
+    if(check == 0):
+        print("Client address: ", client.getsockname())
+
+        # Nếu có hàm lấy sự kiện từ giao diện thì nếu bấm login sẽ trả về 0
+        # Bấm Regis sẽ trả về 1
+        msgClient = input("Client talks somethings: ")
+        client.sendall(msgClient.encode(FORMAT))
+        client.recv(1024).decode(FORMAT)
+
+        if(msgClient != "x"):
+            list = ["LePhuocToan", "20120386"]
+            msgServer = None
+
+            if(msgClient == "1"):
+                msgServer = sendList(client, list)
+                if(msgServer == "TRUE"):
+                    print("Login successed !!!")
+
+                else:
+                    print("Login failed !!!")
+
+            elif(msgClient == "0"):
+                msgServer = sendList(client, list)
+                if(msgServer == "TRUE"):
+                    print("Register successed !!!")
+
+                else:
+                    print("Register failed !!!")
+
+        else:
+            closeConnection(client)
+
+
 # Trả về socket Client
-
-
-def openConnection():
+def createConnection():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     return client
 
@@ -41,10 +74,8 @@ def closeConnection(client):
     client.close()
 
 
-def connectToServer():
-
+def connectToServer(client):
     try:
-        client = openConnection()
         connect = 0
         connectTime = 0
 
@@ -63,43 +94,7 @@ def connectToServer():
             connectTime += 1
             time.sleep(1)
 
-        if(check == 0):
-            print("Client address: ", client.getsockname())
-
-            msgClient = None
-
-            while(msgClient != "x"):
-
-                list = ["LePhuocToan", "20120386"]
-                msgServer = None
-                # Nếu có hàm lấy sự kiện từ giao diện thì nếu bấm login sẽ trả về 0
-                # Bấm Regis sẽ trả về 1
-                msgClient = input("Client talks somethings: ")
-
-                client.sendall(msgClient.encode(FORMAT))
-                client.recv(1024).decode(FORMAT)
-
-                if(msgClient == "1"):
-                    msgServer = sendList(client, list)
-                    if(msgServer == "TRUE"):
-                        print("Login successed !!!")
-
-                    else:
-                        print("Login failed !!!")
-
-                elif(msgClient == "0"):
-                    msgServer = sendList(client, list)
-                    if(msgServer == "TRUE"):
-                        print("Register successed !!!")
-
-                    else:
-                        print("Register failed !!!")
-
-            closeConnection(client)
-        else:
-
-            print("Time out")
-            closeConnection(client)
+        return check
     except:
 
         print("ERROR !!!")
@@ -107,4 +102,20 @@ def connectToServer():
         closeConnection(client)
 
 
-connectToServer()
+def openConnection(client):
+    try:
+        check = connectToServer(client)
+        if(check == 0):
+            checkList(client, check)
+        else:
+            print("Time Out !!!")
+            closeConnection(client)
+    except:
+        print("ERROR !!!")
+        print("Server is disconnected !!!")
+        closeConnection(client)
+
+
+client = createConnection()
+openConnection(client)
+closeConnection(client)
