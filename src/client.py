@@ -8,7 +8,7 @@ FORMAT = "utf8"
 
 # HOST = input("Input Server's IP: ")
 
-HOST = "192.168.198.1"
+HOST = "127.0.0.1"
 
 print("CLIENT SIDE")
 
