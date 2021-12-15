@@ -5,7 +5,21 @@ from tkinter.constants import ANCHOR, BOTH, CENTER, INSERT, LEFT, RIGHT
 import requests
 import json
 import re
+import socket
+import time
 
+SERVER_PORT = 52467
+
+FORMAT = "utf8"
+
+#HOST = input("Input Server's IP: ")
+
+HOST = "192.168.1.137"
+
+
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print("CLIENT SIDE")
 
 
 global window
@@ -20,6 +34,71 @@ frame2 = tk.Frame(window, highlightbackground="green", highlightthickness=3)
 frame1 = tk.Frame(window, highlightbackground="red", highlightthickness=3)
 frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=3)
 
+
+def sendList(client, list):
+    msgServer = None
+    list.append("end")
+    for item in list:
+        client.sendall(item.encode(FORMAT))
+        # Wait response from server
+        msgServer = client.recv(1024).decode(FORMAT)
+
+    return msgServer
+
+
+def connectToServer(list, option):
+    
+    try:
+
+        connect = 0
+        connectTime = 0
+
+        check = client.connect_ex((HOST, SERVER_PORT))
+        print(check)
+        # Vòng lặp chờ Server mở kết nối
+        while(connectTime <= 10 and check != 0):
+            if(connect == 0):
+                print("Waiting for Server open the connection ...")
+                connect = 1
+
+            check = client.connect_ex((HOST, SERVER_PORT))
+
+            if(check == 0):
+                break
+
+            connectTime += 1
+            time.sleep(1)
+
+        if(check == 0):
+            print("Client address: ", client.getsockname())
+
+            while(option != "x"):
+
+                if(option == "SIGN IN"):
+                    msgServer = sendList(client, list)
+                    if(msgServer):
+                        print("Login successful !!!")
+                    else:
+                        print("Login failed !!!")
+
+                elif(option == "SIGN UP"):
+                    msgServer = sendList(client, list)
+                    if(msgServer == "TRUE"):
+                        print("Register successful !!!")
+
+                    else:
+                        print("Register failed !!!")
+
+            client.close()
+        else:
+
+            client.close()
+            print("Time out")
+    except:
+
+        client.close()
+        print("ERROR !!!")
+        print("Server is disconnected !!!")
 
 # kiểm tra đăng nhập
 def check_login():
@@ -38,7 +117,9 @@ def check_login():
     elif not (re.match("^[a-zA-Z0-9]*$",username) and re.match("^[a-zA-Z0-9]*$",password)):
          messagebox.showinfo("","Error! Only letters a-z allowed!")
     else:
-        homePage()
+         option = "SIGN IN"
+         connectToServer(account, option)
+         homePage()
 
 # đăng kí tài khoảng
 def create_Account():

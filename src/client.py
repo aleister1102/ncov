@@ -8,7 +8,7 @@ FORMAT = "utf8"
 
 #HOST = input("Input Server's IP: ")
 
-HOST = "192.168.1.13"
+HOST = "192.168.1.137"
 
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
