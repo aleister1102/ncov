@@ -7,6 +7,8 @@ SERVER_PORT = 52467
 FORMAT = "utf8"
 
 # Hàm gửi list
+
+
 def sendList(client, list):
     msgServer = None
     list.append("end")
@@ -76,7 +78,6 @@ def connectToServer():
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
         print("CLIENT SIDE")
-
         # Chờ time out
         check = waitTO(client)
         if(check != 0):
@@ -99,11 +100,11 @@ def closeConnection(client):
 
 
 list1 = ["20120356", "2"]
-list2 = ["20120356", "1"]
-# list3 = ["20120356", "5"]
-# list4 = ["20120356", "1"]
+list2 = ["20120356", "2"]
+list3 = ["20120356", "2"]
+list4 = ["20120356", "1"]
 client = connectToServer()
 sendOption(client, "1", list1)
 sendOption(client, "1", list2)
-# sendOption(client, "1", list3)
-# sendOption(client, "1", list4)
+sendOption(client, "1", list3)
+sendOption(client, "1", list4)

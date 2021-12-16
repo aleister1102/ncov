@@ -29,6 +29,7 @@ def recvList(connection, option):
                     msgServer = "TRUE"
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
+    return msgServer
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
@@ -36,29 +37,35 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Client ", address, " connected !!!")
     # print("Connection", connection.getsockname())
     check = True
+    temp = "FALSE"
     try:
-        msgClient = connection.recv(1024).decode(FORMAT)
-        print("Client", address, "says: ", msgClient)
-        connection.sendall(msgClient.encode(FORMAT))
+        while(temp == "FALSE"):
 
-        if(msgClient != "x"):
-            # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
-            # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
-            if(msgClient == "1"):
-                recvList(connection, 1)
-            elif(msgClient == "0"):
-                recvList(connection, 0)
-        else:
+            msgClient = connection.recv(1024).decode(FORMAT)
+            print("Client", address, "says: ", msgClient)
+            connection.sendall(msgClient.encode(FORMAT))
 
-            print("Client: ", address, " finished !!!")
-            print(connection.getsockname(), " closed !!!")
-            connection.close()
+            if(msgClient != "x"):
+                # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
+                # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
+                if(msgClient == "1"):
+                    temp = recvList(connection, 1)
+                elif(msgClient == "0"):
+                    temp = recvList(connection, 0)
+            else:
+
+                print("Client: ", address, " finished !!!")
+                print(connection.getsockname(), " closed !!!")
+                connection.close()
+
     except:
         check = False
+        temp = "FALSE"
 
     if(check == False):
         print("Client", address, " is disconnected !!!")
         connection.close()
+
 
 def openServer():
 
@@ -71,7 +78,7 @@ def openServer():
     s.listen()
     while(1):
         try:
-            #type = input()
+            # type = input()
             # if(type != "x"):
             connection, address = s.accept()
             thr = threading.Thread(target=handleClient,
