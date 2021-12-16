@@ -7,6 +7,22 @@ SERVER_PORT = 52467
 FORMAT = "utf8"
 
 
+def checkConnection(client):
+    '''
+    Hàm kiểm tra xem server có bị mất kết nối đột ngột hay không
+    - client: connection của client
+    - return: True nếu server còn sống, False nếu bị ngắt
+    '''
+
+    try:
+        client.sendall("check".encode(FORMAT))
+        client.recv(1024).decode(FORMAT)
+        return True
+    except:
+        print("Server is not running")
+        return False
+
+
 def sendList(client, list):
     '''
     Hàm gửi danh sách
@@ -34,6 +50,10 @@ def sendOption(client, msgClient, list):
     - list: danh sách gửi kèm nếu có, không có thì truyền vào rỗng
     '''
 
+    # Kiểm tra xem server có bị mất kết nối đột ngột không
+    if(checkConnection(client) == False):
+        return
+
     # Gửi option và kiểm tra có gửi được không
     client.sendall(msgClient.encode(FORMAT))
     msgServer = client.recv(1024).decode(FORMAT)
@@ -58,6 +78,7 @@ def sendOption(client, msgClient, list):
 
         else:
             print("Register failed !!!")
+
 
 def waitTO(client):
     '''
@@ -117,16 +138,10 @@ def closeConnection(client):
     '''
     client.sendall("x".encode(FORMAT))
     client.close()
-    
+
 
 list1 = ["20120356", "2"]
-list2 = ["20120356", "2"]
-list3 = ["20120356", "2"]
-list4 = ["20120356", "1"]
+list2 = ["20120356", "1"]
 client = connectToServer()
 sendOption(client, "1", list1)
 sendOption(client, "1", list2)
-sendOption(client, "1", list3)
-sendOption(client, "1", list4)
-
-

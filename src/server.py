@@ -60,11 +60,13 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
             if(msgClient != "x"):
                 # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
-                # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 if(msgClient == "1"):
                     temp = recvList(connection, 1)
+                # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 elif(msgClient == "0"):
                     temp = recvList(connection, 0)
+                
+                    
             else:
 
                 print("Client: ", address, " finished !!!")
@@ -79,14 +81,13 @@ def handleClient(connection, address):  # Xử lý đa luồng
         print("Client", address, " is disconnected !!!")
         connection.close()
 
-
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 def openServer():
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
-
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
     s.bind((HOST, SERVER_PORT))
     s.listen()
     while(1):
