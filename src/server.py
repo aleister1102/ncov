@@ -8,12 +8,17 @@ SERVER_PORT = 52467
 FORMAT = "utf8"
 
 
-# Nếu option = 1 thì đi đến hàm login
-# nếu option = 0 thì đi đến hàm regis
 def recvList(connection, option):
+    '''
+    Hàm nhận danh sách từ phía client theo một option cho trước
+    - connection: kết nối mà server đã mở với client
+    - option: tùy chọn loại thông tin
+    '''
+
     list = []
     item = None
     msgServer = "FALSE"
+
     while(item != "end"):
         item = connection.recv(1024).decode(FORMAT)
         if(item != "end"):
@@ -21,28 +26,36 @@ def recvList(connection, option):
         else:
             # In để kiểm tra
             print(list)
+            # Nếu option = 1 thì đi đến hàm login
             if(option == 1):
                 if(db.checkAccount(list) == True):
                     msgServer = "TRUE"
+            # nếu option = 0 thì đi đến hàm regis
             else:
                 if(db.createAccount(list) == True):
                     msgServer = "TRUE"
+
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
     return msgServer
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
-
+    
+    '''
+    Hàm xử lý đa luồng cho mỗi kết nối của client
+    - connection: kết nối của client
+    - address: địa chỉ IP và port của client
+    '''
     print("Client ", address, " connected !!!")
-    # print("Connection", connection.getsockname())
+    print("Connection", connection.getsockname())
     check = True
     temp = "FALSE"
     try:
         while(temp == "FALSE"):
 
             msgClient = connection.recv(1024).decode(FORMAT)
-            print("Client", address, "says: ", msgClient)
+            # print("Client", address, "says: ", msgClient)
             connection.sendall(msgClient.encode(FORMAT))
 
             if(msgClient != "x"):

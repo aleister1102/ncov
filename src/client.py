@@ -6,29 +6,43 @@ HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
-# Hàm gửi list
-
 
 def sendList(client, list):
+    '''
+    Hàm gửi danh sách
+    - client: kết nối của client
+    - list: danh sách cần gửi
+    - return: "TRUE" hoặc "FALSE"
+    '''
+
     msgServer = None
     list.append("end")
     for item in list:
         client.sendall(item.encode(FORMAT))
-        # Wait response from server
+
+        # Chờ phản hồi từ server
         msgServer = client.recv(1024).decode(FORMAT)
 
     return msgServer
 
-# Hàm gửi các yêu cầu cụ thể, nếu không đn hoặc đk thì truyền vào list = []
-
 
 def sendOption(client, msgClient, list):
+    '''
+    Hàm gửi một yêu cầu cụ thể đến server
+    - client: kết nối của client
+    - msgClient: yêu cầu (option) của client
+    - list: danh sách gửi kèm nếu có, không có thì truyền vào rỗng
+    '''
+
     # Gửi option và kiểm tra có gửi được không
     client.sendall(msgClient.encode(FORMAT))
     msgServer = client.recv(1024).decode(FORMAT)
+
     # Server phản hồi lại khác thì chưa gửi được
     if(msgServer != msgClient):
         return
+
+    # Xử lý các option
     if(msgClient == "1" and list != []):
         check = sendList(client, list)
         if(check == "TRUE"):
@@ -44,10 +58,13 @@ def sendOption(client, msgClient, list):
 
         else:
             print("Register failed !!!")
-# Chờ time out
-
 
 def waitTO(client):
+    '''
+    Hàm chờ server mở kết nối
+    - client: kết nối đã mở của client
+    - return: 0 nếu kết nối thành công, 1 nếu quá timeout
+    '''
     connect = 0
     connectTime = 0
     check = client.connect_ex((HOST, SERVER_PORT))
@@ -69,10 +86,12 @@ def waitTO(client):
 
     return check
 
-# Mở kết nối
-
 
 def connectToServer():
+    '''
+    Hàm mở kết nối đến server
+    - return: một kết nối nếu kết nối thành công đến server
+    '''
 
     # Tạo kết nối
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -82,22 +101,23 @@ def connectToServer():
         check = waitTO(client)
         if(check != 0):
             print("Time Out !!!")
-            closeConnection(client)
-        # Trả về tiếp tục dùng cho việc khác
         else:
             return client
     except:
 
         print("ERROR !!!")
-        print("Server is disconnected !!!")
+        print("Server is not opened !!!")
         closeConnection(client)
-
-# Đóng kết nối
 
 
 def closeConnection(client):
+    '''
+    Hàm đóng kết nối bên phía client
+    - client: kết nối của client
+    '''
+    client.sendall("x".encode(FORMAT))
     client.close()
-
+    
 
 list1 = ["20120356", "2"]
 list2 = ["20120356", "2"]
@@ -108,3 +128,5 @@ sendOption(client, "1", list1)
 sendOption(client, "1", list2)
 sendOption(client, "1", list3)
 sendOption(client, "1", list4)
+
+
