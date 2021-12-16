@@ -145,3 +145,4 @@ list2 = ["20120356", "1"]
 client = connectToServer()
 sendOption(client, "1", list1)
 sendOption(client, "1", list2)
+sendOption(client, "x", list2)

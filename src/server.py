@@ -1,5 +1,6 @@
 import socket
 import threading
+from tkinter.constants import NO
 import database as db
 
 # HOST = socket.gethostbyname(socket.gethostname())
@@ -41,7 +42,6 @@ def recvList(connection, option):
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
-    
     '''
     Hàm xử lý đa luồng cho mỗi kết nối của client
     - connection: kết nối của client
@@ -51,6 +51,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Connection", connection.getsockname())
     check = True
     temp = "FALSE"
+    msgClient = None
     try:
         while(temp == "FALSE"):
 
@@ -65,10 +66,18 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 elif(msgClient == "0"):
                     temp = recvList(connection, 0)
-                
-                    
+
             else:
 
+                print("Client: ", address, " finished !!!")
+                print(connection.getsockname(), " closed !!!")
+                connection.close()
+
+        while(msgClient != "x"):
+            msgClient = connection.recv(1024).decode(FORMAT)
+            # print("Client", address, "says: ", msgClient)
+            connection.sendall(msgClient.encode(FORMAT))
+            if(msgClient == "x"):
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
@@ -81,13 +90,16 @@ def handleClient(connection, address):  # Xử lý đa luồng
         print("Client", address, " is disconnected !!!")
         connection.close()
 
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+
 def openServer():
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
-    
+
     s.bind((HOST, SERVER_PORT))
     s.listen()
     while(1):
