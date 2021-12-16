@@ -10,6 +10,7 @@ HOST = socket.gethostbyname(socket.gethostname())
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
+#Đóng gói hàm lại, không gọi hàm ở ngoài như thế này
 window = tk.Tk()
 
 window.title("nCovi_server")

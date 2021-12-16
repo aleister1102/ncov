@@ -76,20 +76,19 @@ def getAccount():
     return data
 
 
-def checkAccount(accounts, clientAccount):
+def checkAccount(clientAccount):
     """
     Hàm đăng nhập, kiểm tra tài khoản có tồn tại chưa
 
-    data: dữ liệu tên đăng nhập từ database, lấy bằng hàm getAccount()
     clientAccount: list gồm username và password
     return: True nếu như tài khoản tồn tại, cho phép đăng nhập, False nếu ngược lại
     """
-
+    accounts = getAccount()
     for account in accounts:
         if(account['username'] == clientAccount[0] and account['password'] == clientAccount[1]):
             return True
 
-    print('False')
+    print("Account is not existed")
     return False
 
 
@@ -103,7 +102,7 @@ def createAccount(clientAccount):
 
     accounts = getAccount()
     accountDict = accountToDict(clientAccount)
-    if(checkAccount(accounts, clientAccount) == False):
+    if(checkAccount(clientAccount) == False):
         accounts.append(accountDict)
         updateJSON(ACC_FILE, accounts)
         print("Create account successfully")
@@ -118,3 +117,4 @@ def updateJSON(file, data):
 
     with open(file,mode =  "w") as f:
         json.dump(data, f, indent=2)
+

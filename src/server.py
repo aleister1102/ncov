@@ -1,22 +1,11 @@
 import socket
 import threading
-
+import database as db
 
 # HOST = socket.gethostbyname(socket.gethostname())
 HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
-
-
-
-
-
-def checkAccount(clientAccount):
-    return True
-
-
-def createAccount(clientAccount):
-    return True
 
 
 # Nếu option = 1 thì đi đến hàm login
@@ -33,10 +22,10 @@ def recvList(connection, option):
             # In để kiểm tra
             print(list)
             if(option == 1):
-                if(checkAccount(list) == True):
+                if(db.checkAccount(list) == True):
                     msgServer = "TRUE"
             else:
-                if(createAccount(list) == True):
+                if(db.createAccount(list) == True):
                     msgServer = "TRUE"
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
@@ -45,7 +34,7 @@ def recvList(connection, option):
 def handleClient(connection, address):  # Xử lý đa luồng
 
     print("Client ", address, " connected !!!")
-    print("Connection", connection.getsockname())
+    # print("Connection", connection.getsockname())
     check = True
     try:
         msgClient = connection.recv(1024).decode(FORMAT)
@@ -71,19 +60,13 @@ def handleClient(connection, address):  # Xử lý đa luồng
         print("Client", address, " is disconnected !!!")
         connection.close()
 
-
-def createServer():
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    return s
-
-
 def openServer():
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
-    
-    s = createServer()
+
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.bind((HOST, SERVER_PORT))
     s.listen()
     while(1):
