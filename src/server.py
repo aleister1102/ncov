@@ -54,7 +54,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
     temp = "FALSE"
     #msgClient = None
     try:
-        while(temp != ""):
+        while(temp == "FALSE"):
 
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
@@ -73,7 +73,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
-        """
+        
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
@@ -82,7 +82,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
-                """
+
 
     except:
         check = False
