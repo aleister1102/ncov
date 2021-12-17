@@ -65,6 +65,7 @@ def sendOption(client, msgClient, list):
         check = sendList(client, list)
         if(check == "TRUE"):
             print("Login successed !!!")
+            return True
 
         else:
             print("Login failed !!!")
@@ -74,9 +75,11 @@ def sendOption(client, msgClient, list):
         check = sendList(client, list)
         if(check == "TRUE"):
             print("Register successed !!!")
+            return True
 
         else:
             print("Register failed !!!")
+            return False
 
 
 def waitTO(client):
@@ -140,15 +143,10 @@ def closeConnection(client):
 
 """
 list1 = ["20120356", "2"]
-list2 = ["20120356", "1"]
-<<<<<<< Updated upstream
+
 client = connectToServer()
 sendOption(client, "1", list1)
 sendOption(client, "1", list2)
 sendOption(client, "x", list2)
-=======
-#client = connectToServer()
-#sendOption(client, "1", list1)
-#sendOption(client, "1", list2)
+
 """
->>>>>>> Stashed changes
