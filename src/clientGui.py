@@ -39,9 +39,10 @@ def check_login(connect):
                             "The username or password must less than 30 character")
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
         messagebox.showinfo("", "Error! Only letters a-z allowed!")
-    else:
-        cl.sendOption(connect, "1", account)
+    elif cl.sendOption(connect, "1", account) == True:     
         homePage(connect)
+    else:
+        messagebox.showinfo("","username or password is incorrect")
 
 # đăng kí tài khoảng
 def create_Account(connect):
@@ -62,8 +63,11 @@ def create_Account(connect):
         if confirm_password == password:
             account_send.append(username)
             account_send.append(password)
-            cl.sendOption(connect,"0",account_send)
-            homePage(connect)
+            if cl.sendOption(connect,"0",account_send) == True:
+                homePage(connect)
+            else:
+                messagebox.showinfo("","The account already exists")
+                homePage(connect)
         else:
             messagebox.showinfo("", "Incorrect password !")
 
