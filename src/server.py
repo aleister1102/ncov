@@ -18,7 +18,7 @@ def recvList(connection, option):
 
     list = []
     item = None
-    msgServer = "FALSE"
+    msgServer = "err"
     # print("option: " + option)
     while(item != "end"):
         item = connection.recv(1024).decode(FORMAT)
@@ -30,11 +30,11 @@ def recvList(connection, option):
             # Nếu option = 1 thì đi đến hàm login
             if(option == 1):
                 if(db.checkAccount(list) == True):
-                    msgServer = "TRUE"
+                    msgServer = "no-err"
             # nếu option = 0 thì đi đến hàm regis
             elif(option == 0):
                 if(db.createAccount(list) == True):
-                    msgServer = "TRUE"
+                    msgServer = "no-err"
 
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
@@ -51,10 +51,10 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     check = True
-    temp = "FALSE"
+    temp = "err"
     # msgClient = None
     try:
-        while(temp == "FALSE"):
+        while(temp == "err"):
 
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
@@ -66,8 +66,10 @@ def handleClient(connection, address):  # Xử lý đa luồng
             # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
             elif(msgClient == "0"):
                 temp = recvList(connection, 0)
+            elif(msgClient == "check"):
+                pass
             else:
-                temp = True
+                temp = "no-err"
 
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
@@ -80,7 +82,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     except:
         check = False
-        temp = "FALSE"
+        temp = "err"
 
     if(check == False):
         print("Client", address, " is disconnected !!!")
@@ -103,6 +105,7 @@ def openServer():
             # type = input()
             # if(type != "x"):
             connection, address = s.accept()
+            # handleClient(connection, address)
             thr = threading.Thread(target=handleClient,
                                    args=(connection, address))
             thr.daemon = False

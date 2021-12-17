@@ -27,7 +27,7 @@ def sendList(client, list):
     Hàm gửi danh sách
     - client: kết nối của client
     - list: danh sách cần gửi
-    - return: "TRUE" hoặc "FALSE"
+    - return: "no-err" hoặc "err"
     '''
     msgServer = None
     list.append("end")
@@ -63,7 +63,7 @@ def sendOption(client, msgClient, list):
     # option 1 là login
     if(msgClient == "1" and list != []):
         check = sendList(client, list)
-        if(check == "TRUE"):
+        if(check == "no-err"):
             print("Login successed !!!")
             return True
 
@@ -74,7 +74,7 @@ def sendOption(client, msgClient, list):
     # option 2 is register
     elif(msgClient == "0" and list != []):
         check = sendList(client, list)
-        if(check == "TRUE"):
+        if(check == "no-err"):
             print("Register successed !!!")
             return True
 
@@ -143,12 +143,8 @@ def closeConnection(client):
     client.close()
 
 
-"""
-list1 = ["20120356", "2"]
+list1 = ["2011111", "1"]
+list2 = ["3", "1"]
 
 client = connectToServer()
-sendOption(client, "1", list1)
-sendOption(client, "1", list2)
-sendOption(client, "x", list2)
-
-"""
+sendOption(client, "0", list1)

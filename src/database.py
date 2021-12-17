@@ -6,6 +6,7 @@ from datetime import timedelta as td
 TIME_FILE = '../db/update_time.txt'
 ACC_FILE = '../db/accounts.json'
 
+
 def getCurrentTime():
 
     time = dt.datetime.now()
@@ -71,7 +72,7 @@ def accountToDict(list):
 
 def getAccount():
 
-    with open(ACC_FILE, mode = 'r') as f:
+    with open(ACC_FILE, mode='r') as f:
         data = json.load(f)
     return data
 
@@ -114,8 +115,5 @@ def createAccount(clientAccount):
 
 def updateJSON(file, data):
 
-    with open(file,mode =  "w") as f:
+    with open(file, mode="w") as f:
         json.dump(data, f, indent=2)
-
-list = ["2","1"]
-createAccount(list)

@@ -21,7 +21,6 @@ frame1 = tk.Frame(window, highlightbackground="red", highlightthickness=3)
 frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=3)
 
 
-
 # kiểm tra đăng nhập
 def check_login(connect):
     account = []
@@ -39,12 +38,14 @@ def check_login(connect):
                             "The username or password must less than 30 character")
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
         messagebox.showinfo("", "Error! Only letters a-z allowed!")
-    elif cl.sendOption(connect, "1", account) == True:     
+    elif cl.sendOption(connect, "1", account) == True:
         homePage(connect)
     else:
-        messagebox.showinfo("","username or password is incorrect")
+        messagebox.showinfo("", "username or password is incorrect")
 
 # đăng kí tài khoảng
+
+
 def create_Account(connect):
     account_send = []
 
@@ -63,15 +64,17 @@ def create_Account(connect):
         if confirm_password == password:
             account_send.append(username)
             account_send.append(password)
-            if cl.sendOption(connect,"0",account_send) == True:
+            if cl.sendOption(connect, "0", account_send) == True:
                 homePage(connect)
             else:
-                messagebox.showinfo("","The account already exists")
+                messagebox.showinfo("", "The account already exists")
                 homePage(connect)
         else:
             messagebox.showinfo("", "Incorrect password !")
 
 # trang để đăng kí
+
+
 def registerPage(connect):
     hide_frame()
 
@@ -96,7 +99,7 @@ def registerPage(connect):
     pws_confirm = tk.Entry(frame3, width=30)
 
     button_login = tk.Button(frame3, text="Login",
-                             width=10, bg='cyan', command=lambda:create_Account(connect))
+                             width=10, bg='cyan', command=lambda: create_Account(connect))
 
     frame3.pack(fill="both", expand=1)
 
@@ -122,11 +125,9 @@ def hide_frame():
 
 def startPage():
     hide_frame()
-    connect = cl.connectToServer() 
+    connect = cl.connectToServer()
     global entry_username
     global entry_password
-
-    
 
     entry_password = StringVar()
     entry_username = StringVar()
@@ -138,9 +139,9 @@ def startPage():
     label_password = tk.Label(frame1, text="Password", height=2)
     entry_password = tk.Entry(frame1, width=30)
     button_login = tk.Button(frame1, text="Login",
-                             width=10, bg='cyan', command=lambda:check_login(connect))
+                             width=10, bg='cyan', command=lambda: check_login(connect))
     button_register = tk.Button(
-        frame1, text="Register", width=10, bg='cyan', command=lambda:registerPage(connect))
+        frame1, text="Register", width=10, bg='cyan', command=lambda: registerPage(connect))
 
     frame1.pack(fill=BOTH, expand=1)
 
@@ -198,8 +199,8 @@ def close_App(connect):
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         window.destroy()
         cl.closeConnection(connect)
-        
-        
+
+
 # đây là trang xem thông tin
 def homePage(connect):
     hide_frame()
@@ -220,7 +221,8 @@ def homePage(connect):
 
     ok_button = tk.Button(frame2, text="Ok", width=5,
                           bg="cyan", command=get_info)
-    quit_button = tk.Button(frame2, text='Quit', width=10, command=lambda:close_App(connect))
+    quit_button = tk.Button(frame2, text='Quit', width=10,
+                            command=lambda: close_App(connect))
     # combobox
     drop = ttk.Combobox(frame2, values=["Search by.....", "World", "Viet Nam"])
     drop.current(0)
@@ -244,8 +246,7 @@ def homePage(connect):
 
 
 startPage()
-#homePage()
+# homePage()
 # registerPage()
 
 window.mainloop()
-
