@@ -52,9 +52,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Connection", connection.getsockname())
     check = True
     temp = "FALSE"
-    msgClient = None
-
-
+    #msgClient = None
     try:
         while(temp != ""):
 
@@ -68,16 +66,14 @@ def handleClient(connection, address):  # Xử lý đa luồng
                     temp = recvList(connection, 1)
                 # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 elif(msgClient == "0"):
-                    temp = recvList(connection, 0)
-                else:
-
-                    temp = recvList(connection, 0)   
+                    temp = recvList(connection, 0) 
 
             else:
+                
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
-
+        """
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
@@ -86,6 +82,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
+                """
 
     except:
         check = False
