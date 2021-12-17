@@ -2,7 +2,7 @@ import time
 import socket
 
 
-HOST = "127.0.0.1"
+HOST = "192.168.1.137"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -13,7 +13,6 @@ def checkConnection(client):
     - client: connection của client
     - return: True nếu server còn sống, False nếu bị ngắt
     '''
-
     try:
         client.sendall("check".encode(FORMAT))
         client.recv(1024).decode(FORMAT)
@@ -30,15 +29,13 @@ def sendList(client, list):
     - list: danh sách cần gửi
     - return: "TRUE" hoặc "FALSE"
     '''
-
     msgServer = None
     list.append("end")
     for item in list:
         client.sendall(item.encode(FORMAT))
-
         # Chờ phản hồi từ server
         msgServer = client.recv(1024).decode(FORMAT)
-
+   # msgServer = client.recv(1024).decode(FORMAT)
     return msgServer
 
 
@@ -61,8 +58,9 @@ def sendOption(client, msgClient, list):
     # Server phản hồi lại khác thì chưa gửi được
     if(msgServer != msgClient):
         return
-
+    
     # Xử lý các option
+    # option 1 là login
     if(msgClient == "1" and list != []):
         check = sendList(client, list)
         if(check == "TRUE"):
@@ -71,6 +69,7 @@ def sendOption(client, msgClient, list):
         else:
             print("Login failed !!!")
 
+    # option 2 is register
     elif(msgClient == "0" and list != []):
         check = sendList(client, list)
         if(check == "TRUE"):
@@ -113,7 +112,6 @@ def connectToServer():
     Hàm mở kết nối đến server
     - return: một kết nối nếu kết nối thành công đến server
     '''
-
     # Tạo kết nối
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     try:
@@ -125,7 +123,6 @@ def connectToServer():
         else:
             return client
     except:
-
         print("ERROR !!!")
         print("Server is not opened !!!")
         closeConnection(client)
@@ -136,13 +133,22 @@ def closeConnection(client):
     Hàm đóng kết nối bên phía client
     - client: kết nối của client
     '''
-    client.sendall("x".encode(FORMAT))
+    print("out")
+    option = "x"
+    client.sendall(option.encode(FORMAT))
     client.close()
 
-
+"""
 list1 = ["20120356", "2"]
 list2 = ["20120356", "1"]
+<<<<<<< Updated upstream
 client = connectToServer()
 sendOption(client, "1", list1)
 sendOption(client, "1", list2)
 sendOption(client, "x", list2)
+=======
+#client = connectToServer()
+#sendOption(client, "1", list1)
+#sendOption(client, "1", list2)
+"""
+>>>>>>> Stashed changes

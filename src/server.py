@@ -4,7 +4,7 @@ from tkinter.constants import NO
 import database as db
 
 # HOST = socket.gethostbyname(socket.gethostname())
-HOST = "127.0.0.1"
+HOST = "192.168.1.137"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -19,7 +19,7 @@ def recvList(connection, option):
     list = []
     item = None
     msgServer = "FALSE"
-
+    #print("option: " + option)
     while(item != "end"):
         item = connection.recv(1024).decode(FORMAT)
         if(item != "end"):
@@ -28,7 +28,7 @@ def recvList(connection, option):
             # In để kiểm tra
             print(list)
             # Nếu option = 1 thì đi đến hàm login
-            if(option == 1):
+            if(option == 1):  
                 if(db.checkAccount(list) == True):
                     msgServer = "TRUE"
             # nếu option = 0 thì đi đến hàm regis
@@ -50,10 +50,14 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     check = True
+<<<<<<< Updated upstream
     temp = "FALSE"
     msgClient = None
+=======
+    temp = "TRUE"
+>>>>>>> Stashed changes
     try:
-        while(temp == "FALSE"):
+        while(temp != ""):
 
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
@@ -65,13 +69,19 @@ def handleClient(connection, address):  # Xử lý đa luồng
                     temp = recvList(connection, 1)
                 # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 elif(msgClient == "0"):
+<<<<<<< Updated upstream
                     temp = recvList(connection, 0)
 
             else:
+=======
+                    temp = recvList(connection, 0)   
+>>>>>>> Stashed changes
 
+            else:
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
+<<<<<<< Updated upstream
 
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
@@ -82,10 +92,12 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
 
+=======
+>>>>>>> Stashed changes
     except:
         check = False
         temp = "FALSE"
-
+    
     if(check == False):
         print("Client", address, " is disconnected !!!")
         connection.close()
