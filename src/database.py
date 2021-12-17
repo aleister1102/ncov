@@ -106,11 +106,10 @@ def createAccount(clientAccount):
         accounts.append(accountDict)
         updateJSON(ACC_FILE, accounts)
         print("Create account successfully")
+        return True
     else:
         print("Account is existed")
         return False
-
-    return True
 
 
 def updateJSON(file, data):
@@ -118,3 +117,5 @@ def updateJSON(file, data):
     with open(file,mode =  "w") as f:
         json.dump(data, f, indent=2)
 
+list = ["2","1"]
+createAccount(list)

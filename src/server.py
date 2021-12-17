@@ -32,7 +32,7 @@ def recvList(connection, option):
                 if(db.checkAccount(list) == True):
                     msgServer = "TRUE"
             # nếu option = 0 thì đi đến hàm regis
-            else:
+            elif(option == 0):
                 if(db.createAccount(list) == True):
                     msgServer = "TRUE"
 

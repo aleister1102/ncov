@@ -69,6 +69,7 @@ def sendOption(client, msgClient, list):
 
         else:
             print("Login failed !!!")
+            return False
 
     # option 2 is register
     elif(msgClient == "0" and list != []):
