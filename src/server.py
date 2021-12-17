@@ -4,7 +4,7 @@ from tkinter.constants import NO
 import database as db
 
 # HOST = socket.gethostbyname(socket.gethostname())
-HOST = "192.168.1.137"
+HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -19,7 +19,7 @@ def recvList(connection, option):
     list = []
     item = None
     msgServer = "FALSE"
-    #print("option: " + option)
+    # print("option: " + option)
     while(item != "end"):
         item = connection.recv(1024).decode(FORMAT)
         if(item != "end"):
@@ -28,7 +28,7 @@ def recvList(connection, option):
             # In để kiểm tra
             print(list)
             # Nếu option = 1 thì đi đến hàm login
-            if(option == 1):  
+            if(option == 1):
                 if(db.checkAccount(list) == True):
                     msgServer = "TRUE"
             # nếu option = 0 thì đi đến hàm regis
@@ -47,12 +47,12 @@ def handleClient(connection, address):  # Xử lý đa luồng
     - connection: kết nối của client
     - address: địa chỉ IP và port của client
     '''
-    
+
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     check = True
     temp = "FALSE"
-    #msgClient = None
+    # msgClient = None
     try:
         while(temp == "FALSE"):
 
@@ -60,40 +60,35 @@ def handleClient(connection, address):  # Xử lý đa luồng
             # print("Client", address, "says: ", msgClient)
             connection.sendall(msgClient.encode(FORMAT))
 
-            if(msgClient != "x"):
-                # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
-                if(msgClient == "1"):
-                    temp = recvList(connection, 1)
-                # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
-                elif(msgClient == "0"):
-                    temp = recvList(connection, 0) 
-
+            # Nếu nhận được tin "1" thì sẽ sẵn sàng mở hàm nhận tin với option 1
+            if(msgClient == "1"):
+                temp = recvList(connection, 1)
+            # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
+            elif(msgClient == "0"):
+                temp = recvList(connection, 0)
             else:
-                
-                print("Client: ", address, " finished !!!")
-                print(connection.getsockname(), " closed !!!")
-                connection.close()
-        
+                temp = True
+
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
             # print("Client", address, "says: ", msgClient)
             connection.sendall(msgClient.encode(FORMAT))
-            if(msgClient == "x"):
-                print("Client: ", address, " finished !!!")
-                print(connection.getsockname(), " closed !!!")
-                connection.close()
 
+        print("Client: ", address, " finished !!!")
+        print(connection.getsockname(), " closed !!!")
+        connection.close()
 
     except:
         check = False
         temp = "FALSE"
-    
+
     if(check == False):
         print("Client", address, " is disconnected !!!")
         connection.close()
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
 
 def openServer():
 

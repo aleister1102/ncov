@@ -2,7 +2,7 @@ import time
 import socket
 
 
-HOST = "192.168.1.137"
+HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -58,7 +58,7 @@ def sendOption(client, msgClient, list):
     # Server phản hồi lại khác thì chưa gửi được
     if(msgServer != msgClient):
         return
-    
+
     # Xử lý các option
     # option 1 là login
     if(msgClient == "1" and list != []):
@@ -140,6 +140,7 @@ def closeConnection(client):
     option = "x"
     client.sendall(option.encode(FORMAT))
     client.close()
+
 
 """
 list1 = ["20120356", "2"]
