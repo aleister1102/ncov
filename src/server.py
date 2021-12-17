@@ -47,15 +47,14 @@ def handleClient(connection, address):  # Xử lý đa luồng
     - connection: kết nối của client
     - address: địa chỉ IP và port của client
     '''
+    
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     check = True
-<<<<<<< Updated upstream
     temp = "FALSE"
     msgClient = None
-=======
-    temp = "TRUE"
->>>>>>> Stashed changes
+
+
     try:
         while(temp != ""):
 
@@ -69,19 +68,15 @@ def handleClient(connection, address):  # Xử lý đa luồng
                     temp = recvList(connection, 1)
                 # Nếu nhận được tin "0" thì sẽ sẵn sàng mở hàm nhận tin với option 0
                 elif(msgClient == "0"):
-<<<<<<< Updated upstream
                     temp = recvList(connection, 0)
+                else:
 
-            else:
-=======
                     temp = recvList(connection, 0)   
->>>>>>> Stashed changes
 
             else:
                 print("Client: ", address, " finished !!!")
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
-<<<<<<< Updated upstream
 
         while(msgClient != "x"):
             msgClient = connection.recv(1024).decode(FORMAT)
@@ -92,8 +87,6 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 print(connection.getsockname(), " closed !!!")
                 connection.close()
 
-=======
->>>>>>> Stashed changes
     except:
         check = False
         temp = "FALSE"
@@ -104,7 +97,6 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
 
 def openServer():
 
