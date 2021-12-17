@@ -123,9 +123,9 @@ def hide_frame():
 # đây là trang đăng nhập
 
 
-def startPage():
+def startPage(connect):
     hide_frame()
-    connect = cl.connectToServer()
+    
     global entry_username
     global entry_password
 
@@ -208,7 +208,7 @@ def homePage(connect):
     label_title = tk.Label(frame2, text='Home Page',
                            font=("Georgia", 20), foreground="blue")
     logout_button = tk.Button(frame2, text='Logout',
-                              width=10, command=lambda: startPage())
+                              width=10, command=lambda: startPage(connect))
 
     global info_entry
     global info_page
@@ -244,8 +244,8 @@ def homePage(connect):
     quit_button.place(x=500, y=45)
     drop.place(x=200, y=50)
 
-
-startPage()
+connect = cl.connectToServer()
+startPage(connect)
 # homePage()
 # registerPage()
 

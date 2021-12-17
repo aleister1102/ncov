@@ -63,7 +63,7 @@ def sendOption(client, msgClient, list):
     # option 1 là login
     if(msgClient == "1" and list != []):
         check = sendList(client, list)
-        if(check == "no-err"):
+        if(check == "accept"):
             print("Login successed !!!")
             return True
 
@@ -74,7 +74,7 @@ def sendOption(client, msgClient, list):
     # option 2 is register
     elif(msgClient == "0" and list != []):
         check = sendList(client, list)
-        if(check == "no-err"):
+        if(check == "accept"):
             print("Register successed !!!")
             return True
 
@@ -142,9 +142,3 @@ def closeConnection(client):
     client.sendall(option.encode(FORMAT))
     client.close()
 
-
-list1 = ["2011111", "1"]
-list2 = ["3", "1"]
-
-client = connectToServer()
-sendOption(client, "0", list1)
