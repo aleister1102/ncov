@@ -2,25 +2,22 @@ import tkinter as tk
 from tkinter import  StringVar, messagebox
 from tkinter import ttk
 import re
-import socket
-import threading
+from tkinter.constants import END
+import server as se
 
-
-HOST = socket.gethostbyname(socket.gethostname())
-SERVER_PORT = 52467
-FORMAT = "utf8"
 
 #Đóng gói hàm lại, không gọi hàm ở ngoài như thế này
 window = tk.Tk()
 
 window.title("nCovi_server")
-window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
+#window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
 window.geometry("720x480")
 window.resizable(width=False, height=False)
 
 frame2 = tk.Frame(window, highlightbackground="green", highlightthickness=3)
 frame1 = tk.Frame(window, highlightbackground="red", highlightthickness=3)
 frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=3)
+
 
 # kiểm tra đăng nhập
 def check_login():
@@ -144,9 +141,19 @@ def close_App():
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         window.destroy()
 
+
+def seeConnection():
+    if (se.handleClient(se.connection,se.address)):
+        txt.insert(END,str(se.address))
+
 # trang chính
 def homePage():
     hide_frame()
+
+    sThread = se.threading.Thread(target=se.openServer)
+    sThread.daemon = True 
+    sThread.start() 
+
     frame2.pack(fill="both", expand=1)
     page_name = tk.Label(frame2, text="SERVER", font=("Georgia",20), foreground="blue")
     page_name.place(x=245)
@@ -156,12 +163,15 @@ def homePage():
     quit_button = tk.Button(frame2, text='Quit',width=10, command=close_App)
     quit_button.place(x=600,y = 45)
 
-    user_info = tk.Label(frame2, text=("Server: " + str(HOST) + "  -  " + str(SERVER_PORT)))
+    user_info = tk.Label(frame2, text=("Server: " + str(se.HOST) + "  -  " + str(se.SERVER_PORT)))
     user_info.place(x=220, y=55)
-
-    txt = tk.Text(frame2, width=60, height=20, wrap="word")
+    refresh_button = tk.Button(frame2,text = 'REFRESH', bg='blue',width=15, command=seeConnection)
+    refresh_button.place(x = 280, y=430)
+    global txt
+    txt = tk.Listbox(frame2, width=80, height=20)
     txt.place(x=100, y=80)
 
+#se.openServer()
 #startPage()
 homePage()
 #registerPage()

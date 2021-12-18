@@ -108,6 +108,8 @@ def openServer():
         try:
             # type = input()
             # if(type != "x"):
+            global address
+            global connection
             connection, address = s.accept()
             thr = threading.Thread(target=handleClient,
                                    args=(connection, address))
@@ -128,4 +130,5 @@ def closeServer(s):
     s.close()
 
 
-openServer()
+#openServer()
+
