@@ -61,8 +61,31 @@ def checkList(client, check):
                     print("Register failed !!!")
 
         else:
+<<<<<<< Updated upstream
             closeConnection(client)
 
+=======
+            print("Register failed !!!")
+            return check
+
+    # option 3 là tỉnh thành Việt Nam
+    elif(msgClient == "3" and list != []):
+        check = sendList(client, list)
+        if(check != "deny"):
+            print(check)
+            return check
+
+        else:
+            print("Not found !!!")
+            return check
+
+    # option 4 là thế giới
+    elif(msgClient == "4" and list != []):
+        check = sendList(client, list)
+        if(check != "deny"):
+            print(check)
+            return check
+>>>>>>> Stashed changes
 
 # Trả về socket Client
 def createConnection():

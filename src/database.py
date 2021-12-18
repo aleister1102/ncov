@@ -3,8 +3,10 @@ import datetime as dt
 from datetime import timedelta as td
 
 # Time
-TIME_FILE = '../db/update_time.txt'
-ACC_FILE = '../db/accounts.json'
+#TIME_FILE = '../db/update_time.txt'
+TIME_FILE = r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\db\update_time.txt'
+#ACC_FILE = '../db/accounts.json'
+ACC_FILE = r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\db\accounts.json'
 
 def getCurrentTime():
 

@@ -3,7 +3,7 @@ import threading
 
 
 # HOST = socket.gethostbyname(socket.gethostname())
-HOST = "127.0.0.1"
+HOST = "192.168.1.137"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
@@ -33,11 +33,32 @@ def recvList(connection, option):
             # In để kiểm tra
             print(list)
             if(option == 1):
+<<<<<<< Updated upstream
                 if(checkAccount(list) == True):
                     msgServer = "TRUE"
             else:
                 if(createAccount(list) == True):
                     msgServer = "TRUE"
+=======
+                if(db.checkAccount(list) == True):
+                    msgServer = "accept"
+            # nếu option = 0 thì đi đến hàm regis
+            elif(option == 2):
+                if(db.createAccount(list) == True):
+                    msgServer = "accept"
+            # Lây thông tin tỉnh thành Việt Nam
+            elif(option == 3):
+                str = list[0]
+                if(ap.covidDictToString(ap.getProvinceData(str), 2)):
+                    msgServer = ap.covidDictToString(
+                        ap.getProvinceData(str), 2)
+            # Lấy thông tin thế giới
+            elif(option == 4):
+                str = list[0]
+                if(ap.covidDictToString(ap.getCountryData(str), 1)):
+                    msgServer = ap.covidDictToString(ap.getCountryData(str), 1)
+
+>>>>>>> Stashed changes
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
 

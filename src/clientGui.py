@@ -5,6 +5,7 @@ from tkinter.constants import ANCHOR, BOTH, CENTER, INSERT, LEFT, RIGHT
 import requests
 import json
 import re
+<<<<<<< Updated upstream
 import socket
 import time
 
@@ -20,6 +21,11 @@ HOST = "192.168.1.137"
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 print("CLIENT SIDE")
+=======
+import client as cl
+import database as db
+import api as a
+>>>>>>> Stashed changes
 
 
 global window
@@ -219,6 +225,7 @@ def startPage():
 
 #https://coronavirus-19-api.herokuapp.com/countries
 # lấy thông tin covid theo địa điểm
+<<<<<<< Updated upstream
 def get_info():
     api_request = requests.get("https://coronavirus-19-api.herokuapp.com/countries")
     api = json.loads(api_request.content)
@@ -226,6 +233,12 @@ def get_info():
     api_VN = json.loads(api_request_VN.content)
     location_VN = api_VN['locations']
     
+=======
+
+
+def get_info(connect):
+    location = []
+>>>>>>> Stashed changes
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
 
@@ -234,6 +247,7 @@ def get_info():
     if selected == "Search by.....":
         info_page.insert(0.0, "You forgot to pick a dropdown menu!")
     elif selected == "World":
+<<<<<<< Updated upstream
             for i in range(len(api)):
                 if text_1 == api[i]['country']:
                     info_page.insert(0.0,"Country: " + str(api[i]['country']) + "\n" + 
@@ -248,6 +262,16 @@ def get_info():
                                     +"Cases: " + str(location_VN[s]['cases']) + "\n"
                                     +"Recovered: " + str(location_VN[s]['recovered']))
     
+=======
+        location.append(text_1)
+        cl.sendOption(connect, "4", location)
+    elif selected == "Viet Nam":
+        location.append(text_1)
+        #cl.sendOption(connect, "3", location)
+        str_name = cl.sendOption(connect, "3", location)
+        info_page.insert(0.0, str(str_name) )
+
+>>>>>>> Stashed changes
 # Thoát chương trình
 def close_App():
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
@@ -269,10 +293,19 @@ def homePage():
     info_page = tk.Text(frame2, font=("Arial", 12),width=50, height=15)
     info_page.insert(0.0, "write without accents ")
 
+<<<<<<< Updated upstream
     ok_button = tk.Button(frame2,text="Ok",width=5,bg="cyan" ,command=get_info)
     quit_button = tk.Button(frame2, text='Quit',width=10, command=close_App)
     #combobox
     drop = ttk.Combobox(frame2, values=["Search by.....","World","Viet Nam"])
+=======
+    ok_button = tk.Button(frame2, text="Ok", width=5,
+                          bg="cyan", command=lambda:get_info(connect))
+    quit_button = tk.Button(frame2, text='Quit', width=10,
+                            command=lambda: close_App(connect))
+    # combobox
+    drop = ttk.Combobox(frame2, values=["Search by.....", "World", "Viet Nam"])
+>>>>>>> Stashed changes
     drop.current(0)
     
     def click(event):
