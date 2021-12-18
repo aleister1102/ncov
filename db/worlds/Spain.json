@@ -8110,5 +8110,113 @@
     "Cases": 5246766,
     "Status": "confirmed",
     "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5246766,
+    "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5273178,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5290273,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5290190,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5290190,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5339992,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5366128,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5393268,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Spain",
+    "CountryCode": "ES",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.46",
+    "Lon": "-3.75",
+    "Cases": 5422168,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
   }
 ]

@@ -7327,7 +7327,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 19893,
     "Status": "confirmed",
     "Date": "2021-11-18T00:00:00Z"
   },
@@ -7339,7 +7339,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20031,
     "Status": "confirmed",
     "Date": "2021-11-19T00:00:00Z"
   },
@@ -7351,7 +7351,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20177,
     "Status": "confirmed",
     "Date": "2021-11-20T00:00:00Z"
   },
@@ -7363,7 +7363,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20372,
     "Status": "confirmed",
     "Date": "2021-11-21T00:00:00Z"
   },
@@ -7375,7 +7375,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20469,
     "Status": "confirmed",
     "Date": "2021-11-22T00:00:00Z"
   },
@@ -7387,7 +7387,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20616,
     "Status": "confirmed",
     "Date": "2021-11-23T00:00:00Z"
   },
@@ -7399,7 +7399,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20752,
     "Status": "confirmed",
     "Date": "2021-11-24T00:00:00Z"
   },
@@ -7411,7 +7411,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 18979,
+    "Cases": 20913,
     "Status": "confirmed",
     "Date": "2021-11-25T00:00:00Z"
   },
@@ -7435,7 +7435,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21191,
     "Status": "confirmed",
     "Date": "2021-11-27T00:00:00Z"
   },
@@ -7447,7 +7447,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21325,
     "Status": "confirmed",
     "Date": "2021-11-28T00:00:00Z"
   },
@@ -7459,7 +7459,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21386,
     "Status": "confirmed",
     "Date": "2021-11-29T00:00:00Z"
   },
@@ -7471,7 +7471,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21543,
     "Status": "confirmed",
     "Date": "2021-11-30T00:00:00Z"
   },
@@ -7483,7 +7483,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21655,
     "Status": "confirmed",
     "Date": "2021-12-01T00:00:00Z"
   },
@@ -7495,7 +7495,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21760,
     "Status": "confirmed",
     "Date": "2021-12-02T00:00:00Z"
   },
@@ -7507,7 +7507,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21868,
     "Status": "confirmed",
     "Date": "2021-12-03T00:00:00Z"
   },
@@ -7519,7 +7519,7 @@
     "CityCode": "",
     "Lat": "-20.35",
     "Lon": "57.55",
-    "Cases": 21040,
+    "Cases": 21973,
     "Status": "confirmed",
     "Date": "2021-12-04T00:00:00Z"
   },
@@ -7569,6 +7569,114 @@
     "Lon": "57.55",
     "Cases": 22156,
     "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22310,
+    "Status": "confirmed",
     "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22461,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22461,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22461,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22651,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22651,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22710,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22769,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Cases": 22815,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

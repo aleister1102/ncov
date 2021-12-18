@@ -7738,5 +7738,113 @@
     "Cases": 3683044,
     "Status": "confirmed",
     "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3692939,
+    "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3705823,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3717640,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3728246,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3733967,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3738390,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3746106,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3754567,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Ukraine",
+    "CountryCode": "UA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.38",
+    "Lon": "31.17",
+    "Cases": 3764485,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
   }
 ]

@@ -7591,7 +7591,7 @@
     "CityCode": "",
     "Lat": "49.82",
     "Lon": "15.47",
-    "Cases": 2018069,
+    "Cases": 2019030,
     "Status": "confirmed",
     "Date": "2021-11-23T00:00:00Z"
   },
@@ -7663,7 +7663,7 @@
     "CityCode": "",
     "Lat": "49.82",
     "Lon": "15.47",
-    "Cases": 2132380,
+    "Cases": 2133098,
     "Status": "confirmed",
     "Date": "2021-11-29T00:00:00Z"
   },
@@ -7773,6 +7773,114 @@
     "Lon": "15.47",
     "Cases": 2282212,
     "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2298441,
+    "Status": "confirmed",
     "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2312736,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2325181,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2334289,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2338402,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2350338,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2367076,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2378728,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2388253,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

@@ -8122,5 +8122,113 @@
     "Cases": 9692411,
     "Status": "confirmed",
     "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9722639,
+    "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9752340,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9782723,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9812538,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9842021,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9871229,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9899139,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9927150,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "RU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.52",
+    "Lon": "105.32",
+    "Cases": 9955308,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
   }
 ]

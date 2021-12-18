@@ -7702,5 +7702,113 @@
     "Cases": 5084466,
     "Status": "confirmed",
     "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5086381,
+    "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5088008,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5089695,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5091508,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5093534,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5095821,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5097680,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5099746,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5101466,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
   }
 ]

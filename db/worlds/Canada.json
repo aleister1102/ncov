@@ -8182,5 +8182,113 @@
     "Cases": 1486228,
     "Status": "confirmed",
     "Date": "2021-12-07T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1489505,
+    "Status": "confirmed",
+    "Date": "2021-12-08T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1493174,
+    "Status": "confirmed",
+    "Date": "2021-12-09T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1496115,
+    "Status": "confirmed",
+    "Date": "2021-12-10T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1501316,
+    "Status": "confirmed",
+    "Date": "2021-12-11T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1503218,
+    "Status": "confirmed",
+    "Date": "2021-12-12T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1510445,
+    "Status": "confirmed",
+    "Date": "2021-12-13T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1514667,
+    "Status": "confirmed",
+    "Date": "2021-12-14T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1520187,
+    "Status": "confirmed",
+    "Date": "2021-12-15T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1527049,
+    "Status": "confirmed",
+    "Date": "2021-12-16T00:00:00Z"
   }
 ]
