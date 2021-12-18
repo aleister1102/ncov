@@ -81,7 +81,7 @@ def sendOption(client, msgClient, list):
         else:
             print("Register failed !!!")
             return check
-
+    # option 3 là tỉnh thành Việt Nam
     elif(msgClient == "3" and list != []):
         check = sendList(client, list)
         if(check != "deny"):
@@ -91,7 +91,7 @@ def sendOption(client, msgClient, list):
         else:
             print("Not found !!!")
             return check
-
+    # option 4 là thế giới
     elif(msgClient == "4" and list != []):
         check = sendList(client, list)
         if(check != "deny"):
