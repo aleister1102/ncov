@@ -2,6 +2,7 @@ import socket
 import threading
 from tkinter.constants import NO
 import database as db
+import api as ap
 
 # HOST = socket.gethostbyname(socket.gethostname())
 HOST = "127.0.0.1"
@@ -31,13 +32,23 @@ def recvList(connection, option):
                 if(db.checkAccount(list) == True):
                     msgServer = "accept"
             # nếu option = 0 thì đi đến hàm regis
-            elif(option == 0):
+            elif(option == 2):
                 if(db.createAccount(list) == True):
                     msgServer = "accept"
+            # Lây thông tin tỉnh thành Việt Nam
+            elif(option == 3):
+                str = list[0]
+                if(ap.covidDictToString(ap.getProvinceData(str), 2)):
+                    msgServer = ap.covidDictToString(
+                        ap.getProvinceData(str), 2)
+            # Lấy thông tin thế giới
+            elif(option == 4):
+                str = list[0]
+                if(ap.covidListToString(ap.getCountryData(str)) != ""):
+                    msgServer = ap.covidListToString(ap.getCountryData(str))
 
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
-    return msgServer
 
 
 def handleClient(connection, address):  # Xử lý đa luồng
@@ -49,7 +60,6 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
-    check = True
     temp = "running"
     # msgClient = None
     try:
@@ -60,29 +70,24 @@ def handleClient(connection, address):  # Xử lý đa luồng
             connection.sendall(msgClient.encode(FORMAT))
 
             if(msgClient == "1"):
-                recvList(connection, 1) # Chỉ gửi tin mà không dừng vòng lặp này
-            elif(msgClient == "0"):
-                recvList(connection, 0)
+                # Chỉ gửi tin mà không dừng vòng lặp này
+                recvList(connection, 1)
+            elif(msgClient == "2"):
+                recvList(connection, 2)
+            elif(msgClient == "3"):
+                recvList(connection, 3)
+            elif(msgClient == "4"):
+                recvList(connection, 4)
             elif(msgClient == "check"):
                 pass
             else:
                 temp = "stop"
 
-        while(msgClient != "x"):
-            msgClient = connection.recv(1024).decode(FORMAT)
-            # print("Client", address, "says: ", msgClient)
-            connection.sendall(msgClient.encode(FORMAT))
-
-        print("Client: ", address, " finished !!!")
+        print("Client: ", address, " is disconnected !!!")
         print(connection.getsockname(), " closed !!!")
         connection.close()
 
     except:
-        check = False
-        temp = "err"
-
-    if(check == False):
-        print("Client", address, " is disconnected !!!")
         connection.close()
 
 
@@ -90,6 +95,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
 def openServer():
+
+    ap.fetchData()
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
@@ -102,7 +109,6 @@ def openServer():
             # type = input()
             # if(type != "x"):
             connection, address = s.accept()
-            # handleClient(connection, address)
             thr = threading.Thread(target=handleClient,
                                    args=(connection, address))
             thr.daemon = False

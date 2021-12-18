@@ -38,7 +38,7 @@ def check_login(connect):
                             "The username or password must less than 30 character")
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
         messagebox.showinfo("", "Error! Only letters a-z allowed!")
-    elif cl.sendOption(connect, "1", account) == True:
+    elif cl.sendOption(connect, "1", account) == "accept":
         homePage(connect)
     else:
         messagebox.showinfo("", "username or password is incorrect")
@@ -125,7 +125,7 @@ def hide_frame():
 
 def startPage(connect):
     hide_frame()
-    
+
     global entry_username
     global entry_password
 
@@ -243,6 +243,7 @@ def homePage(connect):
     ok_button.place(x=350, y=47)
     quit_button.place(x=500, y=45)
     drop.place(x=200, y=50)
+
 
 connect = cl.connectToServer()
 startPage(connect)

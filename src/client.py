@@ -65,22 +65,42 @@ def sendOption(client, msgClient, list):
         check = sendList(client, list)
         if(check == "accept"):
             print("Login successed !!!")
-            return True
+            return check
 
         else:
             print("Login failed !!!")
-            return False
+            return check
 
     # option 2 is register
-    elif(msgClient == "0" and list != []):
+    elif(msgClient == "2" and list != []):
         check = sendList(client, list)
         if(check == "accept"):
             print("Register successed !!!")
-            return True
+            return check
 
         else:
             print("Register failed !!!")
-            return False
+            return check
+
+    elif(msgClient == "3" and list != []):
+        check = sendList(client, list)
+        if(check != "deny"):
+            print(check)
+            return check
+
+        else:
+            print("Not found !!!")
+            return check
+
+    elif(msgClient == "4" and list != []):
+        check = sendList(client, list)
+        if(check != "deny"):
+            print(check)
+            return check
+
+        else:
+            print("Not found !!!")
+            return check
 
 
 def waitTO(client):
@@ -141,4 +161,3 @@ def closeConnection(client):
     option = "x"
     client.sendall(option.encode(FORMAT))
     client.close()
-
