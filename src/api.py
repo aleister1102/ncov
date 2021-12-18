@@ -101,14 +101,17 @@ def fetchData():
     print("Fetching is done")
 
 
-def getCountryData(countryName):
+
+def getCountryData(countryName, date):
     '''
     Lấy dữ liệu của một quốc gia bất kỳ
     - countryName: tên quốc gia
-    - return: list chứa thông tin nếu tìm thấy, [] nếu không tìm thấy
+    - date: ngày mong muốn
+    - return: dict thông tin nếu tìm thấy, {} nếu không tìm thấy
     '''
 
-    list = []
+    dict = {}
+    found = False
     # Mở file mã thế giới để lấy các tên quốc gia
     with open(WORLD_CODE, mode="r") as f1:
         worlds = json.load(f1)
@@ -117,18 +120,28 @@ def getCountryData(countryName):
     for country in worlds:
         if(country['country'] == countryName):
             path = Template(WORLD_FILE).substitute(name=countryName)
-
+            found = True
             # Mở file quốc gia để lấy dữ liệu
             with open(path, mode="r") as f2:
                 data = json.load(f2)
 
-                # Đảo ngược để ngày mới nhất lên đầu và cho vào list
-                for item in reversed(data):
-                    list.append(item)
-                return list
+    if(found):
+        date += "T00:00:00Z"
+        for item in data:
+            if(item["Date"] == date):
+                return item
+                
+    else:
+        print("Cannot find")
+        return {}
 
-    print("Cannot find")
-    return []
+
+def unicodeToString(str):
+    '''
+    Chuyển một chuỗi có unicode thành không dấu
+    '''
+
+    return unicodedata.normalize('NFKD', str).encode('ascii', 'ignore').decode('utf-8')
 
 
 def getProvinceData(provinceName):
@@ -153,35 +166,9 @@ def getProvinceData(provinceName):
         name = unicodeToString(province['name'])
         if(name == provinceName):
             return province
+
     print("Cannot find")
     return {}
-
-
-def unicodeToString(str):
-    '''
-    Chuyển một chuỗi có unicode thành không dấu
-    '''
-
-    return unicodedata.normalize('NFKD', str).encode('ascii', 'ignore').decode('utf-8')
-
-
-def covidListToString(list):
-    '''
-    Chuyển một list dữ liệu thành string
-    - list: list dữ liệu cần chuyển
-    - return: chuỗi thông tin, không tìm thấy thì trả về "deny"
-    '''
-
-    # Không tìm thấy list sẽ rỗng
-    if(list == []):
-        return "deny"
-
-    else:
-        info = ""
-        for item in list:
-            info += covidDictToString(item, 1)
-        print(info)
-        return info
 
 
 def covidDictToString(dict, option):
@@ -216,17 +203,13 @@ def covidDictToString(dict, option):
 
 # fetchData()
 
-''' Trường hợp tìm thấy '''
+''' Đối với thế giới thì dùng Dict to String để lấy chuỗi option 1'''
+''' Chuỗi ngày tháng sẽ có dạng như thế này: "2021-12-18"'''
 
-# Đối với thế giới thì dùng List to String để lấy chuỗi
+# date =  "2021-12-18"
+# covidDictToString(getCountryData("Thailand",date),1)
 
-# covidListToString(getCountryData("Viet Nam"))
-
-# Đối với Việt Nam thì dùng Dict to String để lấy chuỗi
+'''Đối với Việt Nam thì dùng Dict to String để lấy chuỗi option 2'''
 
 # covidDictToString(getProvinceData("Ho Chi Minh"), 2)
 
-''' Trường hợp không tìm thấy'''
-
-# print(covidListToString(getCountryData("asdasd")))
-# print(covidDictToString(getProvinceData("Ha Noi"), 2))
