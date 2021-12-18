@@ -159,15 +159,8 @@ def startPage(connect):
 # lấy thông tin covid theo địa điểm
 
 
-def get_info():
-    api_request = requests.get(
-        "https://coronavirus-19-api.herokuapp.com/countries")
-    api = json.loads(api_request.content)
-    api_request_VN = requests.get(
-        "https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true&utf8=1")
-    api_VN = json.loads(api_request_VN.content)
-    location_VN = api_VN['locations']
-
+def get_info(connect):
+    location = []
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
 
@@ -176,21 +169,13 @@ def get_info():
     if selected == "Search by.....":
         info_page.insert(0.0, "You forgot to pick a dropdown menu!")
     elif selected == "World":
-        for i in range(len(api)):
-            if text_1 == api[i]['country']:
-                info_page.insert(0.0, "Country: " + str(api[i]['country']) + "\n" +
-                                 "Cases: " + str(api[i]['cases']) + "\n" +
-                                 "Deaths: " + str(api[i]['deaths']) + "\n" +
-                                 "Recovered: " + str(api[i]['recovered']) + "\n")
+        location.append(text_1)
+        str_name = cl.sendOption(connect,"4", location)
+        info_page.insert(0.0, str_name)
     elif selected == "Viet Nam":
-        for s in range(len(location_VN)):
-            if text_1 == location_VN[s]['name']:
-                info_page.insert(0.0, "Province: " + str(location_VN[s]['name'] + "\n")
-                                 + "Deaths: " +
-                                 str(location_VN[s]['death']) + "\n"
-                                 + "Cases: " +
-                                 str(location_VN[s]['cases']) + "\n"
-                                 + "Recovered: " + str(location_VN[s]['recovered']))
+        location.append(text_1)
+        str_name = cl.sendOption(connect,"3", location)
+        info_page.insert(0.0, str_name)
 
 # Thoát chương trình
 
