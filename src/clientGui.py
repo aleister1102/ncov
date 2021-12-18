@@ -205,7 +205,7 @@ def homePage(connect):
     info_page.insert(0.0, "write without accents ")
 
     ok_button = tk.Button(frame2, text="Ok", width=5,
-                          bg="cyan", command=get_info)
+                          bg="cyan", command=lambda:get_info(connect))
     quit_button = tk.Button(frame2, text='Quit', width=10,
                             command=lambda: close_App(connect))
     # combobox
