@@ -1,6 +1,7 @@
 import requests
 import json
 import database as db
+import unicodedata
 from string import Template
 
 # World API
@@ -15,10 +16,10 @@ VIETNAM_FILE = '../db/vietnam_specific.json'
 
 
 def fetchCountry(name):
-    """
+    '''
     Cập nhật thông tin covid của một quốc gia
-    name: tên quốc gia
-    """
+     - name: tên quốc gia
+    '''
 
     # Loại bỏ quốc gia bị lỗi
     print('Fetching', name)
@@ -41,9 +42,10 @@ def fetchCountry(name):
 
 
 def fetchWorld():
-    """
+    '''
     Cập nhật thông tin covid của toàn thế giới và lưu về data base
-    """
+    - return: True nếu cập nhật thành công, False nếu ngược lại
+    '''
 
     # Nếu đã cập nhật thì return
     if(db.isUpdated()):
@@ -63,9 +65,10 @@ def fetchWorld():
 
 
 def fetchVietnam():
-    """
+    '''
     Cập nhật thông tin covid các tỉnh thành của Việt Nam trong ngày
-    """
+    - return: True nếu cập nhật thành công, False nếu ngược lại
+    '''
 
     if(db.isUpdated()):
         print("Vietnam database is already updated")
@@ -87,6 +90,10 @@ def fetchVietnam():
 
 
 def fetchData():
+    '''
+    Cập nhật cơ sở dữ liệu
+    '''
+
     flag = fetchVietnam()
     flag = fetchWorld()
     if(flag == True):
@@ -95,47 +102,102 @@ def fetchData():
 
 
 def getCountryData(countryName):
+    '''
+    Lấy dữ liệu của một quốc gia bất kỳ
+    - countryName: tên quốc gia
+    - return: list chứa thông tin nếu tìm thấy, [] nếu không tìm thấy
+    '''
 
-    with open(WORLD_CODE, mode="r") as f:
-        worlds = json.load(f)
+    list = []
+    # Mở file mã thế giới để lấy các tên quốc gia
+    with open(WORLD_CODE, mode="r") as f1:
+        worlds = json.load(f1)
 
     print("Searching World's database")
     for country in worlds:
         if(country['country'] == countryName):
             path = Template(WORLD_FILE).substitute(name=countryName)
-            with open(path, mode='r') as f:
-                data = json.load(f)
-                # Đảo ngược danh sách cho ngày mới nhất lên đầu
-                return data.reverse()
+
+            # Mở file quốc gia để lấy dữ liệu
+            with open(path, mode="r") as f2:
+                data = json.load(f2)
+
+                # Đảo ngược để ngày mới nhất lên đầu và cho vào list
+                for item in reversed(data):
+                    list.append(item)
+                return list
 
     print("Cannot find")
     return []
 
 
-def getProvinceData(province):
+def getProvinceData(provinceName):
+    '''
+    Lấy dữ liệu của một tỉnh thành bất kỳ
+    - provinceName: chuỗi nhập vào có thể là không dấu hoặc có dấu
+    - return: dict thông tin nếu tìm thấy, {} nếu không tìm thấy
+    '''
+
+    # Chuyển chuỗi đầu vào thành không dấu
+    provinceName = unicodeToString(provinceName)
+
+    # Nếu nhập vào Ho Chi Minh thì chuyển thành TP. Ho Chi Minh
+    if(provinceName == "Ho Chi Minh"):
+        provinceName = "TP. Ho Chi Minh"
 
     with open(VIETNAM_FILE, mode="r") as f:
         provinces = json.load(f)
 
     for province in provinces:
-        # Tên tỉnh phải có dấu
-        if(province['name'] == province):
-            path = VIETNAM_FILE
-            with open(path, mode='r') as f:
-                data = json.load(f)
-                return data
-
+        # Chuyển các chuỗi trong file thành không dấu
+        name = unicodeToString(province['name'])
+        if(name == provinceName):
+            return province
     print("Cannot find")
-    return []
+    return {}
+
+
+def unicodeToString(str):
+    '''
+    Chuyển một chuỗi có unicode thành không dấu
+    '''
+
+    return unicodedata.normalize('NFKD', str).encode('ascii', 'ignore').decode('utf-8')
+
+
+def covidListToString(list):
+    '''
+    Chuyển một list dữ liệu thành string
+    - list: list dữ liệu cần chuyển
+    - return: chuỗi thông tin, không tìm thấy thì trả về "deny"
+    '''
+
+    # Không tìm thấy list sẽ rỗng
+    if(list == []):
+        return "deny"
+
+    else:
+        info = ""
+        for item in list:
+            info += covidDictToString(item, 1)
+        print(info)
+        return info
 
 
 def covidDictToString(dict, option):
-    """
-        Hàm chuyển một dictionary thông tin covid thành một chuỗi.
-        Muốn thay đổi cách hiển thị thì chỉnh biến str
+    '''
+    Hàm chuyển một dictionary thông tin covid thành một chuỗi.
+    Muốn thay đổi cách hiển thị thì chỉnh biến str
 
-        dict: dictionary đầu vào
-    """
+    - dict: dictionary đầu vào
+    - option: tùy chọn xử lý loại thông tin
+    - return: "deny" nếu như không tìm thấy thông tin và dict nhận vào là rỗng
+    - return: str nếu có thông tin và đã được chuyển thành chuỗi
+    '''
+
+    # Không tìm thấy dict sẽ rỗng
+    if(dict == {}):
+        return "deny"
 
     # Thông tin của
     if(option == 1):  # thế giới
@@ -143,12 +205,28 @@ def covidDictToString(dict, option):
         str = Template(str).substitute(
             name=dict['Country'], date=dict['Date'], cases=dict['Cases'])
         return str
-    elif(option == 2): #Việt Nam
+    else:  # Việt Nam
         str = "Province name: $name\nDeath: $death\nCases: $cases\nToday cases: $casesToday\n"
         str = Template(str).substitute(
             name=dict['name'], death=dict['death'], cases=dict['cases'], casesToday=dict['casesToday'])
         return str
 
-    return ""
 
-fetchData()
+''' Cập nhật dữ liệu trước khi chạy, nhớ gọi hàm này sau khi chạy server'''
+
+# fetchData()
+
+''' Trường hợp tìm thấy '''
+
+# Đối với thế giới thì dùng List to String để lấy chuỗi
+
+# covidListToString(getCountryData("Viet Nam"))
+
+# Đối với Việt Nam thì dùng Dict to String để lấy chuỗi
+
+# covidDictToString(getProvinceData("Ho Chi Minh"), 2)
+
+''' Trường hợp không tìm thấy'''
+
+# print(covidListToString(getCountryData("asdasd")))
+# print(covidDictToString(getProvinceData("Ha Noi"), 2))
