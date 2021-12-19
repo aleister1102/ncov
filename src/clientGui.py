@@ -256,12 +256,12 @@ def homePage(connect):
     drop.place(x=200, y=50)
 
 
-
-
 connect = cl.connectToServer()
-startPage(connect)
+if(connect != None):
+    startPage(connect)
+else:
+    window.destroy()
 # homePage()
 # registerPage()
-
 
 window.mainloop()

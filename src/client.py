@@ -147,6 +147,7 @@ def connectToServer():
         check = waitTO(client)
         if(check != 0):
             print("Time Out !!!")
+            return None
         else:
             return client
     except:
