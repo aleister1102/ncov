@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import database as db
@@ -116,12 +117,19 @@ def getCountryData(countryName, date):
     # Mở file mã thế giới để lấy các tên quốc gia
     with open(WORLD_CODE, mode="r") as f1:
         worlds = json.load(f1)
+        
 
     print("Searching World's database")
     for country in worlds:
-        if(country['country'] == countryName):
-            path = Template(WORLD_FILE).substitute(name=countryName)
+        if(country['country'] == countryName or country['code'] == countryName):
+            path = Template(WORLD_FILE).substitute(name=country['country'])
             found = True
+            
+            #Có trong danh sách nhưng không có file
+            if not os.path.isfile(path):
+                print("Cannot find")
+                return {}
+            
             # Mở file quốc gia để lấy dữ liệu
             with open(path, mode="r") as f2:
                 data = json.load(f2)
@@ -163,6 +171,7 @@ def getProvinceData(provinceName):
     with open(VIETNAM_FILE, mode="r") as f:
         provinces = json.load(f)
 
+    print("Searching Viet Nam's database")
     for province in provinces:
         # Chuyển các chuỗi trong file thành không dấu
         name = unicodeToString(province['name'])
