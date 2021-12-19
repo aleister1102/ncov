@@ -5,7 +5,7 @@ import database as db
 import api as ap
 
 HOST = socket.gethostbyname(socket.gethostname())
-# HOST = "127.0.0.1"
+#HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 

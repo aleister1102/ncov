@@ -7,6 +7,7 @@ import re
 import client as cl
 from tkcalendar import DateEntry
 from datetime import datetime
+import server as se
 
 
 global window
@@ -17,9 +18,10 @@ window.title("nCovi_client")
 window.geometry("720x480")
 window.resizable(width=False, height=False)
 
-frame2 = tk.Frame(window, highlightbackground="green", highlightthickness=3)
-frame1 = tk.Frame(window, highlightbackground="red", highlightthickness=3)
-frame3 = tk.Frame(window, highlightbackground="blue", highlightthickness=3)
+frame2 = tk.Frame(window)
+frame1 = tk.Frame(window)
+frame3 = tk.Frame(window)
+frame4 = tk.Frame(window)
 
 
 # kiểm tra đăng nhập
@@ -128,6 +130,7 @@ def hide_frame():
     frame1.pack_forget()
     frame2.pack_forget()
     frame3.pack_forget()
+    frame4.pack_forget()
 
 # đây là trang đăng nhập
 
@@ -164,9 +167,31 @@ def startPage(connect):
     button_login.place(x= 240, y = 130)
     button_register.place(x= 350, y = 130)
 
-# https://coronavirus-19-api.herokuapp.com/countries
-# lấy thông tin covid theo địa điểm
+def getIP_page():
+    ip_entry = StringVar()
 
+    ip_input = tk.Label(frame4, text="IP INPUT", font=("Georgia", 20), foreground='blue')
+    ip_entry = tk.Entry(frame4, width=30, font=("Arial",12))
+    ok_btn = tk.Button(frame4, width=10, text="OK", bg="cyan", command=lambda:checkIP())
+    
+    def checkIP():
+        IP = ip_entry.get()
+        cl.HOST = IP 
+        if(cl.HOST == se.HOST):
+            connect = cl.connectToServer()
+            if(connect != None):
+                startPage(connect)
+            else:
+                window.destroy()
+        else:
+            messagebox.showinfo("Warning", "IP Sever is incorrect")
+
+    frame4.pack(fill=BOTH, expand=1)
+    ip_input.place(x =280,y=50)
+    ip_entry.place(x= 210,y = 100)
+    ok_btn.place(x= 300, y=130)
+
+# lấy thông tin covid theo địa điểm
 
 def get_info(connect):
     information = [] # chứa vị trí và ngày
@@ -198,8 +223,6 @@ def get_info(connect):
         
 
 # Thoát chương trình
-
-
 def close_App(connect):
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         window.destroy()
@@ -256,12 +279,16 @@ def homePage(connect):
     drop.place(x=200, y=50)
 
 
-connect = cl.connectToServer()
-if(connect != None):
-    startPage(connect)
-else:
-    window.destroy()
+getIP_page()
 # homePage()
 # registerPage()
 
 window.mainloop()
+
+"""
+Nhập IP của Sever vào thì mới mở kết nối và vào trang đăng nhập
+ - Nếu nhập sai sẽ có thông báo
+ - Nhập IP trên máy á nha đừng có nhập loopback
+ - Nếu nhập đúng sẽ mở kết nối đến sever
+ - Nêu nhập IP vào trước khi mở server thì nó sẽ đứng hình chờ server hoặc sẽ timeout
+  """
