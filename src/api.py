@@ -6,7 +6,7 @@ import unicodedata
 from string import Template
 
 # World API
-WORLD_API = 'https://api.covid19api.com/dayone/country/$name/status/confirmed'
+WORLD_API = 'https://api.covid19api.com/total/country/$name'
 WORLD_FILE = '../db/worlds/$name.json'
 WORLD_CODE = '../db/codes.json'
 
@@ -23,7 +23,7 @@ def fetchCountry(name):
     '''
 
     # Loại bỏ quốc gia bị lỗi
-    
+
     if(name == 'Saint Vincent and Grenadines'):
         return
 
@@ -36,15 +36,16 @@ def fetchCountry(name):
     filePath = Template(WORLD_FILE).substitute(name=name)
 
     string = json.loads(response.content)
-    
+
     if(string != []):
         print('Fetching', name)
         db.updateJSON(filePath, string)
-    else: 
-        return 
+    else:
+        return
 
     # if(string[0]['Province'] != ""):
     #     print(name," has many provinces")
+
 
 def fetchWorld():
     '''
@@ -106,7 +107,6 @@ def fetchData():
     print("Fetching is done")
 
 
-
 def getCountryData(countryName, date):
     '''
     Lấy dữ liệu của một quốc gia bất kỳ
@@ -121,19 +121,18 @@ def getCountryData(countryName, date):
     # Mở file mã thế giới để lấy các tên quốc gia
     with open(WORLD_CODE, mode="r") as f1:
         worlds = json.load(f1)
-        
 
     print("Searching World's database")
     for country in worlds:
         if(country['country'] == countryName or country['code'] == countryName):
             path = Template(WORLD_FILE).substitute(name=country['country'])
             found = True
-            
-            #Có trong danh sách nhưng không có file
+
+            # Có trong danh sách nhưng không có file
             if not os.path.isfile(path):
                 print("Cannot find")
                 return {}
-            
+
             # Mở file quốc gia để lấy dữ liệu
             with open(path, mode="r") as f2:
                 data = json.load(f2)
@@ -144,7 +143,7 @@ def getCountryData(countryName, date):
             if(item["Date"] == date):
                 found_time = True
                 return item
-                
+
     if(found == False or found_time == False):
         print("Cannot find")
         return {}
@@ -203,28 +202,28 @@ def covidDictToString(dict, option):
 
     # Thông tin của
     if(option == 1):  # thế giới
-        str = "Country name: $name\nDates: $date\nCases: $cases\n"
+        str = "Country name: $country\nDates: $date\nConfirmed: $confirmed\nDeaths: $deaths\nRecovered: $recovered\nActive: $active\n"
         str = Template(str).substitute(
-            name=dict['Country'], date=dict['Date'], cases=dict['Cases'])
+            country=dict['Country'], date=dict['Date'], confirmed=dict['Confirmed'], deaths=dict['Deaths'], recovered=dict['Recovered'], active=dict['Active'])
         return str
-    else:  # Việt Nam
+    elif(option == 2):  # Việt Nam
         str = "Province name: $name\nDeath: $death\nCases: $cases\nToday cases: $casesToday\n"
         str = Template(str).substitute(
             name=dict['name'], death=dict['death'], cases=dict['cases'], casesToday=dict['casesToday'])
         return str
+    else:
+        return "deny"
 
 
 ''' Cập nhật dữ liệu trước khi chạy, nhớ gọi hàm này sau khi chạy server'''
 
-fetchData()
+# fetchData()
 
 ''' Đối với thế giới thì dùng Dict to String để lấy chuỗi option 1'''
 ''' Chuỗi ngày tháng sẽ có dạng như thế này: "2021-12-18"'''
 
-# date =  "2021-12-18"
-# covidDictToString(getCountryData("Thailand",date),1)
+# print(covidDictToString(getCountryData("VN","2021-12-18"),1))
 
 '''Đối với Việt Nam thì dùng Dict to String để lấy chuỗi option 2'''
 
 # covidDictToString(getProvinceData("Ho Chi Minh"), 2)
-
