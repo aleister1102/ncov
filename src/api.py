@@ -39,7 +39,8 @@ def fetchCountry(name):
     #     return
 
     string = json.loads(response.content)
-    db.updateJSON(filePath, string)
+    if(string != []):
+        db.updateJSON(filePath, string)
 
 
 def fetchWorld():

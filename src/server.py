@@ -2,7 +2,7 @@ import socket
 import threading
 from tkinter.constants import NO
 import database as db
-import api as ap
+import api
 
 HOST = socket.gethostbyname(socket.gethostname())
 #HOST = "127.0.0.1"
@@ -39,16 +39,16 @@ def recvList(connection, option):
             # Lây thông tin tỉnh thành Việt Nam
             elif(option == 3):
                 str = list[0]
-                if(ap.covidDictToString(ap.getProvinceData(str), 2)):
-                    msgServer = ap.covidDictToString(
-                        ap.getProvinceData(str), 2)
+                if(api.covidDictToString(api.getProvinceData(str), 2)):
+                    msgServer = api.covidDictToString(
+                        api.getProvinceData(str), 2)
             # Lấy thông tin thế giới
             elif(option == 4):
                 str = list[0]
                 date = list[1]
-                if(ap.covidDictToString(ap.getCountryData(str, date), 1)):
-                    msgServer = ap.covidDictToString(
-                        ap.getCountryData(str, date), 1)
+                if(api.covidDictToString(api.getCountryData(str, date), 1)):
+                    msgServer = api.covidDictToString(
+                        api.getCountryData(str, date), 1)
 
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
@@ -109,7 +109,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def openServer():
 
-    # ap.fetchData()
+    # api.fetchData()
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
