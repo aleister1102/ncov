@@ -23,7 +23,7 @@ def fetchCountry(name):
     '''
 
     # Loại bỏ quốc gia bị lỗi
-    print('Fetching', name)
+    
     if(name == 'Saint Vincent and Grenadines'):
         return
 
@@ -34,14 +34,17 @@ def fetchCountry(name):
 
     # # Kiểm tra file của nước bất kỳ có tồn tại chưa
     filePath = Template(WORLD_FILE).substitute(name=name)
-    # if(os.path.isfile(filePath)):
-    #     print('File is existed')
-    #     return
 
     string = json.loads(response.content)
+    
     if(string != []):
+        print('Fetching', name)
         db.updateJSON(filePath, string)
+    else: 
+        return 
 
+    # if(string[0]['Province'] != ""):
+    #     print(name," has many provinces")
 
 def fetchWorld():
     '''
@@ -213,7 +216,7 @@ def covidDictToString(dict, option):
 
 ''' Cập nhật dữ liệu trước khi chạy, nhớ gọi hàm này sau khi chạy server'''
 
-# fetchData()
+fetchData()
 
 ''' Đối với thế giới thì dùng Dict to String để lấy chuỗi option 1'''
 ''' Chuỗi ngày tháng sẽ có dạng như thế này: "2021-12-18"'''
