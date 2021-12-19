@@ -60,7 +60,7 @@ def removeAccount(connection, address):
         connection.sendall("True".encode(FORMAT))
 
 
-def handleClient(closed,connection, address):  # Xử lý đa luồng
+def handleClient(connection, address):  # Xử lý đa luồng
     '''
     Hàm xử lý đa luồng cho mỗi kết nối của client
     - connection: kết nối của client
@@ -126,7 +126,7 @@ def openServer():
             
             connection, address = s.accept()
             thr = threading.Thread(target=handleClient,
-                                   args=(closed,connection, address))
+                                   args=(connection, address))
             thr.daemon = True
             thr.start()
             # else:
