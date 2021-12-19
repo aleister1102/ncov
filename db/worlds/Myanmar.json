@@ -7569,6 +7569,30 @@
     "Lon": "95.96",
     "Cases": 527931,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Myanmar",
+    "CountryCode": "MM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.91",
+    "Lon": "95.96",
+    "Cases": 528101,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Myanmar",
+    "CountryCode": "MM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.91",
+    "Lon": "95.96",
+    "Cases": 528101,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

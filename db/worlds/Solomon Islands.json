@@ -5181,6 +5181,30 @@
     "Lon": "160.16",
     "Cases": 20,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Solomon Islands",
+    "CountryCode": "SB",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-9.65",
+    "Lon": "160.16",
+    "Cases": 20,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Solomon Islands",
+    "CountryCode": "SB",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-9.65",
+    "Lon": "160.16",
+    "Cases": 20,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

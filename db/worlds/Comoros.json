@@ -7161,6 +7161,30 @@
     "Lon": "43.87",
     "Cases": 4606,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Comoros",
+    "CountryCode": "KM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-11.88",
+    "Lon": "43.87",
+    "Cases": 4649,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Comoros",
+    "CountryCode": "KM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-11.88",
+    "Lon": "43.87",
+    "Cases": 4649,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

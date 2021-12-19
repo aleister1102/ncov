@@ -1413,6 +1413,30 @@
     "Lon": "134.58",
     "Cases": 8,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Palau",
+    "CountryCode": "PW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.51",
+    "Lon": "134.58",
+    "Cases": 8,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Palau",
+    "CountryCode": "PW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.51",
+    "Lon": "134.58",
+    "Cases": 8,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

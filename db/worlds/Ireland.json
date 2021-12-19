@@ -7893,6 +7893,30 @@
     "Lon": "-8.24",
     "Cases": 644143,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Ireland",
+    "CountryCode": "IE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "53.41",
+    "Lon": "-8.24",
+    "Cases": 651476,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Ireland",
+    "CountryCode": "IE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "53.41",
+    "Lon": "-8.24",
+    "Cases": 651476,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7771,8 +7771,32 @@
     "CityCode": "",
     "Lat": "8.54",
     "Lon": "-80.78",
-    "Cases": 482230,
+    "Cases": 482677,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Panama",
+    "CountryCode": "PA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "8.54",
+    "Lon": "-80.78",
+    "Cases": 482677,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Panama",
+    "CountryCode": "PA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "8.54",
+    "Lon": "-80.78",
+    "Cases": 482677,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

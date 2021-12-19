@@ -7929,6 +7929,30 @@
     "Lon": "43.36",
     "Cases": 904181,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Georgia",
+    "CountryCode": "GE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.32",
+    "Lon": "43.36",
+    "Cases": 906965,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Georgia",
+    "CountryCode": "GE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.32",
+    "Lon": "43.36",
+    "Cases": 906965,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

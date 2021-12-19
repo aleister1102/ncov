@@ -7785,6 +7785,30 @@
     "Lon": "114.73",
     "Cases": 15385,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "CountryCode": "BN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.54",
+    "Lon": "114.73",
+    "Cases": 15386,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "CountryCode": "BN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.54",
+    "Lon": "114.73",
+    "Cases": 15386,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

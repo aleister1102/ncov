@@ -7737,6 +7737,30 @@
     "Lon": "37.91",
     "Cases": 260166,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Kenya",
+    "CountryCode": "KE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-0.02",
+    "Lon": "37.91",
+    "Cases": 262335,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Kenya",
+    "CountryCode": "KE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-0.02",
+    "Lon": "37.91",
+    "Cases": 262335,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

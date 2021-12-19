@@ -7918,5 +7918,29 @@
     "Cases": 22201221,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Brazil",
+    "CountryCode": "BR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-14.24",
+    "Lon": "-51.93",
+    "Cases": 22204941,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Brazil",
+    "CountryCode": "BR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-14.24",
+    "Lon": "-51.93",
+    "Cases": 22204941,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

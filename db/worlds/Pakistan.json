@@ -7930,5 +7930,29 @@
     "Cases": 1290491,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Pakistan",
+    "CountryCode": "PK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "30.38",
+    "Lon": "69.35",
+    "Cases": 1290491,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Pakistan",
+    "CountryCode": "PK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "30.38",
+    "Lon": "69.35",
+    "Cases": 1291108,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

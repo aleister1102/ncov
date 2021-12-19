@@ -7723,8 +7723,32 @@
     "CityCode": "",
     "Lat": "10.69",
     "Lon": "-61.22",
-    "Cases": 83130,
+    "Cases": 83837,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "CountryCode": "TT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "10.69",
+    "Lon": "-61.22",
+    "Cases": 84793,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "CountryCode": "TT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "10.69",
+    "Lon": "-61.22",
+    "Cases": 84793,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

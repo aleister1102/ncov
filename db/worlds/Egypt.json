@@ -8071,8 +8071,32 @@
     "CityCode": "",
     "Lat": "26.82",
     "Lon": "30.8",
-    "Cases": 372599,
+    "Cases": 373509,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Egypt",
+    "CountryCode": "EG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.82",
+    "Lon": "30.8",
+    "Cases": 374411,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Egypt",
+    "CountryCode": "EG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.82",
+    "Lon": "30.8",
+    "Cases": 374411,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

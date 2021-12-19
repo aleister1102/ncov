@@ -7689,6 +7689,30 @@
     "Lon": "-9.43",
     "Cases": 5844,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Liberia",
+    "CountryCode": "LR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "6.43",
+    "Lon": "-9.43",
+    "Cases": 5844,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Liberia",
+    "CountryCode": "LR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "6.43",
+    "Lon": "-9.43",
+    "Cases": 5844,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7725,6 +7725,30 @@
     "Lon": "-56.03",
     "Cases": 51361,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Suriname",
+    "CountryCode": "SR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "3.92",
+    "Lon": "-56.03",
+    "Cases": 51406,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Suriname",
+    "CountryCode": "SR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "3.92",
+    "Lon": "-56.03",
+    "Cases": 51384,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

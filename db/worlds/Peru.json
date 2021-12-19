@@ -7810,5 +7810,29 @@
     "Cases": 2258456,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Peru",
+    "CountryCode": "PE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-9.19",
+    "Lon": "-75.02",
+    "Cases": 2260180,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Peru",
+    "CountryCode": "PE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-9.19",
+    "Lon": "-75.02",
+    "Cases": 2263739,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

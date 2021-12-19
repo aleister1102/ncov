@@ -7893,6 +7893,30 @@
     "Lon": "23.88",
     "Cases": 499262,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Lithuania",
+    "CountryCode": "LT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "55.17",
+    "Lon": "23.88",
+    "Cases": 500986,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Lithuania",
+    "CountryCode": "LT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "55.17",
+    "Lon": "23.88",
+    "Cases": 500986,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

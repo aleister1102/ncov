@@ -8313,6 +8313,30 @@
     "Lon": "84.12",
     "Cases": 825445,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Nepal",
+    "CountryCode": "NP",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "28.39",
+    "Lon": "84.12",
+    "Cases": 825603,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Nepal",
+    "CountryCode": "NP",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "28.39",
+    "Lon": "84.12",
+    "Cases": 825603,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

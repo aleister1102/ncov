@@ -7939,8 +7939,32 @@
     "CityCode": "",
     "Lat": "28.03",
     "Lon": "1.66",
-    "Cases": 213745,
+    "Cases": 214044,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Algeria",
+    "CountryCode": "DZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "28.03",
+    "Lon": "1.66",
+    "Cases": 214330,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Algeria",
+    "CountryCode": "DZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "28.03",
+    "Lon": "1.66",
+    "Cases": 214330,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

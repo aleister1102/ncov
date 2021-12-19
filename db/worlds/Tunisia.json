@@ -7845,6 +7845,30 @@
     "Lon": "9.54",
     "Cases": 720518,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Tunisia",
+    "CountryCode": "TN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "33.89",
+    "Lon": "9.54",
+    "Cases": 720853,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Tunisia",
+    "CountryCode": "TN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "33.89",
+    "Lon": "9.54",
+    "Cases": 720853,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

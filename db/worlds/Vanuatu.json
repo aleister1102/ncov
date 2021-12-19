@@ -4833,6 +4833,30 @@
     "Lon": "166.96",
     "Cases": 7,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Vanuatu",
+    "CountryCode": "VU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-15.38",
+    "Lon": "166.96",
+    "Cases": 7,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Vanuatu",
+    "CountryCode": "VU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-15.38",
+    "Lon": "166.96",
+    "Cases": 7,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

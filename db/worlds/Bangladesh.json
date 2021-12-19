@@ -7797,6 +7797,30 @@
     "Lon": "90.36",
     "Cases": 1580750,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bangladesh",
+    "CountryCode": "BD",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.68",
+    "Lon": "90.36",
+    "Cases": 1580872,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bangladesh",
+    "CountryCode": "BD",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.68",
+    "Lon": "90.36",
+    "Cases": 1580872,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

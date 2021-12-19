@@ -7629,6 +7629,30 @@
     "Lon": "125.73",
     "Cases": 19832,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Timor-Leste",
+    "CountryCode": "TL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-8.87",
+    "Lon": "125.73",
+    "Cases": 19833,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Timor-Leste",
+    "CountryCode": "TL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-8.87",
+    "Lon": "125.73",
+    "Cases": 19833,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

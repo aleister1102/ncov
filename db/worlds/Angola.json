@@ -7651,8 +7651,32 @@
     "CityCode": "",
     "Lat": "-11.2",
     "Lon": "17.87",
-    "Cases": 65648,
+    "Cases": 65760,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Angola",
+    "CountryCode": "AO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-11.2",
+    "Lon": "17.87",
+    "Cases": 65868,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Angola",
+    "CountryCode": "AO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-11.2",
+    "Lon": "17.87",
+    "Cases": 65868,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

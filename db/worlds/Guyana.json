@@ -7747,8 +7747,32 @@
     "CityCode": "",
     "Lat": "4.86",
     "Lon": "-58.93",
-    "Cases": 38728,
+    "Cases": 38751,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Guyana",
+    "CountryCode": "GY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.86",
+    "Lon": "-58.93",
+    "Cases": 38817,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Guyana",
+    "CountryCode": "GY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.86",
+    "Lon": "-58.93",
+    "Cases": 38817,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

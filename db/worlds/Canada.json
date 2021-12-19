@@ -8290,5 +8290,29 @@
     "Cases": 1527049,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1535569,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Canada",
+    "CountryCode": "CA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.13",
+    "Lon": "-106.35",
+    "Cases": 1541406,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

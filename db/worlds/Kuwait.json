@@ -7951,8 +7951,32 @@
     "CityCode": "",
     "Lat": "29.31",
     "Lon": "47.48",
-    "Cases": 413891,
+    "Cases": 413972,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Kuwait",
+    "CountryCode": "KW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "29.31",
+    "Lon": "47.48",
+    "Cases": 414023,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Kuwait",
+    "CountryCode": "KW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "29.31",
+    "Lon": "47.48",
+    "Cases": 414023,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

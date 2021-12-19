@@ -7665,6 +7665,30 @@
     "Lon": "-88.9",
     "Cases": 121437,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "El Salvador",
+    "CountryCode": "SV",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.79",
+    "Lon": "-88.9",
+    "Cases": 121484,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "El Salvador",
+    "CountryCode": "SV",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.79",
+    "Lon": "-88.9",
+    "Cases": 121484,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

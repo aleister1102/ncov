@@ -7449,6 +7449,30 @@
     "Lon": "6.61",
     "Cases": 3735,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "CountryCode": "ST",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0.19",
+    "Lon": "6.61",
+    "Cases": 3735,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "CountryCode": "ST",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0.19",
+    "Lon": "6.61",
+    "Cases": 3735,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

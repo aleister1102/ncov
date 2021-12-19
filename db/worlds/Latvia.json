@@ -7869,6 +7869,30 @@
     "Lon": "24.6",
     "Cases": 265806,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Latvia",
+    "CountryCode": "LV",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.88",
+    "Lon": "24.6",
+    "Cases": 266716,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Latvia",
+    "CountryCode": "LV",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.88",
+    "Lon": "24.6",
+    "Cases": 266716,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

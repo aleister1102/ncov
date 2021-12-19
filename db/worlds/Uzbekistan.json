@@ -7713,6 +7713,30 @@
     "Lon": "64.59",
     "Cases": 196739,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Uzbekistan",
+    "CountryCode": "UZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.38",
+    "Lon": "64.59",
+    "Cases": 196900,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Uzbekistan",
+    "CountryCode": "UZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.38",
+    "Lon": "64.59",
+    "Cases": 196900,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

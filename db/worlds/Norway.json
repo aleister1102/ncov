@@ -7927,8 +7927,32 @@
     "CityCode": "",
     "Lat": "60.47",
     "Lon": "8.47",
-    "Cases": 339008,
+    "Cases": 343697,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Norway",
+    "CountryCode": "NO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "60.47",
+    "Lon": "8.47",
+    "Cases": 347402,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Norway",
+    "CountryCode": "NO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "60.47",
+    "Lon": "8.47",
+    "Cases": 343697,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

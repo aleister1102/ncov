@@ -7857,6 +7857,30 @@
     "Lon": "36.24",
     "Cases": 1031549,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Jordan",
+    "CountryCode": "JO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "30.59",
+    "Lon": "36.24",
+    "Cases": 1033469,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Jordan",
+    "CountryCode": "JO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "30.59",
+    "Lon": "36.24",
+    "Cases": 1033469,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

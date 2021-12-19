@@ -7821,6 +7821,30 @@
     "Lon": "21.01",
     "Cases": 1280644,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Serbia",
+    "CountryCode": "RS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "44.02",
+    "Lon": "21.01",
+    "Cases": 1281659,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Serbia",
+    "CountryCode": "RS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "44.02",
+    "Lon": "21.01",
+    "Cases": 1281659,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7881,6 +7881,30 @@
     "Lon": "15.47",
     "Cases": 2388253,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2397246,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Czech Republic",
+    "CountryCode": "CZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "49.82",
+    "Lon": "15.47",
+    "Cases": 2397246,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

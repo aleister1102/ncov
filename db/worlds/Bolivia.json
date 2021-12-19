@@ -7761,6 +7761,30 @@
     "Lon": "-63.59",
     "Cases": 560684,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bolivia",
+    "CountryCode": "BO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-16.29",
+    "Lon": "-63.59",
+    "Cases": 563858,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bolivia",
+    "CountryCode": "BO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-16.29",
+    "Lon": "-63.59",
+    "Cases": 562638,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

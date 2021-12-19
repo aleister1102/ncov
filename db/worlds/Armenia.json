@@ -7881,6 +7881,30 @@
     "Lon": "45.04",
     "Cases": 343350,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Armenia",
+    "CountryCode": "AM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.07",
+    "Lon": "45.04",
+    "Cases": 343506,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Armenia",
+    "CountryCode": "AM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.07",
+    "Lon": "45.04",
+    "Cases": 343506,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

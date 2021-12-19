@@ -7459,8 +7459,32 @@
     "CityCode": "",
     "Lat": "7.86",
     "Lon": "29.69",
-    "Cases": 13143,
+    "Cases": 13309,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "South Sudan",
+    "CountryCode": "SS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.86",
+    "Lon": "29.69",
+    "Cases": 13309,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "South Sudan",
+    "CountryCode": "SS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.86",
+    "Lon": "29.69",
+    "Cases": 13309,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7629,6 +7629,30 @@
     "Lon": "35.53",
     "Cases": 158111,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Mozambique",
+    "CountryCode": "MZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-18.67",
+    "Lon": "35.53",
+    "Cases": 158111,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Mozambique",
+    "CountryCode": "MZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-18.67",
+    "Lon": "35.53",
+    "Cases": 158111,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

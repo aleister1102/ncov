@@ -7591,8 +7591,32 @@
     "CityCode": "",
     "Lat": "17.36",
     "Lon": "-62.78",
-    "Cases": 2798,
+    "Cases": 2801,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "CountryCode": "KN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.36",
+    "Lon": "-62.78",
+    "Cases": 2801,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "CountryCode": "KN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.36",
+    "Lon": "-62.78",
+    "Cases": 2801,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

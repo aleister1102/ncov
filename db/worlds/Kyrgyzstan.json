@@ -7677,6 +7677,30 @@
     "Lon": "74.77",
     "Cases": 184123,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "CountryCode": "KG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.2",
+    "Lon": "74.77",
+    "Cases": 184163,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "CountryCode": "KG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.2",
+    "Lon": "74.77",
+    "Cases": 184163,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

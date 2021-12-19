@@ -8218,5 +8218,29 @@
     "Cases": 1246755,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Sweden",
+    "CountryCode": "SE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "60.13",
+    "Lon": "18.64",
+    "Cases": 1250885,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Sweden",
+    "CountryCode": "SE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "60.13",
+    "Lon": "18.64",
+    "Cases": 1250885,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

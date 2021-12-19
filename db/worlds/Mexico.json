@@ -7894,5 +7894,29 @@
     "Cases": 3927265,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Mexico",
+    "CountryCode": "MX",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.63",
+    "Lon": "-102.55",
+    "Cases": 3927265,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Mexico",
+    "CountryCode": "MX",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.63",
+    "Lon": "-102.55",
+    "Cases": 3930015,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

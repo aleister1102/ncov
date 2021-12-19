@@ -7951,8 +7951,32 @@
     "CityCode": "",
     "Lat": "25.93",
     "Lon": "50.64",
-    "Cases": 278257,
+    "Cases": 278309,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bahrain",
+    "CountryCode": "BH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.93",
+    "Lon": "50.64",
+    "Cases": 278410,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bahrain",
+    "CountryCode": "BH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.93",
+    "Lon": "50.64",
+    "Cases": 278410,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

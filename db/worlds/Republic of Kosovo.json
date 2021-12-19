@@ -7725,6 +7725,30 @@
     "Lon": "20.9",
     "Cases": 161246,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Republic of Kosovo",
+    "CountryCode": "XK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.6",
+    "Lon": "20.9",
+    "Cases": 161258,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Republic of Kosovo",
+    "CountryCode": "XK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.6",
+    "Lon": "20.9",
+    "Cases": 161258,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

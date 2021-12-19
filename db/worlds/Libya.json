@@ -7605,6 +7605,30 @@
     "Lon": "17.23",
     "Cases": 381023,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Libya",
+    "CountryCode": "LY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.34",
+    "Lon": "17.23",
+    "Cases": 381023,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Libya",
+    "CountryCode": "LY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.34",
+    "Lon": "17.23",
+    "Cases": 381023,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

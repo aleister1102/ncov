@@ -7810,5 +7810,29 @@
     "Cases": 5101466,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5103269,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "CO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.57",
+    "Lon": "-74.3",
+    "Cases": 5105285,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

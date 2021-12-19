@@ -7723,8 +7723,32 @@
     "CityCode": "",
     "Lat": "-1.94",
     "Lon": "29.87",
-    "Cases": 101030,
+    "Cases": 101183,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Rwanda",
+    "CountryCode": "RW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-1.94",
+    "Lon": "29.87",
+    "Cases": 101413,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Rwanda",
+    "CountryCode": "RW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-1.94",
+    "Lon": "29.87",
+    "Cases": 101413,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

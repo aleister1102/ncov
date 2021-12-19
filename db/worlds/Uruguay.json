@@ -7735,8 +7735,32 @@
     "CityCode": "",
     "Lat": "-32.52",
     "Lon": "-55.77",
-    "Cases": 403582,
+    "Cases": 403899,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Uruguay",
+    "CountryCode": "UY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-32.52",
+    "Lon": "-55.77",
+    "Cases": 404255,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Uruguay",
+    "CountryCode": "UY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-32.52",
+    "Lon": "-55.77",
+    "Cases": 404255,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

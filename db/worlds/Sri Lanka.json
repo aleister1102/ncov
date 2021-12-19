@@ -8289,6 +8289,30 @@
     "Lon": "80.77",
     "Cases": 578439,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Sri Lanka",
+    "CountryCode": "LK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.87",
+    "Lon": "80.77",
+    "Cases": 579134,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Sri Lanka",
+    "CountryCode": "LK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.87",
+    "Lon": "80.77",
+    "Cases": 579134,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

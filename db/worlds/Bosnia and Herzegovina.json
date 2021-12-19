@@ -7833,6 +7833,30 @@
     "Lon": "17.68",
     "Cases": 284272,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "CountryCode": "BA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "43.92",
+    "Lon": "17.68",
+    "Cases": 284272,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "CountryCode": "BA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "43.92",
+    "Lon": "17.68",
+    "Cases": 284272,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

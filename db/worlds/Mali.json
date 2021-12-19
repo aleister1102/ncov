@@ -7593,6 +7593,30 @@
     "Lon": "-4",
     "Cases": 19064,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Mali",
+    "CountryCode": "ML",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.57",
+    "Lon": "-4",
+    "Cases": 19192,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Mali",
+    "CountryCode": "ML",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.57",
+    "Lon": "-4",
+    "Cases": 19192,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

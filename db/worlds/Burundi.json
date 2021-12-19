@@ -7521,6 +7521,30 @@
     "Lon": "29.92",
     "Cases": 21422,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Burundi",
+    "CountryCode": "BI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-3.37",
+    "Lon": "29.92",
+    "Cases": 21422,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Burundi",
+    "CountryCode": "BI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-3.37",
+    "Lon": "29.92",
+    "Cases": 21422,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

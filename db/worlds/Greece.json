@@ -7929,6 +7929,30 @@
     "Lon": "21.82",
     "Cases": 1026902,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Greece",
+    "CountryCode": "GR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "39.07",
+    "Lon": "21.82",
+    "Cases": 1031239,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Greece",
+    "CountryCode": "GR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "39.07",
+    "Lon": "21.82",
+    "Cases": 1031239,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7929,6 +7929,30 @@
     "Lon": "24.97",
     "Cases": 1796973,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Romania",
+    "CountryCode": "RO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "45.94",
+    "Lon": "24.97",
+    "Cases": 1797706,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Romania",
+    "CountryCode": "RO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "45.94",
+    "Lon": "24.97",
+    "Cases": 1797706,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

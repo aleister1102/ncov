@@ -7749,6 +7749,30 @@
     "Lon": "-77.78",
     "Cases": 963958,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Cuba",
+    "CountryCode": "CU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.52",
+    "Lon": "-77.78",
+    "Cases": 964035,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Cuba",
+    "CountryCode": "CU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.52",
+    "Lon": "-77.78",
+    "Cases": 964035,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

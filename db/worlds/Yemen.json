@@ -7401,6 +7401,30 @@
     "Lon": "48.52",
     "Cases": 10092,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Yemen",
+    "CountryCode": "YE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "15.55",
+    "Lon": "48.52",
+    "Cases": 10097,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Yemen",
+    "CountryCode": "YE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "15.55",
+    "Lon": "48.52",
+    "Cases": 10097,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

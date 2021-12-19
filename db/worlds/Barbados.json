@@ -7687,8 +7687,32 @@
     "CityCode": "",
     "Lat": "13.19",
     "Lon": "-59.54",
-    "Cases": 27071,
+    "Cases": 27126,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Barbados",
+    "CountryCode": "BB",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.19",
+    "Lon": "-59.54",
+    "Cases": 27169,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Barbados",
+    "CountryCode": "BB",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.19",
+    "Lon": "-59.54",
+    "Cases": 27169,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

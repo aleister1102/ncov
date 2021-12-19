@@ -7735,8 +7735,32 @@
     "CityCode": "",
     "Lat": "17.06",
     "Lon": "-61.8",
-    "Cases": 4178,
+    "Cases": 4186,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "CountryCode": "AG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.06",
+    "Lon": "-61.8",
+    "Cases": 4198,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "CountryCode": "AG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.06",
+    "Lon": "-61.8",
+    "Cases": 4186,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

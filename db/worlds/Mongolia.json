@@ -7773,6 +7773,30 @@
     "Lon": "103.85",
     "Cases": 386520,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Mongolia",
+    "CountryCode": "MN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "46.86",
+    "Lon": "103.85",
+    "Cases": 386787,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Mongolia",
+    "CountryCode": "MN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "46.86",
+    "Lon": "103.85",
+    "Cases": 386787,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7723,8 +7723,32 @@
     "CityCode": "",
     "Lat": "-0.8",
     "Lon": "11.61",
-    "Cases": 37681,
+    "Cases": 37743,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Gabon",
+    "CountryCode": "GA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-0.8",
+    "Lon": "11.61",
+    "Cases": 37743,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Gabon",
+    "CountryCode": "GA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-0.8",
+    "Lon": "11.61",
+    "Cases": 37743,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

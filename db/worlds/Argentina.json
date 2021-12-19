@@ -7855,8 +7855,32 @@
     "CityCode": "",
     "Lat": "-38.42",
     "Lon": "-63.62",
-    "Cases": 5376642,
+    "Cases": 5382290,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Argentina",
+    "CountryCode": "AR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-38.42",
+    "Lon": "-63.62",
+    "Cases": 5386453,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Argentina",
+    "CountryCode": "AR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-38.42",
+    "Lon": "-63.62",
+    "Cases": 5386453,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

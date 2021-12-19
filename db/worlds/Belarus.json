@@ -7905,6 +7905,30 @@
     "Lon": "27.95",
     "Cases": 681517,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Belarus",
+    "CountryCode": "BY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "53.71",
+    "Lon": "27.95",
+    "Cases": 683172,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Belarus",
+    "CountryCode": "BY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "53.71",
+    "Lon": "27.95",
+    "Cases": 683172,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

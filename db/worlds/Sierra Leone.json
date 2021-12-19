@@ -7521,6 +7521,30 @@
     "Lon": "-11.78",
     "Cases": 6452,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Sierra Leone",
+    "CountryCode": "SL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "8.46",
+    "Lon": "-11.78",
+    "Cases": 6471,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Sierra Leone",
+    "CountryCode": "SL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "8.46",
+    "Lon": "-11.78",
+    "Cases": 6471,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

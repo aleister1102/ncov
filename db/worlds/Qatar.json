@@ -7893,6 +7893,30 @@
     "Lon": "51.18",
     "Cases": 246188,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Qatar",
+    "CountryCode": "QA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.35",
+    "Lon": "51.18",
+    "Cases": 246367,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Qatar",
+    "CountryCode": "QA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.35",
+    "Lon": "51.18",
+    "Cases": 246367,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -8302,5 +8302,29 @@
     "Cases": 2707402,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Malaysia",
+    "CountryCode": "MY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.21",
+    "Lon": "101.98",
+    "Cases": 2711764,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Malaysia",
+    "CountryCode": "MY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.21",
+    "Lon": "101.98",
+    "Cases": 2715847,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

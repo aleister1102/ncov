@@ -7723,8 +7723,32 @@
     "CityCode": "",
     "Lat": "13.91",
     "Lon": "-60.98",
-    "Cases": 13127,
+    "Cases": 13136,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Saint Lucia",
+    "CountryCode": "LC",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.91",
+    "Lon": "-60.98",
+    "Cases": 13136,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Saint Lucia",
+    "CountryCode": "LC",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.91",
+    "Lon": "-60.98",
+    "Cases": 13136,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7954,5 +7954,29 @@
     "Cases": 1787676,
     "Status": "confirmed",
     "Date": "2021-12-16T00:00:00Z"
+  },
+  {
+    "Country": "Chile",
+    "CountryCode": "CL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-35.68",
+    "Lon": "-71.54",
+    "Cases": 1789109,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Chile",
+    "CountryCode": "CL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-35.68",
+    "Lon": "-71.54",
+    "Cases": 1790524,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
   }
 ]

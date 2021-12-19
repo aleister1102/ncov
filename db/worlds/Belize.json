@@ -7615,8 +7615,32 @@
     "CityCode": "",
     "Lat": "17.19",
     "Lon": "-88.5",
-    "Cases": 31217,
+    "Cases": 31246,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Belize",
+    "CountryCode": "BZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.19",
+    "Lon": "-88.5",
+    "Cases": 31246,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Belize",
+    "CountryCode": "BZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "17.19",
+    "Lon": "-88.5",
+    "Cases": 31246,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

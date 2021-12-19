@@ -8265,6 +8265,30 @@
     "Lon": "53.85",
     "Cases": 743586,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "CountryCode": "AE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.42",
+    "Lon": "53.85",
+    "Cases": 743586,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "CountryCode": "AE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.42",
+    "Lon": "53.85",
+    "Cases": 743586,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

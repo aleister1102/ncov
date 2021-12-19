@@ -7689,6 +7689,30 @@
     "Lon": "-15.31",
     "Cases": 10051,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Gambia",
+    "CountryCode": "GM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.44",
+    "Lon": "-15.31",
+    "Cases": 10051,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Gambia",
+    "CountryCode": "GM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.44",
+    "Lon": "-15.31",
+    "Cases": 10051,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7869,6 +7869,30 @@
     "Lon": "45.08",
     "Cases": 550622,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "CountryCode": "SA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.89",
+    "Lon": "45.08",
+    "Cases": 550738,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Saudi Arabia",
+    "CountryCode": "SA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.89",
+    "Lon": "45.08",
+    "Cases": 550738,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

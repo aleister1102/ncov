@@ -7497,6 +7497,30 @@
     "Lon": "34.3",
     "Cases": 63944,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Malawi",
+    "CountryCode": "MW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-13.25",
+    "Lon": "34.3",
+    "Cases": 64412,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Malawi",
+    "CountryCode": "MW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-13.25",
+    "Lon": "34.3",
+    "Cases": 64412,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

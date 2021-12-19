@@ -8337,6 +8337,30 @@
     "Lon": "108.28",
     "Cases": 1508473,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Viet Nam",
+    "CountryCode": "VN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "14.06",
+    "Lon": "108.28",
+    "Cases": 1524368,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Viet Nam",
+    "CountryCode": "VN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "14.06",
+    "Lon": "108.28",
+    "Cases": 1524368,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

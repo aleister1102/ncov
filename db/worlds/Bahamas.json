@@ -7701,6 +7701,30 @@
     "Lon": "-77.4",
     "Cases": 22995,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bahamas",
+    "CountryCode": "BS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.03",
+    "Lon": "-77.4",
+    "Cases": 22995,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bahamas",
+    "CountryCode": "BS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "25.03",
+    "Lon": "-77.4",
+    "Cases": 22995,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

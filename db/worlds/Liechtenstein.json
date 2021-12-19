@@ -7845,6 +7845,30 @@
     "Lon": "9.56",
     "Cases": 5647,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Liechtenstein",
+    "CountryCode": "LI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "47.17",
+    "Lon": "9.56",
+    "Cases": 5647,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Liechtenstein",
+    "CountryCode": "LI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "47.17",
+    "Lon": "9.56",
+    "Cases": 5647,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7533,6 +7533,30 @@
     "Lon": "24.68",
     "Cases": 199864,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Botswana",
+    "CountryCode": "BW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-22.33",
+    "Lon": "24.68",
+    "Cases": 199864,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Botswana",
+    "CountryCode": "BW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-22.33",
+    "Lon": "24.68",
+    "Cases": 199864,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

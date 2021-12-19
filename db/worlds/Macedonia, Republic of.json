@@ -7929,6 +7929,30 @@
     "Lon": "21.75",
     "Cases": 220794,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Macedonia, Republic of",
+    "CountryCode": "MK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.61",
+    "Lon": "21.75",
+    "Cases": 221095,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Macedonia, Republic of",
+    "CountryCode": "MK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.61",
+    "Lon": "21.75",
+    "Cases": 221095,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -10418,13 +10418,61 @@
   {
     "Country": "New Zealand",
     "CountryCode": "NZ",
+    "Province": "Cook Islands",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-21.24",
+    "Lon": "-159.78",
+    "Cases": 2,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
     "Province": "",
     "City": "",
     "CityCode": "",
     "Lat": "-40.9",
     "Lon": "174.89",
-    "Cases": 13317,
+    "Cases": 13366,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "Province": "Cook Islands",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-21.24",
+    "Lon": "-159.78",
+    "Cases": 2,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-40.9",
+    "Lon": "174.89",
+    "Cases": 13425,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-40.9",
+    "Lon": "174.89",
+    "Cases": 13366,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

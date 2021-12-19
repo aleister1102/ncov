@@ -8253,6 +8253,30 @@
     "Lon": "121.77",
     "Cases": 2837464,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Philippines",
+    "CountryCode": "PH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.88",
+    "Lon": "121.77",
+    "Cases": 2837555,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Philippines",
+    "CountryCode": "PH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.88",
+    "Lon": "121.77",
+    "Cases": 2837555,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

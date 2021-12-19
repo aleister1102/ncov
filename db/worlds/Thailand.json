@@ -8349,6 +8349,30 @@
     "Lon": "100.99",
     "Cases": 2185497,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Thailand",
+    "CountryCode": "TH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "15.87",
+    "Lon": "100.99",
+    "Cases": 2188629,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Thailand",
+    "CountryCode": "TH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "15.87",
+    "Lon": "100.99",
+    "Cases": 2188629,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

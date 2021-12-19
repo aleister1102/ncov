@@ -7711,8 +7711,32 @@
     "CityCode": "",
     "Lat": "1.65",
     "Lon": "10.27",
-    "Cases": 13617,
+    "Cases": 13618,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "CountryCode": "GQ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "1.65",
+    "Lon": "10.27",
+    "Cases": 13618,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "CountryCode": "GQ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "1.65",
+    "Lon": "10.27",
+    "Cases": 13618,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

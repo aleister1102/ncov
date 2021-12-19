@@ -7821,6 +7821,30 @@
     "Lon": "12.35",
     "Cases": 107662,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Cameroon",
+    "CountryCode": "CM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.37",
+    "Lon": "12.35",
+    "Cases": 107662,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Cameroon",
+    "CountryCode": "CM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.37",
+    "Lon": "12.35",
+    "Cases": 107662,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

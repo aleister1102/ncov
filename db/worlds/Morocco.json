@@ -7869,6 +7869,30 @@
     "Lon": "-7.09",
     "Cases": 952398,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Morocco",
+    "CountryCode": "MA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.79",
+    "Lon": "-7.09",
+    "Cases": 952628,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Morocco",
+    "CountryCode": "MA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.79",
+    "Lon": "-7.09",
+    "Cases": 952628,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

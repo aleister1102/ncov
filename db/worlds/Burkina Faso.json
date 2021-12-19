@@ -7773,6 +7773,30 @@
     "Lon": "-1.56",
     "Cases": 16672,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Burkina Faso",
+    "CountryCode": "BF",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.24",
+    "Lon": "-1.56",
+    "Cases": 16672,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Burkina Faso",
+    "CountryCode": "BF",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.24",
+    "Lon": "-1.56",
+    "Cases": 16672,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

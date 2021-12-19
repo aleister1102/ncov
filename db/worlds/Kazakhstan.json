@@ -7737,6 +7737,30 @@
     "Lon": "66.92",
     "Cases": 1065597,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Kazakhstan",
+    "CountryCode": "KZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.02",
+    "Lon": "66.92",
+    "Cases": 1066534,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Kazakhstan",
+    "CountryCode": "KZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.02",
+    "Lon": "66.92",
+    "Cases": 1066094,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

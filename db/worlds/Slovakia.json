@@ -7821,6 +7821,30 @@
     "Lon": "19.7",
     "Cases": 1316172,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1321091,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Slovakia",
+    "CountryCode": "SK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.67",
+    "Lon": "19.7",
+    "Cases": 1321091,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

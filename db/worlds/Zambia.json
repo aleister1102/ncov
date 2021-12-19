@@ -7677,6 +7677,30 @@
     "Lon": "27.85",
     "Cases": 214433,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Zambia",
+    "CountryCode": "ZM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-13.13",
+    "Lon": "27.85",
+    "Cases": 215472,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Zambia",
+    "CountryCode": "ZM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-13.13",
+    "Lon": "27.85",
+    "Cases": 215472,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

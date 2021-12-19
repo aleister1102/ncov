@@ -7689,6 +7689,30 @@
     "Lon": "19.37",
     "Cases": 160655,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Montenegro",
+    "CountryCode": "ME",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.71",
+    "Lon": "19.37",
+    "Cases": 160818,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Montenegro",
+    "CountryCode": "ME",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.71",
+    "Lon": "19.37",
+    "Cases": 160818,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

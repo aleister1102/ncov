@@ -7869,6 +7869,30 @@
     "Lon": "-14.45",
     "Cases": 74129,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Senegal",
+    "CountryCode": "SN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "14.5",
+    "Lon": "-14.45",
+    "Cases": 74141,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Senegal",
+    "CountryCode": "SN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "14.5",
+    "Lon": "-14.45",
+    "Cases": 74141,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

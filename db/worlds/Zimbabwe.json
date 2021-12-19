@@ -7651,8 +7651,32 @@
     "CityCode": "",
     "Lat": "-19.02",
     "Lon": "29.15",
-    "Cases": 186304,
+    "Cases": 189567,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Zimbabwe",
+    "CountryCode": "ZW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-19.02",
+    "Lon": "29.15",
+    "Cases": 189567,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Zimbabwe",
+    "CountryCode": "ZW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-19.02",
+    "Lon": "29.15",
+    "Cases": 189567,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -7653,6 +7653,30 @@
     "Lon": "46.87",
     "Cases": 45794,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Madagascar",
+    "CountryCode": "MG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-18.77",
+    "Lon": "46.87",
+    "Cases": 47295,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Madagascar",
+    "CountryCode": "MG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-18.77",
+    "Lon": "46.87",
+    "Cases": 45794,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

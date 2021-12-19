@@ -8289,6 +8289,30 @@
     "Lon": "104.99",
     "Cases": 120405,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Cambodia",
+    "CountryCode": "KH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.57",
+    "Lon": "104.99",
+    "Cases": 120410,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Cambodia",
+    "CountryCode": "KH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.57",
+    "Lon": "104.99",
+    "Cases": 120410,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

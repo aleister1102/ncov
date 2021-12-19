@@ -7833,6 +7833,30 @@
     "Lon": "35.23",
     "Cases": 465094,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Palestinian Territory",
+    "CountryCode": "PS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.95",
+    "Lon": "35.23",
+    "Cases": 465094,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Palestinian Territory",
+    "CountryCode": "PS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.95",
+    "Lon": "35.23",
+    "Cases": 465094,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

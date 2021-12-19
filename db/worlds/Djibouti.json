@@ -7675,8 +7675,32 @@
     "CityCode": "",
     "Lat": "11.83",
     "Lon": "42.59",
-    "Cases": 13526,
+    "Cases": 13527,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Djibouti",
+    "CountryCode": "DJ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "11.83",
+    "Lon": "42.59",
+    "Cases": 13528,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Djibouti",
+    "CountryCode": "DJ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "11.83",
+    "Lon": "42.59",
+    "Cases": 13528,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

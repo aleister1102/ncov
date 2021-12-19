@@ -8349,6 +8349,30 @@
     "Lon": "120.96",
     "Cases": 16786,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Taiwan, Republic of China",
+    "CountryCode": "TW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.7",
+    "Lon": "120.96",
+    "Cases": 16799,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Taiwan, Republic of China",
+    "CountryCode": "TW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.7",
+    "Lon": "120.96",
+    "Cases": 16799,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

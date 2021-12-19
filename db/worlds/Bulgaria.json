@@ -7795,8 +7795,32 @@
     "CityCode": "",
     "Lat": "42.73",
     "Lon": "25.49",
-    "Cases": 721819,
+    "Cases": 723433,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Bulgaria",
+    "CountryCode": "BG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.73",
+    "Lon": "25.49",
+    "Cases": 724337,
     "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bulgaria",
+    "CountryCode": "BG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.73",
+    "Lon": "25.49",
+    "Cases": 724337,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]

@@ -23445,6 +23445,78 @@
     "Lon": "9.5",
     "Cases": 600468,
     "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "Faroe Islands",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.89",
+    "Lon": "-6.91",
+    "Cases": 4639,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "Greenland",
+    "City": "",
+    "CityCode": "",
+    "Lat": "71.71",
+    "Lon": "-42.6",
+    "Cases": 1969,
+    "Status": "confirmed",
+    "Date": "2021-12-17T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "Greenland",
+    "City": "",
+    "CityCode": "",
+    "Lat": "71.71",
+    "Lon": "-42.6",
+    "Cases": 1969,
+    "Status": "confirmed",
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "Faroe Islands",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.89",
+    "Lon": "-6.91",
+    "Cases": 4639,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.26",
+    "Lon": "9.5",
+    "Cases": 609062,
+    "Status": "confirmed",
+    "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Denmark",
+    "CountryCode": "DK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "56.26",
+    "Lon": "9.5",
+    "Cases": 609062,
+    "Status": "confirmed",
+    "Date": "2021-12-19T00:00:00Z"
   }
 ]
