@@ -11,7 +11,6 @@ FORMAT = "utf8"
 
 live_account = []
 
-
 def recvList(connection, option):
     '''
     Hàm nhận danh sách từ phía client theo một option cho trước
@@ -48,27 +47,31 @@ def recvList(connection, option):
                 str = list[0]
                 date = list[1]
                 if(ap.covidDictToString(ap.getCountryData(str, date), 1)):
-                    msgServer = ap.covidDictToString(ap.getCountryData(str, date),1)
+                    msgServer = ap.covidDictToString(
+                        ap.getCountryData(str, date), 1)
 
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
 
+
 def removeAccount(connection, address):
     for address in live_account:
         live_account.remove(str(address))
-        connection.sendall("True".encode(FORMAT)) 
+        connection.sendall("True".encode(FORMAT))
 
-def handleClient(connection, address):  # Xử lý đa luồng
+
+def handleClient(closed,connection, address):  # Xử lý đa luồng
     '''
     Hàm xử lý đa luồng cho mỗi kết nối của client
     - connection: kết nối của client
     - address: địa chỉ IP và port của client
     '''
-
+    
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     temp = "running"
     live_account.append(str(address))
+
     # msgClient = None
 
     try:
@@ -91,8 +94,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 pass
             else:
                 temp = "stop"
-        
-        
+
         print("Client: ", address, " is disconnected !!!")
         print(connection.getsockname(), " closed !!!")
         removeAccount(connection, address)
@@ -100,7 +102,6 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     except:
         connection.close()
-
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -122,10 +123,11 @@ def openServer():
             # if(type != "x"):
             global address
             global connection
+            
             connection, address = s.accept()
             thr = threading.Thread(target=handleClient,
-                                   args=(connection, address))
-            thr.daemon = False
+                                   args=(closed,connection, address))
+            thr.daemon = True
             thr.start()
             # else:
             # print("Server is closed !!!")
@@ -140,6 +142,3 @@ def openServer():
 def closeServer(s):
     print("\t--- END SERVER ---")
     s.close()
-
-
-
