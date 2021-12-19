@@ -112,6 +112,7 @@ def getCountryData(countryName, date):
 
     dict = {}
     found = False
+    found_time = False
     # Mở file mã thế giới để lấy các tên quốc gia
     with open(WORLD_CODE, mode="r") as f1:
         worlds = json.load(f1)
@@ -129,9 +130,10 @@ def getCountryData(countryName, date):
         date += "T00:00:00Z"
         for item in data:
             if(item["Date"] == date):
+                found_time = True
                 return item
                 
-    else:
+    if(found == False or found_time == False):
         print("Cannot find")
         return {}
 
