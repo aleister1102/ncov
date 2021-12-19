@@ -9,6 +9,8 @@ HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
+live_account = []
+
 
 def recvList(connection, option):
     '''
@@ -44,12 +46,17 @@ def recvList(connection, option):
             # Lấy thông tin thế giới
             elif(option == 4):
                 str = list[0]
-                if(ap.covidListToString(ap.getCountryData(str)) != ""):
-                    msgServer = ap.covidListToString(ap.getCountryData(str))
+                date = list[1]
+                if(ap.covidDictToString(ap.getCountryData(str, date), 1)):
+                    msgServer = ap.covidDictToString(ap.getCountryData(str, date),1)
 
         # Gửi hồi đáp cho bên client
         connection.sendall(msgServer.encode(FORMAT))
 
+def removeAccount(connection, address):
+    for address in live_account:
+        live_account.remove(str(address))
+        connection.sendall("True".encode(FORMAT)) 
 
 def handleClient(connection, address):  # Xử lý đa luồng
     '''
@@ -61,7 +68,9 @@ def handleClient(connection, address):  # Xử lý đa luồng
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     temp = "running"
+    live_account.append(str(address))
     # msgClient = None
+
     try:
         while(temp == "running"):
 
@@ -82,13 +91,16 @@ def handleClient(connection, address):  # Xử lý đa luồng
                 pass
             else:
                 temp = "stop"
-
+        
+        
         print("Client: ", address, " is disconnected !!!")
         print(connection.getsockname(), " closed !!!")
+        removeAccount(connection, address)
         connection.close()
 
     except:
         connection.close()
+
 
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -130,5 +142,4 @@ def closeServer(s):
     s.close()
 
 
-#openServer()
 

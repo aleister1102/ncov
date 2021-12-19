@@ -34,7 +34,10 @@ def sendList(client, list):
     for item in list:
         client.sendall(item.encode(FORMAT))
         # Chờ phản hồi từ server
-        msgServer = client.recv(1024).decode(FORMAT)
+        try:
+            msgServer = client.recv(1024).decode(FORMAT)
+        except:
+            pass
    # msgServer = client.recv(1024).decode(FORMAT)
     return msgServer
 
@@ -49,7 +52,7 @@ def sendOption(client, msgClient, list):
 
     # Kiểm tra xem server có bị mất kết nối đột ngột không
     if(checkConnection(client) == False):
-        return
+        return "stop"
 
     # Gửi option và kiểm tra có gửi được không
     client.sendall(msgClient.encode(FORMAT))
@@ -57,7 +60,7 @@ def sendOption(client, msgClient, list):
 
     # Server phản hồi lại khác thì chưa gửi được
     if(msgServer != msgClient):
-        return
+        return "stop"
 
     # Xử lý các option
     # option 1 là login

@@ -1,11 +1,12 @@
+from calendar import calendar, month
 import tkinter as tk
 from tkinter import StringVar, messagebox
 from tkinter import ttk
 from tkinter.constants import ANCHOR, BOTH, CENTER, INSERT, LEFT, RIGHT, TRUE
-import requests
-import json
 import re
 import client as cl
+from tkcalendar import DateEntry
+from datetime import datetime
 
 
 global window
@@ -13,7 +14,7 @@ window = tk.Tk()
 
 window.title("nCovi_client")
 # window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
-window.geometry("600x400")
+window.geometry("720x480")
 window.resizable(width=False, height=False)
 
 frame2 = tk.Frame(window, highlightbackground="green", highlightthickness=3)
@@ -30,18 +31,22 @@ def check_login(connect):
 
     account.append(username)
     account.append(password)
-
+    
     if(username == "" or password == ""):
-        messagebox.showinfo("", "Blank not allowed")
+        messagebox.showinfo("Warning", "Blank not allowed")
     elif (len(username) >= 30) or (len(password) >= 30):
-        messagebox.showinfo("", "Too much character" + "\n" +
+        messagebox.showinfo("Warning", "Too much character" + "\n" +
                             "The username or password must less than 30 character")
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
-        messagebox.showinfo("", "Error! Only letters a-z allowed!")
-    elif cl.sendOption(connect, "1", account) == "accept":
-        homePage(connect)
+        messagebox.showinfo("Warning", "Error! Only letters a-z allowed!")
     else:
-        messagebox.showinfo("", "username or password is incorrect")
+        check =  cl.sendOption(connect, "1", account)
+        if check == "stop":
+            messagebox.showinfo("Warning", "server is not running")
+        elif check == "accept":
+            homePage(connect)  
+        else:
+            messagebox.showinfo("Warning", "username or password is incorrect")
 
 # đăng kí tài khoảng
 
@@ -54,9 +59,9 @@ def create_Account(connect):
     confirm_password = pws_confirm.get()
 
     if(username == "" or password == ""):
-        messagebox.showinfo("", "Blank not allowed")
+        messagebox.showinfo("Warning", "Blank not allowed")
     elif (len(username) >= 30) or (len(password) >= 30):
-        messagebox.showinfo("", "Too much character" + "\n" +
+        messagebox.showinfo("Warning", "Too much character" + "\n" +
                             "The username or password must less than 30 character")
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
         messagebox.showinfo("", "Error! Only letters a-z allowed!")
@@ -64,13 +69,16 @@ def create_Account(connect):
         if confirm_password == password:
             account_send.append(username)
             account_send.append(password)
-            if cl.sendOption(connect, "0", account_send) == True:
+            check =  cl.sendOption(connect, "2", account_send)
+            if check == "stop":
+                messagebox.showinfo("Warning", "server is not running")
+            elif check == "accept":
                 homePage(connect)
             else:
-                messagebox.showinfo("", "The account already exists")
+                messagebox.showinfo("Warning", "The account already exists")
                 homePage(connect)
         else:
-            messagebox.showinfo("", "Incorrect password !")
+            messagebox.showinfo("Warning", "Incorrect password !")
 
 # trang để đăng kí
 
@@ -103,14 +111,15 @@ def registerPage(connect):
 
     frame3.pack(fill="both", expand=1)
 
-    label_page.place(x=250, y=15)
-    label_username.place(x=150, y=50)
-    sign_up_usn.place(x=220, y=58)
-    label_password.place(x=150, y=90)
-    sign_up_psw.place(x=220, y=98)
-    label_confirm.place(x=150, y=130)
-    pws_confirm.place(x=220, y=138)
-    button_login.place(x=250, y=168)
+    label_page.place(x=300, y=15)
+    label_username.place(x=200, y=50)
+    sign_up_usn.place(x=270, y=58)
+    label_password.place(x=200, y=90)
+    sign_up_psw.place(x=270, y=98)
+    label_confirm.place(x = 200, y = 130)
+    pws_confirm.place(x= 270,y=138)
+    button_login.place(x=300, y=168)
+
 
 # ẩn frame cũ khi chuyển frame
 
@@ -145,37 +154,48 @@ def startPage(connect):
 
     frame1.pack(fill=BOTH, expand=1)
 
-    app_name.place(x=250)
-
-    label_username.place(x=130, y=50)
-    entry_username.place(x=200, y=60)
-    label_password.place(x=130, y=90)
-    entry_password.place(x=200, y=100)
+    app_name.place(x=310)
+    
+    label_username.place(x= 190, y= 50)
+    entry_username.place(x= 260, y = 60)
+    label_password.place(x=190, y =90)
+    entry_password.place(x= 260, y = 100)
     entry_password.config(show='*')
-    button_login.place(x=180, y=130)
-    button_register.place(x=290, y=130)
+    button_login.place(x= 240, y = 130)
+    button_register.place(x= 350, y = 130)
 
 # https://coronavirus-19-api.herokuapp.com/countries
 # lấy thông tin covid theo địa điểm
 
 
 def get_info(connect):
-    location = []
+    information = [] # chứa vị trí và ngày
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
+    time = my_date.get_date() 
+    str_time = time.strftime("%Y-%m-%d")
 
     selected = drop.get()
 
     if selected == "Search by.....":
         info_page.insert(0.0, "You forgot to pick a dropdown menu!")
     elif selected == "World":
-        location.append(text_1)
-        str_name = cl.sendOption(connect,"4", location)
-        info_page.insert(0.0, str_name)
+        information.append(text_1)
+        information.append(str_time)
+        str_name = cl.sendOption(connect,"4", information)
+        if str_name == "stop":
+            messagebox.showinfo("Warning", "server is not running")
+        else:
+            info_page.insert(0.0, str_name)
+        
     elif selected == "Viet Nam":
-        location.append(text_1)
-        str_name = cl.sendOption(connect,"3", location)
-        info_page.insert(0.0, str_name)
+        information.append(text_1)
+        str_name = cl.sendOption(connect,"3", information)
+        if str_name == "stop":
+            messagebox.showinfo("Warning", "server is not running")
+        else:
+            info_page.insert(0.0, str_name)
+        
 
 # Thoát chương trình
 
@@ -189,6 +209,7 @@ def close_App(connect):
 # đây là trang xem thông tin
 def homePage(connect):
     hide_frame()
+    
 
     label_title = tk.Label(frame2, text='Home Page',
                            font=("Georgia", 20), foreground="blue")
@@ -198,10 +219,12 @@ def homePage(connect):
     global info_entry
     global info_page
     global drop
+    global my_date
     info_entry = StringVar()
+    my_date = StringVar()
 
     info_entry = tk.Entry(frame2, width=30)
-    info_page = tk.Text(frame2, font=("Arial", 12), width=50, height=15)
+    info_page = tk.Text(frame2, font=("Arial", 12), width=60, height=15)
     info_page.insert(0.0, "write without accents ")
 
     ok_button = tk.Button(frame2, text="Ok", width=5,
@@ -211,28 +234,34 @@ def homePage(connect):
     # combobox
     drop = ttk.Combobox(frame2, values=["Search by.....", "World", "Viet Nam"])
     drop.current(0)
+    # date picker
+    my_date = DateEntry(frame2, selectmode='day',year = 2021, month=12, day=19)
 
     def click(event):
         info_entry.configure(state="normal")
         info_entry.delete(0, "end")
 
     frame2.pack(fill=BOTH, expand=1)
-
+    
+    my_date.place(x=350,y=50)
     label_title.place(x=10, y=5)
-    logout_button.place(x=500, y=10)
+    logout_button.place(x=600, y=10)
     info_page.place(x=100, y=100)
     info_entry.place(x=10, y=50)
     info_entry.insert(0, "enter your location")
     info_entry.configure(state="disabled")
     info_entry.bind("<Button-1>", click)
-    ok_button.place(x=350, y=47)
-    quit_button.place(x=500, y=45)
+    ok_button.place(x=450, y=47)
+    quit_button.place(x=600, y=45)
     drop.place(x=200, y=50)
+
+
 
 
 connect = cl.connectToServer()
 startPage(connect)
 # homePage()
 # registerPage()
+
 
 window.mainloop()
