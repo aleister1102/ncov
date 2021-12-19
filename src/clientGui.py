@@ -76,7 +76,7 @@ def create_Account(connect):
                 homePage(connect)
             else:
                 messagebox.showinfo("Warning", "The account already exists")
-                homePage(connect)
+                startPage(connect)
         else:
             messagebox.showinfo("Warning", "Incorrect password !")
 
