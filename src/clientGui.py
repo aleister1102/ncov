@@ -182,6 +182,7 @@ def getIP_page():
             if(connect != None):
                 startPage(connect)
             else:
+                messagebox.showinfo("Warning", "Time out")
                 window.destroy()
         else:
             messagebox.showinfo("Warning", "IP Sever is incorrect")
