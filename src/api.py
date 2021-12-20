@@ -11,8 +11,8 @@ specificCountries = ["Belgium", "Germany", "Canada", "China", "Ukraine", "New Ze
                      "Japan", "Spain", "Australia", "Peru", "India", "Pakistan", "Mexico"]
 
 # World API
-WORLD_API = 'https://api.covid19api.com/total/country/$name'
-WORLD_LATEST_API = 'https://api.covid19api.com/live/country/$name'
+WORLD_API = 'https://api.covid19api.com/total/country/$code'
+WORLD_LATEST_API = 'https://api.covid19api.com/live/country/$code'
 WORLD_FILE = '../db/worlds/$name.json'
 WORLD_LATEST_FILE = '../db/latest/$name.json'
 WORLD_CODE = '../db/codes.json'
@@ -21,20 +21,21 @@ VIETNAM = 'https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/L
 VIETNAM_FILE = '../db/vietnam_specific.json'
 
 
-def fetchCountry(name):
+def fetchCountry(name,code):
     '''
     Cập nhật thông tin covid của một quốc gia
      - name: tên quốc gia
+     - code: mã quốc gia
     '''
 
     # Loại bỏ quốc gia bị lỗi
     if(name == 'Saint Vincent and Grenadines'):
         return
 
-    # Lấy dữ liệu total và latest
-    response_total = requests.get(Template(WORLD_API).substitute(name=name))
+    # Lấy dữ liệu total và latest bằng code
+    response_total = requests.get(Template(WORLD_API).substitute(code=code))
     response_latest = requests.get(
-        Template(WORLD_LATEST_API).substitute(name=name))
+        Template(WORLD_LATEST_API).substitute(code=code))
 
     if(response_total.status_code != 200 or response_latest.status_code != 200):
         return
@@ -42,7 +43,7 @@ def fetchCountry(name):
     string_total = json.loads(response_total.content)
     string_latest = json.loads(response_latest.content)
 
-    # Tạo đường dẫn
+    # Tạo đường dẫn bằng name
     filePathTotal = Template(WORLD_FILE).substitute(name=name)
     filePathLatest = Template(WORLD_LATEST_FILE).substitute(name=name)
     if(string_total != [] and string_latest != []):
@@ -69,7 +70,7 @@ def fetchWorld():
 
     # Cập nhật cho từng quốc gia
     for country in worlds:
-        fetchCountry(country['country'])
+        fetchCountry(country['country'],country['code'])
     print("World database is updated")
     return True
 
@@ -345,3 +346,4 @@ def covidDictToString(dict, option):
     else:
         return "deny"
 
+fetchData()
