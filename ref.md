@@ -11,3 +11,10 @@ https://youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV
 https://viblo.asia/p/lap-trinh-socket-bang-python-jvEla084Zkw
 https://youtube.com/playlist?list=PLF5iDxYhcQyf19PKUm4vi9jDp5OByF5Wt
 
+https://github.com/apify/covid-19#master:vietnam
+https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+https://stackoverflow.com/questions/48024720/python-how-to-check-if-socket-is-still-connected
+https://stackoverflow.com/questions/577234/python-extend-for-a-dictionary
+https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#487b7483-ad29-4b2e-9c6d-5b8d3693ddd5
+https://www.geeksforgeeks.org/read-json-file-using-python/
+
