@@ -119,8 +119,6 @@ def openServer():
     s.listen()
     while(1):
         try:
-            # type = input()
-            # if(type != "x"):
             global address
             global connection
             
@@ -129,10 +127,6 @@ def openServer():
                                    args=(connection, address))
             thr.daemon = True
             thr.start()
-            # else:
-            # print("Server is closed !!!")
-            # closeServer(s)
-            # break
         except:
             print("Server is closed !!!")
             closeServer(s)

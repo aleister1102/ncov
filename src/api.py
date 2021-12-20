@@ -4,17 +4,15 @@ import json
 import database as db
 import unicodedata
 from string import Template
-
 # World API
 WORLD_API = 'https://api.covid19api.com/total/country/$name'
+WORLD_LATEST_API = 'https://api.covid19api.com/live/country/$name'
 WORLD_FILE = '../db/worlds/$name.json'
+WORLD_LATEST_FILE = '../db/latest/$name.json'
 WORLD_CODE = '../db/codes.json'
-
 # Vietnam API
-
 VIETNAM = 'https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true&utf8=1'
 VIETNAM_FILE = '../db/vietnam_specific.json'
-
 
 def fetchCountry(name):
     '''
@@ -27,24 +25,28 @@ def fetchCountry(name):
     if(name == 'Saint Vincent and Grenadines'):
         return
 
-    # Lấy API
-    response = requests.get(Template(WORLD_API).substitute(name=name))
-    if(response.status_code != 200):
+    # Lấy dữ liệu total và latest
+
+    response_total = requests.get(Template(WORLD_API).substitute(name=name))
+    response_latest = requests.get(
+        Template(WORLD_LATEST_API).substitute(name=name))
+
+    if(response_total.status_code != 200 or response_latest.status_code != 200):
         return
 
-    # # Kiểm tra file của nước bất kỳ có tồn tại chưa
-    filePath = Template(WORLD_FILE).substitute(name=name)
+    string_total = json.loads(response_total.content)
+    string_latest = json.loads(response_latest.content)
 
-    string = json.loads(response.content)
+    # Tạo đường dẫn
 
-    if(string != []):
+    filePathTotal = Template(WORLD_FILE).substitute(name=name)
+    filePathLatest = Template(WORLD_LATEST_FILE).substitute(name=name)
+    if(string_total != [] and string_latest != []):
         print('Fetching', name)
-        db.updateJSON(filePath, string)
+        db.updateJSON(filePathTotal, string_total)
+        db.updateJSON(filePathLatest, string_latest)
     else:
         return
-
-    # if(string[0]['Province'] != ""):
-    #     print(name," has many provinces")
 
 
 def fetchWorld():
@@ -52,21 +54,19 @@ def fetchWorld():
     Cập nhật thông tin covid của toàn thế giới và lưu về data base
     - return: True nếu cập nhật thành công, False nếu ngược lại
     '''
-
+    
     # Nếu đã cập nhật thì return
     if(db.isUpdated()):
         print("World database is already updated")
         return False  # Nếu không có cập nhật
-
     with open(WORLD_CODE, mode="r") as f:
         worlds = json.load(f)
-
     print("Fetching World's database")
+
     # Cập nhật cho từng quốc gia
     for country in worlds:
         fetchCountry(country['country'])
     print("World database is updated")
-
     return True
 
 
@@ -79,8 +79,8 @@ def fetchVietnam():
     if(db.isUpdated()):
         print("Vietnam database is already updated")
         return False  # Nếu không có cập nhật
-
     print("Fetching Vietnam's province")
+    
     # Gọi API
     rq = requests.get(VIETNAM)
     if(rq.status_code != 200):
@@ -121,13 +121,12 @@ def getCountryData(countryName, date):
     # Mở file mã thế giới để lấy các tên quốc gia
     with open(WORLD_CODE, mode="r") as f1:
         worlds = json.load(f1)
-
     print("Searching World's database")
     for country in worlds:
         if(country['country'] == countryName or country['code'] == countryName):
             path = Template(WORLD_FILE).substitute(name=country['country'])
             found = True
-
+                    
             # Có trong danh sách nhưng không có file
             if not os.path.isfile(path):
                 print("Cannot find")
@@ -189,7 +188,6 @@ def covidDictToString(dict, option):
     '''
     Hàm chuyển một dictionary thông tin covid thành một chuỗi.
     Muốn thay đổi cách hiển thị thì chỉnh biến str
-
     - dict: dictionary đầu vào
     - option: tùy chọn xử lý loại thông tin
     - return: "deny" nếu như không tìm thấy thông tin và dict nhận vào là rỗng
@@ -202,7 +200,7 @@ def covidDictToString(dict, option):
 
     # Thông tin của
     if(option == 1):  # thế giới
-        str = "Country name: $country\nDates: $date\nConfirmed: $confirmed\nDeaths: $deaths\nRecovered: $recovered\nActive: $active\n"
+        str = "Country name: $country\nDates: $date\nConfirmed: $confirmed\nDeaths: $deaths\nRecovered: $recovered\nActive: $active\nToday Cases: $casesToday\n"
         str = Template(str).substitute(
             country=dict['Country'], date=dict['Date'], confirmed=dict['Confirmed'], deaths=dict['Deaths'], recovered=dict['Recovered'], active=dict['Active'])
         return str
@@ -217,7 +215,9 @@ def covidDictToString(dict, option):
 
 ''' Cập nhật dữ liệu trước khi chạy, nhớ gọi hàm này sau khi chạy server'''
 
-# fetchData()
+
+fetchData()
+
 
 ''' Đối với thế giới thì dùng Dict to String để lấy chuỗi option 1'''
 ''' Chuỗi ngày tháng sẽ có dạng như thế này: "2021-12-18"'''
