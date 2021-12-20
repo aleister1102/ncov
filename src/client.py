@@ -7,7 +7,7 @@ SERVER_PORT = 52467
 FORMAT = "utf8"
 
 
-def checkConnection(client):
+def checkServer(client):
     '''
     Hàm kiểm tra xem server có bị mất kết nối đột ngột hay không
     - client: connection của client
@@ -51,7 +51,7 @@ def sendOption(client, msgClient, list):
     '''
 
     # Kiểm tra xem server có bị mất kết nối đột ngột không
-    if(checkConnection(client) == False):
+    if(checkServer(client) == False):
         return "stop"
 
     # Gửi option và kiểm tra có gửi được không
@@ -112,25 +112,20 @@ def waitTO(client):
     - client: kết nối đã mở của client
     - return: 0 nếu kết nối thành công, 1 nếu quá timeout
     '''
-    connect = 0
+
     connectTime = 0
+    socket.setdefaulttimeout(1.0)
     check = client.connect_ex((HOST, SERVER_PORT))
-    print("Client address: ", client.getsockname())
 
-    # Vòng lặp chờ Server mở kết nối
+    # Vòng lặp chờ Server mở kết nối, không cần tái kết nối trong mỗi lần lặp
+    # Lý do là vì nhập IP bất kỳ không có thiết bị sử dụng có thể dẫn đến treo chương trình
+    if(check != 0):
+        print("Waiting for Server open the connection ...")
     while(connectTime <= 10 and check != 0):
-        if(connect == 0):
-            print("Waiting for Server open the connection ...")
-            connect = 1
-
-        check = client.connect_ex((HOST, SERVER_PORT))
-
-        if(check == 0):
-            break
-
         connectTime += 1
         time.sleep(1)
 
+    check = client.connect_ex((HOST, SERVER_PORT))
     return check
 
 
@@ -139,20 +134,20 @@ def connectToServer():
     Hàm mở kết nối đến server
     - return: một kết nối nếu kết nối thành công đến server
     '''
+
+    print("CLIENT SIDE")
+
     # Tạo kết nối
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    
-    if(checkConnection(client) == False):
-        return None
-    
+
     try:
-        print("CLIENT SIDE")
         # Chờ time out
         check = waitTO(client)
         if(check != 0):
-            print("Time Out !!!")
+            print("Time Out or server is not available !!!")
             return None
         else:
+            print("Client address: ", client.getsockname())
             return client
     except:
         print("ERROR !!!")

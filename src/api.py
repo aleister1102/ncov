@@ -345,5 +345,3 @@ def covidDictToString(dict, option):
         return str
     else:
         return "deny"
-
-fetchData()
