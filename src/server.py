@@ -114,25 +114,28 @@ def openServer():
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
+    
+    try:
+        s.bind((HOST, SERVER_PORT))
+        s.listen()
+        
+        while(1):
+            try:
+                global address
+                global connection
+                
+                connection, address = s.accept()
+                thr = threading.Thread(target=handleClient,
+                                    args=(connection, address))
+                thr.daemon = True
+                thr.start()
+            except:
+                print("Server is closed !!!")
+                break
 
-    s.bind((HOST, SERVER_PORT))
-    s.listen()
-    while(1):
-        try:
-            global address
-            global connection
-            
-            connection, address = s.accept()
-            thr = threading.Thread(target=handleClient,
-                                   args=(connection, address))
-            thr.daemon = True
-            thr.start()
-        except:
-            print("Server is closed !!!")
-            closeServer(s)
-            break
-
-
+    except:
+        print("Server is already opened")
+        
 def closeServer(s):
     print("\t--- END SERVER ---")
     s.close()
