@@ -121,11 +121,12 @@ def waitTO(client):
     # Lý do là vì nhập IP bất kỳ không có thiết bị sử dụng có thể dẫn đến treo chương trình
     if(check != 0):
         print("Waiting for Server open the connection ...")
-    while(connectTime <= 10 and check != 0):
-        connectTime += 1
-        time.sleep(1)
+        while(connectTime <= 10 and check != 0):
+            connectTime += 1
+            time.sleep(1)
 
-    check = client.connect_ex((HOST, SERVER_PORT))
+        check = client.connect_ex((HOST, SERVER_PORT))
+        
     return check
 
 
