@@ -24,6 +24,7 @@ def readLatestTime():
 
     # Nếu dòng cuối rỗng
     if(strTime == ""):
+        print("Last line in 'udpate_time.txt' must empty")
         strTime = timeList[-2]
 
     # Chuyển về kiểu datetime và trả về

@@ -141,6 +141,10 @@ def connectToServer():
     '''
     # Tạo kết nối
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    
+    if(checkConnection(client) == False):
+        return None
+    
     try:
         print("CLIENT SIDE")
         # Chờ time out

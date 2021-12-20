@@ -6,7 +6,6 @@ from tkinter.constants import END
 import server as se
 
 
-#Đóng gói hàm lại, không gọi hàm ở ngoài như thế này
 window = tk.Tk()
 
 window.title("nCovi_server")

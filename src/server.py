@@ -109,7 +109,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def openServer():
 
-    # api.fetchData()
+    api.fetchData()
 
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
