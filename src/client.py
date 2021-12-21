@@ -2,7 +2,7 @@ import time
 import socket
 
 
-HOST = ""
+HOST = "192.168.1.254"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 

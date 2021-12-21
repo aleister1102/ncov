@@ -33,7 +33,7 @@ def check_login(connect):
 
     account.append(username)
     account.append(password)
-
+    
     if(username == "" or password == ""):
         messagebox.showinfo("Warning", "Blank not allowed")
     elif (len(username) >= 30) or (len(password) >= 30):
@@ -42,11 +42,11 @@ def check_login(connect):
     elif not (re.match("^[a-zA-Z0-9]*$", username) and re.match("^[a-zA-Z0-9]*$", password)):
         messagebox.showinfo("Warning", "Error! Only letters a-z allowed!")
     else:
-        check = cl.sendOption(connect, "1", account)
+        check =  cl.sendOption(connect, "1", account)
         if check == "stop":
             messagebox.showinfo("Warning", "server is not running")
         elif check == "accept":
-            homePage(connect)
+            homePage(connect)  
         else:
             messagebox.showinfo("Warning", "username or password is incorrect")
 
@@ -71,7 +71,7 @@ def create_Account(connect):
         if confirm_password == password:
             account_send.append(username)
             account_send.append(password)
-            check = cl.sendOption(connect, "2", account_send)
+            check =  cl.sendOption(connect, "2", account_send)
             if check == "stop":
                 messagebox.showinfo("Warning", "server is not running")
             elif check == "accept":
@@ -118,8 +118,8 @@ def registerPage(connect):
     sign_up_usn.place(x=270, y=58)
     label_password.place(x=200, y=90)
     sign_up_psw.place(x=270, y=98)
-    label_confirm.place(x=200, y=130)
-    pws_confirm.place(x=270, y=138)
+    label_confirm.place(x = 200, y = 130)
+    pws_confirm.place(x= 270,y=138)
     button_login.place(x=300, y=168)
 
 
@@ -158,66 +158,46 @@ def startPage(connect):
     frame1.pack(fill=BOTH, expand=1)
 
     app_name.place(x=310)
-
-    label_username.place(x=190, y=50)
-    entry_username.place(x=260, y=60)
-    label_password.place(x=190, y=90)
-    entry_password.place(x=260, y=100)
+    
+    label_username.place(x= 190, y= 50)
+    entry_username.place(x= 260, y = 60)
+    label_password.place(x=190, y =90)
+    entry_password.place(x= 260, y = 100)
     entry_password.config(show='*')
-    button_login.place(x=240, y=130)
-    button_register.place(x=350, y=130)
-
-
-def validateIP(s):
-    a = s.split('.')
-    if len(a) != 4:
-        return False
-    for x in a:
-        if not x.isdigit():
-            return False
-        i = int(x)
-        if i < 0 or i > 255:
-            return False
-    if(s == "192.168.1.1"):
-        return False
-    return True
-
+    button_login.place(x= 240, y = 130)
+    button_register.place(x= 350, y = 130)
 
 def getIP_page():
     ip_entry = StringVar()
 
-    ip_input = tk.Label(frame4, text="IP INPUT", font=(
-        "Georgia", 20), foreground='blue')
-    ip_entry = tk.Entry(frame4, width=30, font=("Arial", 12))
-    ok_btn = tk.Button(frame4, width=10, text="OK",
-                       bg="cyan", command=lambda: checkIP())
-
+    ip_input = tk.Label(frame4, text="IP INPUT", font=("Georgia", 20), foreground='blue')
+    ip_entry = tk.Entry(frame4, width=30, font=("Arial",12))
+    ok_btn = tk.Button(frame4, width=10, text="OK", bg="cyan", command=lambda:checkIP())
+    
     def checkIP():
         IP = ip_entry.get()
-        cl.HOST = IP
-        if(validateIP(cl.HOST)):
+        cl.HOST = IP 
+        if(cl.HOST == se.HOST):
             connect = cl.connectToServer()
             if(connect != None):
                 startPage(connect)
             else:
-                messagebox.showinfo("Warning", "Time out or server is not available")
-                getIP_page()
+                window.destroy()
         else:
             messagebox.showinfo("Warning", "IP Sever is incorrect")
 
     frame4.pack(fill=BOTH, expand=1)
-    ip_input.place(x=280, y=50)
-    ip_entry.place(x=210, y=100)
-    ok_btn.place(x=300, y=130)
+    ip_input.place(x =280,y=50)
+    ip_entry.place(x= 210,y = 100)
+    ok_btn.place(x= 300, y=130)
 
 # lấy thông tin covid theo địa điểm
 
-
 def get_info(connect):
-    information = []  # chứa vị trí và ngày
+    information = [] # chứa vị trí và ngày
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
-    time = my_date.get_date()
+    time = my_date.get_date() 
     str_time = time.strftime("%Y-%m-%d")
 
     selected = drop.get()
@@ -227,20 +207,20 @@ def get_info(connect):
     elif selected == "World":
         information.append(text_1)
         information.append(str_time)
-        str_name = cl.sendOption(connect, "4", information)
+        str_name = cl.sendOption(connect,"4", information)
         if str_name == "stop":
             messagebox.showinfo("Warning", "server is not running")
         else:
             info_page.insert(0.0, str_name)
-
+        
     elif selected == "Viet Nam":
         information.append(text_1)
-        str_name = cl.sendOption(connect, "3", information)
+        str_name = cl.sendOption(connect,"3", information)
         if str_name == "stop":
             messagebox.showinfo("Warning", "server is not running")
         else:
             info_page.insert(0.0, str_name)
-
+        
 
 # Thoát chương trình
 def close_App(connect):
@@ -252,6 +232,7 @@ def close_App(connect):
 # đây là trang xem thông tin
 def homePage(connect):
     hide_frame()
+    
 
     label_title = tk.Label(frame2, text='Home Page',
                            font=("Georgia", 20), foreground="blue")
@@ -270,22 +251,22 @@ def homePage(connect):
     info_page.insert(0.0, "write without accents ")
 
     ok_button = tk.Button(frame2, text="Ok", width=5,
-                          bg="cyan", command=lambda: get_info(connect))
+                          bg="cyan", command=lambda:get_info(connect))
     quit_button = tk.Button(frame2, text='Quit', width=10,
                             command=lambda: close_App(connect))
     # combobox
     drop = ttk.Combobox(frame2, values=["Search by.....", "World", "Viet Nam"])
     drop.current(0)
     # date picker
-    my_date = DateEntry(frame2, selectmode='day', year=2021, month=12, day=19)
+    my_date = DateEntry(frame2, selectmode='day',year = 2021, month=12, day=19)
 
     def click(event):
         info_entry.configure(state="normal")
         info_entry.delete(0, "end")
 
     frame2.pack(fill=BOTH, expand=1)
-
-    my_date.place(x=350, y=50)
+    
+    my_date.place(x=350,y=50)
     label_title.place(x=10, y=5)
     logout_button.place(x=600, y=10)
     info_page.place(x=100, y=100)
