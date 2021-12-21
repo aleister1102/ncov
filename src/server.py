@@ -107,7 +107,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 def openServer():
     
-    api.fetchData()
+    
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
@@ -118,6 +118,10 @@ def openServer():
         
         while(1):
             try:
+                # Cập nhật cơ sở dữ liệu
+                
+                api.fetchData()
+                
                 global address
                 global connection
                 
