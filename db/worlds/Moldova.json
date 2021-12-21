@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 372200,
-    "Deaths": 9493,
+    "Confirmed": 372154,
+    "Deaths": 9482,
     "Recovered": 0,
     "Active": 362672,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Moldova",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 372200,
+    "Deaths": 9493,
+    "Recovered": 0,
+    "Active": 362707,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Moldova",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 372429,
+    "Deaths": 9521,
+    "Recovered": 0,
+    "Active": 362908,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 275910,
-    "Deaths": 813,
+    "Confirmed": 275655,
+    "Deaths": 810,
     "Recovered": 0,
     "Active": 274845,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Singapore",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 275910,
+    "Deaths": 813,
+    "Recovered": 0,
+    "Active": 275097,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Singapore",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 276105,
+    "Deaths": 815,
+    "Recovered": 0,
+    "Active": 275290,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

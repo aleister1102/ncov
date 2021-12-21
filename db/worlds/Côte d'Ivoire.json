@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 61371,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "C\u00f4te d'Ivoire",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 62077,
+    "Deaths": 706,
+    "Recovered": 0,
+    "Active": 61371,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "C\u00f4te d'Ivoire",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 62166,
+    "Deaths": 706,
+    "Recovered": 0,
+    "Active": 61460,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

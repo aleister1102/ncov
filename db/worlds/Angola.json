@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 65938,
+    "Confirmed": 65868,
     "Deaths": 1738,
     "Recovered": 0,
     "Active": 64130,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Angola",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 65938,
+    "Deaths": 1738,
+    "Recovered": 0,
+    "Active": 64200,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Angola",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 66086,
+    "Deaths": 1738,
+    "Recovered": 0,
+    "Active": 64348,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 23916,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Seychelles",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 24047,
+    "Deaths": 131,
+    "Recovered": 0,
+    "Active": 23916,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Seychelles",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 24128,
+    "Deaths": 131,
+    "Recovered": 0,
+    "Active": 23997,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

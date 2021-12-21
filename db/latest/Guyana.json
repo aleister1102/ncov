@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 37840,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "a3aac36c-17f0-4d40-9cfd-496e6d0e0fb0",
+    "Country": "Guyana",
+    "CountryCode": "GY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "4.86",
+    "Lon": "-58.93",
+    "Confirmed": 38891,
+    "Deaths": 1033,
+    "Recovered": 0,
+    "Active": 37858,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 220499,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "f9036edc-a429-4b66-b0ff-aa6f616ab84d",
+    "Country": "Nigeria",
+    "CountryCode": "NG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "9.08",
+    "Lon": "8.68",
+    "Confirmed": 225255,
+    "Deaths": 2985,
+    "Recovered": 0,
+    "Active": 222270,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

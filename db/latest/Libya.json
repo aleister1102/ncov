@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 376151,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "5e754866-4268-4e80-8c8b-45058aef050c",
+    "Country": "Libya",
+    "CountryCode": "LY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.34",
+    "Lon": "17.23",
+    "Confirmed": 382341,
+    "Deaths": 5607,
+    "Recovered": 0,
+    "Active": 376734,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

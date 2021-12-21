@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 6912,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "7915cc88-0947-4d35-add6-5c8536042177",
+    "Country": "San Marino",
+    "CountryCode": "SM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "43.94",
+    "Lon": "12.46",
+    "Confirmed": 7007,
+    "Deaths": 95,
+    "Recovered": 0,
+    "Active": 6912,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

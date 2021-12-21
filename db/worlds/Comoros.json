@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 4498,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Comoros",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 4649,
+    "Deaths": 151,
+    "Recovered": 0,
+    "Active": 4498,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Comoros",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 4677,
+    "Deaths": 152,
+    "Recovered": 0,
+    "Active": 4525,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

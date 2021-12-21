@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 4369,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "2b44ef09-feb8-4d59-b3d3-4f88b82b3680",
+    "Country": "Monaco",
+    "CountryCode": "MC",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "43.75",
+    "Lon": "7.41",
+    "Confirmed": 4406,
+    "Deaths": 37,
+    "Recovered": 0,
+    "Active": 4369,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

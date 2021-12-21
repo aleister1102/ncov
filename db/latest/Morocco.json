@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 938005,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "b30cd610-1559-460e-8327-888b8227ba07",
+    "Country": "Morocco",
+    "CountryCode": "MA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.79",
+    "Lon": "-7.09",
+    "Confirmed": 952916,
+    "Deaths": 14810,
+    "Recovered": 0,
+    "Active": 938106,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

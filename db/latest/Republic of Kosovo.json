@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 158273,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "eef6f728-494d-4a97-be7f-dc4fe1569d69",
+    "Country": "Republic of Kosovo",
+    "CountryCode": "XK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "42.6",
+    "Lon": "20.9",
+    "Confirmed": 161265,
+    "Deaths": 2989,
+    "Recovered": 0,
+    "Active": 158276,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 4975886,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 5107323,
+    "Deaths": 129458,
+    "Recovered": 0,
+    "Active": 4977865,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Colombia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 5109022,
+    "Deaths": 129487,
+    "Recovered": 0,
+    "Active": 4979535,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

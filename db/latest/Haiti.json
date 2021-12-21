@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 25155,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "8a86cb22-f958-4cf3-81f8-504844eb4190",
+    "Country": "Haiti",
+    "CountryCode": "HT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "18.97",
+    "Lon": "-72.29",
+    "Confirmed": 25923,
+    "Deaths": 765,
+    "Recovered": 0,
+    "Active": 25158,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

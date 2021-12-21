@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 157787,
-    "Deaths": 7335,
+    "Confirmed": 157745,
+    "Deaths": 7333,
     "Recovered": 0,
     "Active": 150412,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Afghanistan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 157787,
+    "Deaths": 7335,
+    "Recovered": 0,
+    "Active": 150452,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Afghanistan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 157795,
+    "Deaths": 7335,
+    "Recovered": 0,
+    "Active": 150460,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

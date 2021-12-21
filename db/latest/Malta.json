@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 41382,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "0d774a44-ba41-4365-9437-e0456b4ec2f4",
+    "Country": "Malta",
+    "CountryCode": "MT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "35.94",
+    "Lon": "14.38",
+    "Confirmed": 42105,
+    "Deaths": 471,
+    "Recovered": 0,
+    "Active": 41634,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

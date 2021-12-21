@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 663382,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "69c558fe-0197-43de-93ae-9282141292a5",
+    "Country": "Croatia",
+    "CountryCode": "HR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "45.1",
+    "Lon": "15.2",
+    "Confirmed": 675730,
+    "Deaths": 12043,
+    "Recovered": 0,
+    "Active": 663687,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

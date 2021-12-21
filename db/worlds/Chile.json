@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 1751684,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Chile",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1791776,
+    "Deaths": 38864,
+    "Recovered": 0,
+    "Active": 1752912,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Chile",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1792902,
+    "Deaths": 38885,
+    "Recovered": 0,
+    "Active": 1754017,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

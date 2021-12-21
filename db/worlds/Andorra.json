@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 20415,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Andorra",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 20549,
+    "Deaths": 134,
+    "Recovered": 0,
+    "Active": 20415,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Andorra",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 21062,
+    "Deaths": 137,
+    "Recovered": 0,
+    "Active": 20925,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

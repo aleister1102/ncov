@@ -5248,5 +5248,35 @@
     "Recovered": 0,
     "Active": 13376,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "66b7851c-1994-4257-90f2-215c462c61f4",
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-40.9",
+    "Lon": "174.89",
+    "Confirmed": 13495,
+    "Deaths": 49,
+    "Recovered": 0,
+    "Active": 13446,
+    "Date": "2021-12-21T00:00:00Z"
+  },
+  {
+    "ID": "99bb6993-4e8c-47a3-96ab-90ab505f8b0d",
+    "Country": "New Zealand",
+    "CountryCode": "NZ",
+    "Province": "Cook Islands",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-21.24",
+    "Lon": "-159.78",
+    "Confirmed": 2,
+    "Deaths": 0,
+    "Recovered": 0,
+    "Active": 2,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

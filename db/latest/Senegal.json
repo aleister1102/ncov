@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 72275,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "cd70c1aa-d703-4abd-8ccc-0694031ce2fa",
+    "Country": "Senegal",
+    "CountryCode": "SN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "14.5",
+    "Lon": "-14.45",
+    "Confirmed": 74183,
+    "Deaths": 1886,
+    "Recovered": 0,
+    "Active": 72297,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

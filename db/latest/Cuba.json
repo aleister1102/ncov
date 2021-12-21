@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 955783,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "9a7afc11-8018-4f8f-a028-c96645c0c3c8",
+    "Country": "Cuba",
+    "CountryCode": "CU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.52",
+    "Lon": "-77.78",
+    "Confirmed": 964176,
+    "Deaths": 8315,
+    "Recovered": 0,
+    "Active": 955861,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 404460,
-    "Deaths": 6155,
+    "Confirmed": 404255,
+    "Deaths": 6153,
     "Recovered": 0,
     "Active": 398102,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Uruguay",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 404460,
+    "Deaths": 6155,
+    "Recovered": 0,
+    "Active": 398305,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Uruguay",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 404821,
+    "Deaths": 6156,
+    "Recovered": 0,
+    "Active": 398665,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

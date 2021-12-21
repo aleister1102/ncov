@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 541980,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "26cde205-c605-44de-a075-7ee6c7a1dc19",
+    "Country": "Saudi Arabia",
+    "CountryCode": "SA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "23.89",
+    "Lon": "45.08",
+    "Confirmed": 550988,
+    "Deaths": 8864,
+    "Recovered": 0,
+    "Active": 542124,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

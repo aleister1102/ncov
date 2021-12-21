@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 502536,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "47bd86fe-9266-4b8a-bedc-344bc88fe7c7",
+    "Country": "Ecuador",
+    "CountryCode": "EC",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-1.83",
+    "Lon": "-78.18",
+    "Confirmed": 536129,
+    "Deaths": 33593,
+    "Recovered": 0,
+    "Active": 502536,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 656600,
+    "Confirmed": 651476,
     "Deaths": 5835,
     "Recovered": 0,
     "Active": 645641,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Ireland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 656600,
+    "Deaths": 5835,
+    "Recovered": 0,
+    "Active": 650765,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Ireland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 661388,
+    "Deaths": 5835,
+    "Recovered": 0,
+    "Active": 655553,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

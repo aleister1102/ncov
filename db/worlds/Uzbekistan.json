@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 197074,
-    "Deaths": 1458,
+    "Confirmed": 196900,
+    "Deaths": 1456,
     "Recovered": 0,
     "Active": 195444,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Uzbekistan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 197074,
+    "Deaths": 1458,
+    "Recovered": 0,
+    "Active": 195616,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Uzbekistan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 197268,
+    "Deaths": 1461,
+    "Recovered": 0,
+    "Active": 195807,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

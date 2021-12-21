@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 528253,
-    "Deaths": 19220,
+    "Confirmed": 528101,
+    "Deaths": 19213,
     "Recovered": 0,
     "Active": 508888,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Myanmar",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 528253,
+    "Deaths": 19220,
+    "Recovered": 0,
+    "Active": 509033,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Myanmar",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 528380,
+    "Deaths": 19226,
+    "Recovered": 0,
+    "Active": 509154,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

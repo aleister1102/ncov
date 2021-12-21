@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 22667,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "39735122-4553-4bcf-8e3a-8cc32191f460",
+    "Country": "Mauritius",
+    "CountryCode": "MU",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-20.35",
+    "Lon": "57.55",
+    "Confirmed": 22907,
+    "Deaths": 240,
+    "Recovered": 0,
+    "Active": 22667,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

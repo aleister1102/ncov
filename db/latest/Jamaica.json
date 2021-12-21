@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 89574,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "caf4f909-f196-4006-85fe-303cc2e1f887",
+    "Country": "Jamaica",
+    "CountryCode": "JM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "18.11",
+    "Lon": "-77.3",
+    "Confirmed": 92089,
+    "Deaths": 2449,
+    "Recovered": 0,
+    "Active": 89640,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

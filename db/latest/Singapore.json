@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 275097,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "13848035-e4df-42f3-bbd4-f7fc759080c3",
+    "Country": "Singapore",
+    "CountryCode": "SG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "1.35",
+    "Lon": "103.82",
+    "Confirmed": 276105,
+    "Deaths": 815,
+    "Recovered": 0,
+    "Active": 275290,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

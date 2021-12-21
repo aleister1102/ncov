@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 443066,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "80bf221a-be47-402b-8b57-1fd104b15b85",
+    "Country": "Slovenia",
+    "CountryCode": "SI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "46.15",
+    "Lon": "15",
+    "Confirmed": 449149,
+    "Deaths": 5506,
+    "Recovered": 0,
+    "Active": 443643,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

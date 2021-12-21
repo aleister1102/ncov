@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 22282,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bahamas",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 22995,
+    "Deaths": 713,
+    "Recovered": 0,
+    "Active": 22282,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Bahamas",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 23112,
+    "Deaths": 713,
+    "Recovered": 0,
+    "Active": 22399,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 195616,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "e55d55d3-2775-408f-a9e8-46e047a1d053",
+    "Country": "Uzbekistan",
+    "CountryCode": "UZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.38",
+    "Lon": "64.59",
+    "Confirmed": 197268,
+    "Deaths": 1461,
+    "Recovered": 0,
+    "Active": 195807,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 447573,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "e008693a-ac24-4692-86a1-3e5c85d94d39",
+    "Country": "Paraguay",
+    "CountryCode": "PY",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-23.44",
+    "Lon": "-58.44",
+    "Confirmed": 464703,
+    "Deaths": 16583,
+    "Recovered": 0,
+    "Active": 448120,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

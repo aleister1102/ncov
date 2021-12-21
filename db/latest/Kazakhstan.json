@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1048449,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "fc98a0ed-c3d7-4516-9f1a-87628f82d0f2",
+    "Country": "Kazakhstan",
+    "CountryCode": "KZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "48.02",
+    "Lon": "66.92",
+    "Confirmed": 1066934,
+    "Deaths": 18119,
+    "Recovered": 0,
+    "Active": 1048815,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

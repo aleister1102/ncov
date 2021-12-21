@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 353096,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "7ca9ca99-d797-4f1e-9124-6d00cb6f7c40",
+    "Country": "Egypt",
+    "CountryCode": "EG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "26.82",
+    "Lon": "30.8",
+    "Confirmed": 376233,
+    "Deaths": 21410,
+    "Recovered": 0,
+    "Active": 354823,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

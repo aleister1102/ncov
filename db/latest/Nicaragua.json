@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 17176,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "07e2c5c2-8de3-4e5c-96a3-3c6916903bcf",
+    "Country": "Nicaragua",
+    "CountryCode": "NI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.87",
+    "Lon": "-85.21",
+    "Confirmed": 17391,
+    "Deaths": 215,
+    "Recovered": 0,
+    "Active": 17176,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 15402,
+    "Confirmed": 15386,
     "Deaths": 98,
     "Recovered": 0,
     "Active": 15288,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 15402,
+    "Deaths": 98,
+    "Recovered": 0,
+    "Active": 15304,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Brunei Darussalam",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 15412,
+    "Deaths": 98,
+    "Recovered": 0,
+    "Active": 15314,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

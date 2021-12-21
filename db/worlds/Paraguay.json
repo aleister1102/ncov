@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 447573,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Paraguay",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 464096,
+    "Deaths": 16523,
+    "Recovered": 0,
+    "Active": 447573,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Paraguay",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 464703,
+    "Deaths": 16583,
+    "Recovered": 0,
+    "Active": 448120,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

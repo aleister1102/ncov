@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 460239,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Palestinian Territory",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 465094,
+    "Deaths": 4855,
+    "Recovered": 0,
+    "Active": 460239,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Palestinian Territory",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 466669,
+    "Deaths": 4870,
+    "Recovered": 0,
+    "Active": 461799,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

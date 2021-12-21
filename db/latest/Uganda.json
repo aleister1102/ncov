@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 125788,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "2082c659-7312-4579-806e-a1a0eb57ac59",
+    "Country": "Uganda",
+    "CountryCode": "UG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "1.37",
+    "Lon": "32.29",
+    "Confirmed": 129319,
+    "Deaths": 3274,
+    "Recovered": 0,
+    "Active": 126045,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

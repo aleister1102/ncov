@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 98299,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "8ddd0f67-ed73-44ae-87e4-960bb13e7d45",
+    "Country": "Lao PDR",
+    "CountryCode": "LA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "19.86",
+    "Lon": "102.5",
+    "Confirmed": 99396,
+    "Deaths": 274,
+    "Recovered": 0,
+    "Active": 99122,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

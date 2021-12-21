@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 271151,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 284272,
+    "Deaths": 13121,
+    "Recovered": 0,
+    "Active": 271151,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 285133,
+    "Deaths": 13188,
+    "Recovered": 0,
+    "Active": 271945,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

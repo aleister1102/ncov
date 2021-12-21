@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 9719526,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 10037546,
+    "Deaths": 291336,
+    "Recovered": 0,
+    "Active": 9746210,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Russian Federation",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 10064290,
+    "Deaths": 292331,
+    "Recovered": 0,
+    "Active": 9771959,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

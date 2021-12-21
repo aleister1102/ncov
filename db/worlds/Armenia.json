@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 343636,
-    "Deaths": 7899,
+    "Confirmed": 343506,
+    "Deaths": 7893,
     "Recovered": 0,
     "Active": 335613,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Armenia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 343636,
+    "Deaths": 7899,
+    "Recovered": 0,
+    "Active": 335737,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Armenia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 343708,
+    "Deaths": 7903,
+    "Recovered": 0,
+    "Active": 335805,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 6244,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "3cfee4df-56a1-4647-8dd8-61d09bb45343",
+    "Country": "Dominica",
+    "CountryCode": "DM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "15.41",
+    "Lon": "-61.37",
+    "Confirmed": 6430,
+    "Deaths": 44,
+    "Recovered": 0,
+    "Active": 6386,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

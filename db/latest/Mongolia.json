@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 384948,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "bb0234c7-ae63-40a1-80c2-7e5e2e75c9ff",
+    "Country": "Mongolia",
+    "CountryCode": "MN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "46.86",
+    "Lon": "103.85",
+    "Confirmed": 387116,
+    "Deaths": 2045,
+    "Recovered": 0,
+    "Active": 385071,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

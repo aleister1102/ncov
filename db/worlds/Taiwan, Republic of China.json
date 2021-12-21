@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 16805,
-    "Deaths": 850,
+    "Confirmed": 16799,
+    "Deaths": 849,
     "Recovered": 0,
     "Active": 15950,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Taiwan, Republic of China",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 16805,
+    "Deaths": 850,
+    "Recovered": 0,
+    "Active": 15955,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Taiwan, Republic of China",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 16816,
+    "Deaths": 850,
+    "Recovered": 0,
+    "Active": 15966,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 191673,
-    "Deaths": 4782,
+    "Confirmed": 189567,
+    "Deaths": 4779,
     "Recovered": 0,
     "Active": 184788,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Zimbabwe",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 191673,
+    "Deaths": 4782,
+    "Recovered": 0,
+    "Active": 186891,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Zimbabwe",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 192796,
+    "Deaths": 4787,
+    "Recovered": 0,
+    "Active": 190274,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

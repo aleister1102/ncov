@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 692007,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "b6af850e-c65b-46b8-8ebe-6f5b659c3b82",
+    "Country": "Lebanon",
+    "CountryCode": "LB",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "33.85",
+    "Lon": "35.86",
+    "Confirmed": 701749,
+    "Deaths": 8950,
+    "Recovered": 0,
+    "Active": 692799,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

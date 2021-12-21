@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 335737,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "7c58daf5-35f8-49fc-be7a-939c4479db97",
+    "Country": "Armenia",
+    "CountryCode": "AM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.07",
+    "Lon": "45.04",
+    "Confirmed": 343708,
+    "Deaths": 7903,
+    "Recovered": 0,
+    "Active": 335805,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

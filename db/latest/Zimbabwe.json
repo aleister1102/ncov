@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 186891,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "7c59cc99-133e-41e5-abb2-dd28376b0841",
+    "Country": "Zimbabwe",
+    "CountryCode": "ZW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-19.02",
+    "Lon": "29.15",
+    "Confirmed": 192796,
+    "Deaths": 4787,
+    "Recovered": 0,
+    "Active": 188009,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

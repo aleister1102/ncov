@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 21836,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Somalia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 23169,
+    "Deaths": 1333,
+    "Recovered": 0,
+    "Active": 21836,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Somalia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 23169,
+    "Deaths": 1333,
+    "Recovered": 0,
+    "Active": 21836,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

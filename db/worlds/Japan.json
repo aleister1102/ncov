@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 1710505,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Japan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1729030,
+    "Deaths": 18375,
+    "Recovered": 0,
+    "Active": 1710655,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Japan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1729139,
+    "Deaths": 18376,
+    "Recovered": 0,
+    "Active": 1710763,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

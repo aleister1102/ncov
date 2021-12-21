@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 134602,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "900c59b9-abd6-4546-9044-9617c10be066",
+    "Country": "Namibia",
+    "CountryCode": "NA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-22.96",
+    "Lon": "18.49",
+    "Confirmed": 139518,
+    "Deaths": 3583,
+    "Recovered": 0,
+    "Active": 135935,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

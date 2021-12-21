@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 21836,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "96d8b1a4-b200-410c-9fdc-c2cbbd96aa21",
+    "Country": "Somalia",
+    "CountryCode": "SO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "5.15",
+    "Lon": "46.2",
+    "Confirmed": 23169,
+    "Deaths": 1333,
+    "Recovered": 0,
+    "Active": 21836,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

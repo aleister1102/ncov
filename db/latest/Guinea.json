@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 30426,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "f56d4f26-98e2-4098-834f-a694e069ef58",
+    "Country": "Guinea",
+    "CountryCode": "GN",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "9.95",
+    "Lon": "-9.7",
+    "Confirmed": 30814,
+    "Deaths": 388,
+    "Recovered": 0,
+    "Active": 30426,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

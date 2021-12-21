@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 435950,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "f90fa7e2-a762-4b7f-9689-caea9768769c",
+    "Country": "Venezuela (Bolivarian Republic)",
+    "CountryCode": "VE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "6.42",
+    "Lon": "-66.59",
+    "Confirmed": 441562,
+    "Deaths": 5285,
+    "Recovered": 0,
+    "Active": 436277,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

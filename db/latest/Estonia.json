@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 230236,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "5c85d79f-0d19-4266-afdb-e47992d55250",
+    "Country": "Estonia",
+    "CountryCode": "EE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "58.6",
+    "Lon": "25.01",
+    "Confirmed": 232506,
+    "Deaths": 1888,
+    "Recovered": 0,
+    "Active": 230618,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

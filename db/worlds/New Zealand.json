@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 13425,
+    "Confirmed": 13427,
     "Deaths": 49,
     "Recovered": 0,
     "Active": 13378,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 13497,
+    "Deaths": 49,
+    "Recovered": 0,
+    "Active": 13448,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "New Zealand",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 13495,
+    "Deaths": 49,
+    "Recovered": 0,
+    "Active": 13484,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

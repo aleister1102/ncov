@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 6307,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "fb2b6ff8-a72b-4beb-bb51-1f43383e8999",
+    "Country": "Guinea-Bissau",
+    "CountryCode": "GW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "11.8",
+    "Lon": "-15.18",
+    "Confirmed": 6456,
+    "Deaths": 149,
+    "Recovered": 0,
+    "Active": 6307,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 13176,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "South Sudan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 13309,
+    "Deaths": 133,
+    "Recovered": 0,
+    "Active": 13176,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "South Sudan",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 13459,
+    "Deaths": 133,
+    "Recovered": 0,
+    "Active": 13481,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 9709,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "fea4fd9f-28f6-437d-b1b0-188c63178132",
+    "Country": "Gambia",
+    "CountryCode": "GM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.44",
+    "Lon": "-15.31",
+    "Confirmed": 10051,
+    "Deaths": 342,
+    "Recovered": 0,
+    "Active": 9709,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

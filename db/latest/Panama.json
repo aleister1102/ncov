@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 475665,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "a930a143-9fbc-4f6f-bc2c-769f664276b2",
+    "Country": "Panama",
+    "CountryCode": "PA",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "8.54",
+    "Lon": "-80.78",
+    "Confirmed": 483386,
+    "Deaths": 7398,
+    "Recovered": 0,
+    "Active": 475988,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 51926,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "c5b6c47d-329e-4d16-9ffa-6bed7b44c4cb",
+    "Country": "Fiji",
+    "CountryCode": "FJ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-16.58",
+    "Lon": "179.41",
+    "Confirmed": 52651,
+    "Deaths": 697,
+    "Recovered": 0,
+    "Active": 51954,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

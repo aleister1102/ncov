@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 12856,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "8a7b7e2f-643f-4c11-b746-032e8fca3331",
+    "Country": "Saint Lucia",
+    "CountryCode": "LC",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.91",
+    "Lon": "-60.98",
+    "Confirmed": 13166,
+    "Deaths": 293,
+    "Recovered": 0,
+    "Active": 12873,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

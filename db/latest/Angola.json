@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 64200,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "3080deff-861c-4cd6-ba56-5bc27fb7ca1c",
+    "Country": "Angola",
+    "CountryCode": "AO",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-11.2",
+    "Lon": "17.87",
+    "Confirmed": 66086,
+    "Deaths": 1738,
+    "Recovered": 0,
+    "Active": 64348,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

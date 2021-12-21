@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 40083,
-    "Deaths": 853,
+    "Confirmed": 40027,
+    "Deaths": 852,
     "Recovered": 0,
     "Active": 39175,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Mauritania",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 40083,
+    "Deaths": 853,
+    "Recovered": 0,
+    "Active": 39230,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Mauritania",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 40126,
+    "Deaths": 855,
+    "Recovered": 0,
+    "Active": 39271,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 602119,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "29af88f4-c6b0-4b09-a54b-9af400a13e2c",
+    "Country": "Azerbaijan",
+    "CountryCode": "AZ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "40.14",
+    "Lon": "47.58",
+    "Confirmed": 610895,
+    "Deaths": 8208,
+    "Recovered": 0,
+    "Active": 602687,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

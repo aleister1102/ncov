@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 82842,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "bedc0f04-9b30-419e-ad21-3d8a3ad8d237",
+    "Country": "Trinidad and Tobago",
+    "CountryCode": "TT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "10.69",
+    "Lon": "-61.22",
+    "Confirmed": 85873,
+    "Deaths": 2612,
+    "Recovered": 0,
+    "Active": 83261,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

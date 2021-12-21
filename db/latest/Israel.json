@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1347259,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "1545819d-8c52-4b38-b0ba-84136dceda25",
+    "Country": "Israel",
+    "CountryCode": "IL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.05",
+    "Lon": "34.85",
+    "Confirmed": 1356847,
+    "Deaths": 8232,
+    "Recovered": 0,
+    "Active": 1348615,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

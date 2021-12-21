@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 744137,
+    "Confirmed": 743586,
     "Deaths": 2151,
     "Recovered": 0,
     "Active": 741435,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 744137,
+    "Deaths": 2151,
+    "Recovered": 0,
+    "Active": 741986,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "United Arab Emirates",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 744438,
+    "Deaths": 2152,
+    "Recovered": 0,
+    "Active": 742286,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

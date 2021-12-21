@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 130656,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "62c585ed-54a0-4305-a607-67fe3119bf80",
+    "Country": "Ghana",
+    "CountryCode": "GH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.95",
+    "Lon": "-1.02",
+    "Confirmed": 132132,
+    "Deaths": 1257,
+    "Recovered": 0,
+    "Active": 130875,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

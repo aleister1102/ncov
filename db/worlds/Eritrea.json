@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 7763,
-    "Deaths": 70,
+    "Confirmed": 7753,
+    "Deaths": 68,
     "Recovered": 0,
     "Active": 7685,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Eritrea",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 7763,
+    "Deaths": 70,
+    "Recovered": 0,
+    "Active": 7693,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Eritrea",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 7779,
+    "Deaths": 70,
+    "Recovered": 0,
+    "Active": 7709,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

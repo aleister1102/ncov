@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 105826,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Cameroon",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 107662,
+    "Deaths": 1836,
+    "Recovered": 0,
+    "Active": 105826,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Cameroon",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 108026,
+    "Deaths": 1841,
+    "Recovered": 0,
+    "Active": 106185,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

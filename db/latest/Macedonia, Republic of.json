@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 213470,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "25a79985-0764-462d-8822-5a49bc71fa35",
+    "Country": "Macedonia, Republic of",
+    "CountryCode": "MK",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "41.61",
+    "Lon": "21.75",
+    "Confirmed": 221411,
+    "Deaths": 7825,
+    "Recovered": 0,
+    "Active": 213586,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

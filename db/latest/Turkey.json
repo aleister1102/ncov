@@ -2578,5 +2578,20 @@
     "Recovered": 0,
     "Active": 9092674,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "990765d8-1291-4b18-81d8-ad7e210425a5",
+    "Country": "Turkey",
+    "CountryCode": "TR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "38.96",
+    "Lon": "35.24",
+    "Confirmed": 9191851,
+    "Deaths": 80591,
+    "Recovered": 0,
+    "Active": 9111260,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 909160,
-    "Deaths": 13071,
+    "Confirmed": 906965,
+    "Deaths": 13024,
     "Recovered": 0,
     "Active": 893941,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Georgia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 909160,
+    "Deaths": 13071,
+    "Recovered": 0,
+    "Active": 896089,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Georgia",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 910456,
+    "Deaths": 13116,
+    "Recovered": 0,
+    "Active": 897340,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

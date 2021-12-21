@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 607595,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Guatemala",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 623731,
+    "Deaths": 16072,
+    "Recovered": 0,
+    "Active": 607659,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Guatemala",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 623795,
+    "Deaths": 16077,
+    "Recovered": 0,
+    "Active": 607718,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

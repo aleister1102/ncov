@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1014179,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "751ce651-60d4-4684-9c21-5676f9f880bd",
+    "Country": "Greece",
+    "CountryCode": "GR",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "39.07",
+    "Lon": "21.82",
+    "Confirmed": 1037759,
+    "Deaths": 19976,
+    "Recovered": 0,
+    "Active": 1017783,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

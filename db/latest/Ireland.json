@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 650765,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "8981dab2-92ae-467f-946f-da98c7af98a7",
+    "Country": "Ireland",
+    "CountryCode": "IE",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "53.41",
+    "Lon": "-8.24",
+    "Confirmed": 661388,
+    "Deaths": 5835,
+    "Recovered": 0,
+    "Active": 655553,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

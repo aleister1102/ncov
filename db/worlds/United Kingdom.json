@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 11195960,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "United Kingdom",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 11425657,
+    "Deaths": 147679,
+    "Recovered": 0,
+    "Active": 11277978,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "United Kingdom",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 11518255,
+    "Deaths": 147723,
+    "Recovered": 0,
+    "Active": 11370532,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

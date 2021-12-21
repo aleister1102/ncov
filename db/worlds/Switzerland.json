@@ -9752,9 +9752,37 @@
     "Lat": "0",
     "Lon": "0",
     "Confirmed": 1175721,
-    "Deaths": 11913,
+    "Deaths": 11909,
     "Recovered": 0,
     "Active": 1163812,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Switzerland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1175721,
+    "Deaths": 11913,
+    "Recovered": 0,
+    "Active": 1163808,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Switzerland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1196208,
+    "Deaths": 11953,
+    "Recovered": 0,
+    "Active": 1184255,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

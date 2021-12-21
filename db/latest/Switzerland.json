@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1163808,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "5003fcb2-ff27-4121-a112-2ea3f1fd4036",
+    "Country": "Switzerland",
+    "CountryCode": "CH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "46.82",
+    "Lon": "8.23",
+    "Confirmed": 1196208,
+    "Deaths": 11953,
+    "Recovered": 0,
+    "Active": 1184255,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

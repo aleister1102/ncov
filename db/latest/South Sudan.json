@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 13176,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "6a5fb428-ea9c-4391-9022-d62772085167",
+    "Country": "South Sudan",
+    "CountryCode": "SS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.86",
+    "Lon": "29.69",
+    "Confirmed": 13459,
+    "Deaths": 133,
+    "Recovered": 0,
+    "Active": 13326,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

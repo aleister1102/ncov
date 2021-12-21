@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 117723,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "dff2047b-f7a9-4105-93f4-4ba508af87d6",
+    "Country": "El Salvador",
+    "CountryCode": "SV",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "13.79",
+    "Lon": "-88.9",
+    "Confirmed": 121530,
+    "Deaths": 3809,
+    "Recovered": 0,
+    "Active": 117721,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

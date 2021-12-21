@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1206324,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "a692aec5-44ca-490c-bdd7-2a9e259c2700",
+    "Country": "Portugal",
+    "CountryCode": "PT",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "39.4",
+    "Lon": "-8.22",
+    "Confirmed": 1227854,
+    "Deaths": 18796,
+    "Recovered": 0,
+    "Active": 1209058,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 16376,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "63279a00-1a7e-4e85-81b2-f9d1b201eb58",
+    "Country": "Burkina Faso",
+    "CountryCode": "BF",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.24",
+    "Lon": "-1.56",
+    "Confirmed": 16672,
+    "Deaths": 296,
+    "Recovered": 0,
+    "Active": 16376,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

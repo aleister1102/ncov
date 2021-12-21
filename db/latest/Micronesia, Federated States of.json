@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 1,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "8a4c60e6-8362-418a-b930-cf0eae295011",
+    "Country": "Micronesia, Federated States of",
+    "CountryCode": "FM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.43",
+    "Lon": "150.55",
+    "Confirmed": 1,
+    "Deaths": 0,
+    "Recovered": 0,
+    "Active": 1,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

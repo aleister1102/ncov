@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 6705049,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Germany",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 6812746,
+    "Deaths": 108356,
+    "Recovered": 0,
+    "Active": 6704390,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Germany",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 6834488,
+    "Deaths": 108818,
+    "Recovered": 0,
+    "Active": 6725670,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

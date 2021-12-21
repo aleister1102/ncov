@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 10101,
+    "Confirmed": 10097,
     "Deaths": 1976,
     "Recovered": 0,
     "Active": 8121,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Yemen",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 10101,
+    "Deaths": 1976,
+    "Recovered": 0,
+    "Active": 8125,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Yemen",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 10102,
+    "Deaths": 1977,
+    "Recovered": 0,
+    "Active": 8125,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

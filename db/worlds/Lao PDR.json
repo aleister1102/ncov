@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 98572,
-    "Deaths": 273,
+    "Confirmed": 97505,
+    "Deaths": 268,
     "Recovered": 0,
     "Active": 97237,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Lao PDR",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 98572,
+    "Deaths": 273,
+    "Recovered": 0,
+    "Active": 98299,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Lao PDR",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 99396,
+    "Deaths": 274,
+    "Recovered": 0,
+    "Active": 99122,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

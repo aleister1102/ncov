@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 211864,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "74d1ead8-083e-4f63-ab13-db08bad8e9d5",
+    "Country": "Finland",
+    "CountryCode": "FI",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "61.92",
+    "Lon": "25.75",
+    "Confirmed": 219250,
+    "Deaths": 1493,
+    "Recovered": 0,
+    "Active": 217757,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

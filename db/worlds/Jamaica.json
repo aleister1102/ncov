@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 89574,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Jamaica",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 92018,
+    "Deaths": 2444,
+    "Recovered": 0,
+    "Active": 89574,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Jamaica",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 92089,
+    "Deaths": 2449,
+    "Recovered": 0,
+    "Active": 89640,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

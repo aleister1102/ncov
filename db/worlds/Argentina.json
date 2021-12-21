@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 5389707,
-    "Deaths": 116903,
+    "Confirmed": 5386453,
+    "Deaths": 116899,
     "Recovered": 0,
     "Active": 5269554,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Argentina",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 5389707,
+    "Deaths": 116903,
+    "Recovered": 0,
+    "Active": 5272804,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Argentina",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 5395044,
+    "Deaths": 116930,
+    "Recovered": 0,
+    "Active": 5278114,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

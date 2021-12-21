@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 117411,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "f34beb5d-0a15-45c8-a172-53a348d69669",
+    "Country": "Cambodia",
+    "CountryCode": "KH",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.57",
+    "Lon": "104.99",
+    "Confirmed": 120423,
+    "Deaths": 3005,
+    "Recovered": 0,
+    "Active": 117418,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

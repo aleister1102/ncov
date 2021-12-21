@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 41860,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "3ee64bcc-ba12-4af1-8d1a-3ca9b2bbd525",
+    "Country": "Sudan",
+    "CountryCode": "SD",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "12.86",
+    "Lon": "30.22",
+    "Confirmed": 45901,
+    "Deaths": 3295,
+    "Recovered": 0,
+    "Active": 42606,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 509033,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "a20a782d-de3a-458c-a8b1-eb27b9153d3f",
+    "Country": "Myanmar",
+    "CountryCode": "MM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "21.91",
+    "Lon": "95.96",
+    "Confirmed": 528380,
+    "Deaths": 19226,
+    "Recovered": 0,
+    "Active": 509154,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

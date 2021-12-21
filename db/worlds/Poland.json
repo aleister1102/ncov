@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 3958840,
-    "Deaths": 91485,
+    "Confirmed": 3942864,
+    "Deaths": 91415,
     "Recovered": 0,
     "Active": 3851449,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Poland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 3958840,
+    "Deaths": 91485,
+    "Recovered": 0,
+    "Active": 3867355,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Poland",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 3968450,
+    "Deaths": 91514,
+    "Recovered": 0,
+    "Active": 3876936,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

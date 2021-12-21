@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 223483,
+    "Confirmed": 222655,
     "Deaths": 2984,
     "Recovered": 0,
     "Active": 219671,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Nigeria",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 223483,
+    "Deaths": 2984,
+    "Recovered": 0,
+    "Active": 220499,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Nigeria",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 225255,
+    "Deaths": 2985,
+    "Recovered": 0,
+    "Active": 222270,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

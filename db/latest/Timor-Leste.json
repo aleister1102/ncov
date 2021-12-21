@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 19711,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "1e4dbb05-2e0f-443a-a3e6-227e051174ea",
+    "Country": "Timor-Leste",
+    "CountryCode": "TL",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-8.87",
+    "Lon": "125.73",
+    "Confirmed": 19833,
+    "Deaths": 122,
+    "Recovered": 0,
+    "Active": 19711,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

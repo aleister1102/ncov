@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 460239,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "ac66d9b2-cfca-4ae2-9410-54e5b8b161b2",
+    "Country": "Palestinian Territory",
+    "CountryCode": "PS",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "31.95",
+    "Lon": "35.23",
+    "Confirmed": 466669,
+    "Deaths": 4870,
+    "Recovered": 0,
+    "Active": 461799,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

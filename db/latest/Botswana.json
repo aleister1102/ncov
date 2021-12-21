@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 197439,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "95a5d349-1945-46cf-922c-a150a9be2f2a",
+    "Country": "Botswana",
+    "CountryCode": "BW",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-22.33",
+    "Lon": "24.68",
+    "Confirmed": 204701,
+    "Deaths": 2425,
+    "Recovered": 0,
+    "Active": 202276,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

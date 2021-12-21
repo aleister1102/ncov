@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 411721,
+    "Confirmed": 411449,
     "Deaths": 4223,
     "Recovered": 0,
     "Active": 407226,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Dominican Republic",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 411721,
+    "Deaths": 4223,
+    "Recovered": 0,
+    "Active": 407498,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Dominican Republic",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 411883,
+    "Deaths": 4223,
+    "Recovered": 0,
+    "Active": 407660,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

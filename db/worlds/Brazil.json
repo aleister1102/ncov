@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 21587546,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Brazil",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 22213762,
+    "Deaths": 617803,
+    "Recovered": 0,
+    "Active": 21595959,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Brazil",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 22215856,
+    "Deaths": 617873,
+    "Recovered": 0,
+    "Active": 21597983,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

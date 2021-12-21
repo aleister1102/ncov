@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 18814,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "377384e9-5646-4c40-8280-334d83182760",
+    "Country": "Congo (Brazzaville)",
+    "CountryCode": "CG",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "-0.23",
+    "Lon": "15.83",
+    "Confirmed": 19179,
+    "Deaths": 365,
+    "Recovered": 0,
+    "Active": 18814,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

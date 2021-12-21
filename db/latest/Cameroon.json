@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 105826,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "37a532c4-4a43-4df8-a50a-1e89a721faed",
+    "Country": "Cameroon",
+    "CountryCode": "CM",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "7.37",
+    "Lon": "12.35",
+    "Confirmed": 108026,
+    "Deaths": 1841,
+    "Recovered": 0,
+    "Active": 106185,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

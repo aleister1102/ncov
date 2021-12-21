@@ -9756,5 +9756,33 @@
     "Recovered": 0,
     "Active": 560376,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Korea (South)",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 570414,
+    "Deaths": 4776,
+    "Recovered": 0,
+    "Active": 565638,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Korea (South)",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 570414,
+    "Deaths": 4776,
+    "Recovered": 0,
+    "Active": 570787,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]

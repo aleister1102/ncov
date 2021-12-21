@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 13346,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "c6825662-f5c0-46ed-a759-e154abf0622b",
+    "Country": "Djibouti",
+    "CountryCode": "DJ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "11.83",
+    "Lon": "42.59",
+    "Confirmed": 13538,
+    "Deaths": 189,
+    "Recovered": 0,
+    "Active": 13349,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

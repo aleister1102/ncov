@@ -2623,5 +2623,20 @@
     "Recovered": 0,
     "Active": 13443,
     "Date": "2021-12-20T00:00:00Z"
+  },
+  {
+    "ID": "210ad47a-09da-4592-ba37-fc98a6d1c1dc",
+    "Country": "Equatorial Guinea",
+    "CountryCode": "GQ",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "1.65",
+    "Lon": "10.27",
+    "Confirmed": 13618,
+    "Deaths": 175,
+    "Recovered": 0,
+    "Active": 13443,
+    "Date": "2021-12-21T00:00:00Z"
   }
 ]

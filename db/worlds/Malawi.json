@@ -9751,10 +9751,38 @@
     "CityCode": "",
     "Lat": "0",
     "Lon": "0",
-    "Confirmed": 64741,
+    "Confirmed": 64412,
     "Deaths": 2311,
     "Recovered": 0,
     "Active": 62101,
     "Date": "2021-12-18T00:00:00Z"
+  },
+  {
+    "Country": "Malawi",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 64741,
+    "Deaths": 2311,
+    "Recovered": 0,
+    "Active": 62430,
+    "Date": "2021-12-19T00:00:00Z"
+  },
+  {
+    "Country": "Malawi",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 65223,
+    "Deaths": 2313,
+    "Recovered": 0,
+    "Active": 62910,
+    "Date": "2021-12-20T00:00:00Z"
   }
 ]
