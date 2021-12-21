@@ -1,12 +1,12 @@
-from calendar import calendar, month
-import tkinter as tk
-from tkinter import StringVar, messagebox
-from tkinter import ttk
 from tkinter.constants import ANCHOR, BOTH, CENTER, INSERT, LEFT, RIGHT, TRUE
-import re
-import client as cl
+from tkinter import StringVar, messagebox
+from calendar import calendar, month
 from tkcalendar import DateEntry
 from datetime import datetime
+from tkinter import ttk
+import re
+import tkinter as tk
+import client as cl
 import server as se
 
 
@@ -14,7 +14,6 @@ global window
 window = tk.Tk()
 
 window.title("nCovi_client")
-# window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
 window.geometry("720x480")
 window.resizable(width=False, height=False)
 
@@ -24,8 +23,12 @@ frame3 = tk.Frame(window)
 frame4 = tk.Frame(window)
 
 
-# kiểm tra đăng nhập
 def check_login(connect):
+    '''
+    kiểm tra đăng nhập
+    - connect: kết nối của client
+    '''
+    
     account = []
 
     username = entry_username.get()
@@ -50,10 +53,12 @@ def check_login(connect):
         else:
             messagebox.showinfo("Warning", "username or password is incorrect")
 
-# đăng kí tài khoảng
-
-
 def create_Account(connect):
+    '''
+    Đăng kí tài khoản
+    - connect: kết nối của client
+    '''
+    
     account_send = []
 
     username = sign_up_usn.get()
@@ -82,10 +87,13 @@ def create_Account(connect):
         else:
             messagebox.showinfo("Warning", "Incorrect password !")
 
-# trang để đăng kí
-
 
 def registerPage(connect):
+    '''
+    Trang đăng ký
+    - connect: kết nối của client
+    '''
+    
     hide_frame()
 
     global sign_up_psw
@@ -122,20 +130,22 @@ def registerPage(connect):
     pws_confirm.place(x=270, y=138)
     button_login.place(x=300, y=168)
 
-
-# ẩn frame cũ khi chuyển frame
-
-
 def hide_frame():
+    '''
+    Ẩn frame cũ khi chuyển frame
+    '''
     frame1.pack_forget()
     frame2.pack_forget()
     frame3.pack_forget()
     frame4.pack_forget()
 
-# đây là trang đăng nhập
 
 
 def startPage(connect):
+    '''
+    Đây là trang đăng nhập
+    '''
+    
     hide_frame()
 
     global entry_username
@@ -169,6 +179,11 @@ def startPage(connect):
 
 
 def validateIP(s):
+    '''
+    Kiểm tra tính hợp lệ của địa chỉ IP nhập vào
+    - s: IP
+    - return: True nếu hợp lệ
+    '''
     a = s.split('.')
     if len(a) != 4:
         return False
@@ -184,8 +199,11 @@ def validateIP(s):
 
 
 def getIP_page():
+    '''
+    Trang nhập địa chỉ IP
+    '''
+    
     ip_entry = StringVar()
-
     ip_input = tk.Label(frame4, text="IP INPUT", font=(
         "Georgia", 20), foreground='blue')
     ip_entry = tk.Entry(frame4, width=30, font=("Arial", 12))
@@ -193,6 +211,10 @@ def getIP_page():
                        bg="cyan", command=lambda: checkIP())
 
     def checkIP():
+        '''
+        Kiểm tra IP và tạo kết nối
+        '''
+        
         IP = ip_entry.get()
         cl.HOST = IP
         if(validateIP(cl.HOST)):
@@ -210,10 +232,13 @@ def getIP_page():
     ip_entry.place(x=210, y=100)
     ok_btn.place(x=300, y=130)
 
-# lấy thông tin covid theo địa điểm
 
 
 def get_info(connect):
+    '''
+    Lấy thông tin covid theo địa điểm
+    - connect: kết nối của client
+    '''
     information = []  # chứa vị trí và ngày
     info_page.delete(0.0, 'end')
     text_1 = info_entry.get()
@@ -242,15 +267,21 @@ def get_info(connect):
             info_page.insert(0.0, str_name)
 
 
-# Thoát chương trình
 def close_App(connect):
+    '''
+    Thoát chương trình
+    - connect: kết nối của client
+    '''
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         window.destroy()
         cl.closeConnection(connect)
 
 
-# đây là trang xem thông tin
 def homePage(connect):
+    ''' 
+    Đây là trang xem thông tin
+    - connect: kết nối của client
+    '''
     hide_frame()
 
     label_title = tk.Label(frame2, text='Home Page',
@@ -297,17 +328,5 @@ def homePage(connect):
     quit_button.place(x=600, y=45)
     drop.place(x=200, y=50)
 
-
 getIP_page()
-# homePage()
-# registerPage()
-
 window.mainloop()
-
-"""
-Nhập IP của Sever vào thì mới mở kết nối và vào trang đăng nhập
- - Nếu nhập sai sẽ có thông báo
- - Nhập IP trên máy á nha đừng có nhập loopback
- - Nếu nhập đúng sẽ mở kết nối đến sever
- - Nêu nhập IP vào trước khi mở server thì nó sẽ đứng hình chờ server hoặc sẽ timeout
-  """

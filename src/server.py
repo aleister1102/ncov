@@ -1,7 +1,7 @@
-import socket
-import threading
 from tkinter.constants import NO
 import database as db
+import threading
+import socket
 import api
 
 HOST = socket.gethostbyname(socket.gethostname())
@@ -102,15 +102,12 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     except:
         connection.close()
-
-
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
 def openServer():
-
-    # api.fetchData()
-
+    
+    api.fetchData()
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")

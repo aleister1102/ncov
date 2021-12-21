@@ -1,30 +1,37 @@
-import tkinter as tk
 from tkinter import  StringVar, messagebox
-from tkinter import ttk
-import re
 from tkinter.constants import END
+from tkinter import ttk
+import threading
+import api
+import re
+import tkinter as tk
 import server as se
 
 
 window = tk.Tk()
 
 window.title("nCovi_server")
-#window.iconbitmap(r'C:\Users\rongc\OneDrive - VNU-HCMUS\Desktop\Study\Code\MMT\ncov-20CTT3\imgs\logo.ico')
 window.geometry("720x480")
 window.resizable(width=False, height=False)
 
 frame2 = tk.Frame(window)
 
 
-# Thoát chương trình
 def close_App(server):
+    '''
+    Thoát chương trình
+    - server: kết nối của server
+    '''
     if messagebox.askokcancel("Quit", "Do you want to quit?"):
         se.closeServer(server)
         window.destroy()
 
-# trang chính
 def homePage():
 
+    '''
+    Trang chính
+    '''
+    
     sThread = se.threading.Thread(target=se.openServer)
     sThread.daemon = True 
     sThread.start() 
@@ -55,9 +62,5 @@ def homePage():
     scrollbar.place(in_=txt, relx=1.0, relheight=1.0, bordermode="outside")
     txt.place(x=100, y=80)
 
-#se.openServer()
-#startPage()
 homePage()
-#registerPage()
-
 window.mainloop()

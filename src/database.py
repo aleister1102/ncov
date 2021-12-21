@@ -6,16 +6,17 @@ from datetime import timedelta as td
 TIME_FILE = '../db/update_time.txt'
 ACC_FILE = '../db/accounts.json'
 
-
 def getCurrentTime():
-
     time = dt.datetime.now()
     # Trả về một datetime
     return time
 
 
 def readLatestTime():
-
+    '''
+    Đọc thời gian mới nhất trong file
+    - return: kiểu datetime
+    '''
     with open(TIME_FILE, encoding='utf8', mode="r") as f:
         timeList = f.readlines()
 
@@ -33,9 +34,10 @@ def readLatestTime():
 
 
 def writeLatestTime(time):
-    """
-        time: kiểu datetime
-    """
+    '''
+    Viết xuống thời gian vừa cập nhật
+    - time: thời gian kiểu datetime
+    '''
 
     with open(TIME_FILE, encoding='utf8', mode="a") as f:
 
@@ -46,7 +48,10 @@ def writeLatestTime(time):
 
 
 def isUpdated():
-
+    '''
+    Kiểm tra xem DB đã cập nhật chưa
+    - return: True nếu rồi và không cần cập nhật
+    '''
     # Lấy thời gian mới nhất trong file và hiện tại
     latestTime = readLatestTime()
     currentTime = getCurrentTime()
@@ -79,12 +84,12 @@ def getAccount():
 
 
 def checkAccount(clientAccount):
-    """
+    '''
     Hàm đăng nhập, kiểm tra tài khoản có tồn tại chưa
-
-    clientAccount: list gồm username và password
-    return: True nếu như tài khoản tồn tại, cho phép đăng nhập, False nếu ngược lại
-    """
+    - returnclientAccount: list gồm username và password
+    - return: True nếu như tài khoản tồn tại, cho phép đăng nhập
+    '''
+    
     accounts = getAccount()
     for account in accounts:
         if(account['username'] == clientAccount[0] and account['password'] == clientAccount[1]):
@@ -95,12 +100,11 @@ def checkAccount(clientAccount):
 
 
 def createAccount(clientAccount):
-    """
+    '''
     Hàm tạo tài khoản
-
-    clientAccount: list gồm username và password
-    return: True nếu như tạo tài khoản thành công, False nếu như tạo thất bại
-    """
+    - clientAccount: list gồm username và password
+    - return: True nếu như tạo tài khoản thành công, False nếu như tạo thất bại
+    '''
 
     accounts = getAccount()
     accountDict = accountToDict(clientAccount)
@@ -115,6 +119,10 @@ def createAccount(clientAccount):
 
 
 def updateJSON(file, data):
-
+    '''
+    Cập nhật file json
+    - file: file cần cập nhật
+    - data: dữ liệu cần cập nhật
+    '''
     with open(file, mode="w") as f:
         json.dump(data, f, indent=2)

@@ -1,10 +1,10 @@
-import os
-import requests
-import json
+from string import Template
 import database as db
 import datetime as dt
 import unicodedata
-from string import Template
+import requests
+import json
+import os
 
 specificCountries = ["Belgium", "Germany", "Canada", "China", "Ukraine", "New Zealand", "United Kingdom", "Netherlands",
                      "Sweden", "Russian Federation", "Brazil", "Colombia", "Italy", "United States of America",

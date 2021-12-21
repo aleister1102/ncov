@@ -1,11 +1,9 @@
 import time
 import socket
 
-
-HOST = ""
+HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
-
 
 def checkServer(client):
     '''
@@ -114,18 +112,16 @@ def waitTO(client):
     '''
 
     connectTime = 0
-    socket.setdefaulttimeout(1.0)
+    client.settimeout(1.0)
     check = client.connect_ex((HOST, SERVER_PORT))
 
-    # Vòng lặp chờ Server mở kết nối, không cần tái kết nối trong mỗi lần lặp
-    # Lý do là vì nhập IP bất kỳ không có thiết bị sử dụng có thể dẫn đến treo chương trình
+    # Vòng lặp chờ Server mở kết nối
     if(check != 0):
         print("Waiting for Server open the connection ...")
         while(connectTime <= 10 and check != 0):
+            check = client.connect_ex((HOST, SERVER_PORT))
             connectTime += 1
             time.sleep(1)
-
-        check = client.connect_ex((HOST, SERVER_PORT))
         
     return check
 
@@ -161,6 +157,7 @@ def closeConnection(client):
     Hàm đóng kết nối bên phía client
     - client: kết nối của client
     '''
+    
     print("out")
     option = "x"
     client.sendall(option.encode(FORMAT))
