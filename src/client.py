@@ -112,7 +112,7 @@ def waitTO(client):
     '''
 
     connectTime = 0
-    client.settimeout(1.0)
+    # client.settimeout(1.0)
     check = client.connect_ex((HOST, SERVER_PORT))
 
     # Vòng lặp chờ Server mở kết nối
