@@ -5,11 +5,12 @@ import socket
 import api
 
 HOST = socket.gethostbyname(socket.gethostname())
-#HOST = "127.0.0.1"
+# HOST = "127.0.0.1"
 SERVER_PORT = 52467
 FORMAT = "utf8"
 
 live_account = []
+
 
 def recvList(connection, option):
     '''
@@ -66,7 +67,7 @@ def handleClient(connection, address):  # Xử lý đa luồng
     - connection: kết nối của client
     - address: địa chỉ IP và port của client
     '''
-    
+
     print("Client ", address, " connected !!!")
     print("Connection", connection.getsockname())
     temp = "running"
@@ -102,37 +103,50 @@ def handleClient(connection, address):  # Xử lý đa luồng
 
     except:
         connection.close()
+
+
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 
+def updateDB():
+    check = False
+
+    while(1):
+        if(db.isUpdated() == -1):
+            api.fetchData()
+            check = False
+        elif(db.isUpdated == 0):
+            if(check == False):
+                print("Datetime file is error")
+            check = True
+        else:
+            if(check == False):
+                print("Database is already updated")
+            check = True
+
+
 def openServer():
-    
-    
+
     print("SERVER SIDE")
     print("Server: ", HOST, SERVER_PORT)
     print("Waiting for Client ...")
-    
+
     try:
         s.bind((HOST, SERVER_PORT))
         s.listen()
-        
+
+        # Cập nhật cơ sở dữ liệu
+        thrApi = threading.Thread(target=updateDB)
+        thrApi.start()
+
         while(1):
             try:
-                # Cập nhật cơ sở dữ liệu
-                if(db.isUpdated() == -1):
-                    thrApi = threading.Thread(target = api.fetchData)
-                    thrApi.start()
-                elif(db.isUpdated == 0):
-                    print("Datetime file is error")
-                else:
-                    print("Database is already updated")
-                
                 global address
                 global connection
-                
+
                 connection, address = s.accept()
                 thr = threading.Thread(target=handleClient,
-                                    args=(connection, address))
+                                       args=(connection, address))
                 thr.daemon = True
                 thr.start()
             except:
@@ -141,7 +155,8 @@ def openServer():
 
     except:
         print("Server is already opened")
-        
+
+
 def closeServer(s):
     print("\t--- END SERVER ---")
     s.close()
