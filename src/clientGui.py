@@ -222,7 +222,7 @@ def getIP_page():
             if(connect != None):
                 startPage(connect)
             else:
-                messagebox.showinfo("Warning", "Time out or server is not available")
+                messagebox.showinfo("Warning", "Server is not available")
                 getIP_page()
         else:
             messagebox.showinfo("Warning", "IP Sever is incorrect")
@@ -255,16 +255,19 @@ def get_info(connect):
         str_name = cl.sendOption(connect, "4", information)
         if str_name == "stop":
             messagebox.showinfo("Warning", "server is not running")
-        else:
-            info_page.insert(0.0, str_name)
+            return
+        elif str_name =="deny":
+            str_name = "Not found"
+        info_page.insert(0.0, str_name)
 
     elif selected == "Viet Nam":
         information.append(text_1)
         str_name = cl.sendOption(connect, "3", information)
         if str_name == "stop":
             messagebox.showinfo("Warning", "server is not running")
-        else:
-            info_page.insert(0.0, str_name)
+        elif str_name =="deny":
+            str_name = "Not found"
+        info_page.insert(0.0, str_name)
 
 
 def close_App(connect):
@@ -308,7 +311,7 @@ def homePage(connect):
     drop = ttk.Combobox(frame2, values=["Search by.....", "World", "Viet Nam"])
     drop.current(0)
     # date picker
-    my_date = DateEntry(frame2, selectmode='day', year=2021, month=12, day=19)
+    my_date = DateEntry(frame2, selectmode='day', year=2022, month=1, day=3)
 
     def click(event):
         info_entry.configure(state="normal")

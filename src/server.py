@@ -119,8 +119,13 @@ def openServer():
         while(1):
             try:
                 # Cập nhật cơ sở dữ liệu
-                
-                api.fetchData()
+                if(db.isUpdated() == -1):
+                    thrApi = threading.Thread(target = api.fetchData)
+                    thrApi.start()
+                elif(db.isUpdated == 0):
+                    print("Datetime file is error")
+                else:
+                    print("Database is already updated")
                 
                 global address
                 global connection

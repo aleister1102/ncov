@@ -23,13 +23,12 @@ def readLatestTime():
     # Lấy ngày mới nhất
     strTime = timeList[-1]
 
-    # Nếu dòng cuối rỗng
-    if(strTime == ""):
-        print("Last line in 'udpate_time.txt' must empty")
-        strTime = timeList[-2]
-
     # Chuyển về kiểu datetime và trả về
-    time = dt.datetime.strptime(strTime, "%Y-%m-%d %H:%M:%S")
+    try:
+        time = dt.datetime.strptime(strTime, "%Y-%m-%d %H:%M:%S")
+    except:
+        time = None
+
     return time
 
 
@@ -54,13 +53,15 @@ def isUpdated():
     '''
     # Lấy thời gian mới nhất trong file và hiện tại
     latestTime = readLatestTime()
+    if(latestTime == None): 
+        return 0
     currentTime = getCurrentTime()
     delta = currentTime - latestTime
 
     # Nhiều hơn 1 giờ thì là chưa cập nhật
     if(delta.seconds > 3600):
-        return False
-    return True
+        return -1
+    return 1
 
 
 def accountToDict(list):

@@ -122,7 +122,7 @@ def waitTO(client):
             check = client.connect_ex((HOST, SERVER_PORT))
             connectTime += 1
             time.sleep(1)
-        
+
     return check
 
 
@@ -139,9 +139,9 @@ def connectToServer():
 
     try:
         # Chờ time out
-        check = waitTO(client)
+        check = client.connect_ex((HOST, SERVER_PORT))
         if(check != 0):
-            print("Time Out or server is not available !!!")
+            print("Server is not available !!!")
             return None
         else:
             print("Client address: ", client.getsockname())
@@ -157,7 +157,7 @@ def closeConnection(client):
     Hàm đóng kết nối bên phía client
     - client: kết nối của client
     '''
-    
+
     print("out")
     option = "x"
     client.sendall(option.encode(FORMAT))

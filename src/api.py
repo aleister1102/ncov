@@ -60,10 +60,6 @@ def fetchWorld():
     - return: True nếu cập nhật thành công, False nếu ngược lại
     '''
 
-    # Nếu đã cập nhật thì return
-    if(db.isUpdated()):
-        print("World database is already updated")
-        return False  # Nếu không có cập nhật
     with open(WORLD_CODE, mode="r") as f:
         worlds = json.load(f)
     print("Fetching World's database")
@@ -81,9 +77,6 @@ def fetchVietnam():
     - return: True nếu cập nhật thành công, False nếu ngược lại
     '''
 
-    if(db.isUpdated()):
-        print("Vietnam database is already updated")
-        return False  # Nếu không có cập nhật
     print("Fetching Vietnam's province")
 
     # Gọi API
@@ -104,11 +97,10 @@ def fetchData():
     '''
     Cập nhật cơ sở dữ liệu
     '''
-
+    
+    db.writeLatestTime(db.getCurrentTime())
     flag = fetchVietnam()
     flag = fetchWorld()
-    if(flag == True):
-        db.writeLatestTime(db.getCurrentTime())
     print("Fetching is done")
 
 
