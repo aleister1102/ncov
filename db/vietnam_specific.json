@@ -1,505 +1,505 @@
 [
   {
     "name": "TP. H\u1ed3 Ch\u00ed Minh",
-    "death": 19144,
+    "death": 19455,
     "treating": 0,
-    "cases": 496005,
+    "cases": 502632,
     "recovered": 0,
-    "casesToday": 687
+    "casesToday": 702
   },
   {
     "name": "B\u00ecnh D\u01b0\u01a1ng",
-    "death": 3078,
+    "death": 3225,
     "treating": 0,
-    "cases": 289375,
+    "cases": 290513,
     "recovered": 0,
-    "casesToday": 155
+    "casesToday": 119
   },
   {
     "name": "\u0110\u1ed3ng Nai",
-    "death": 1156,
+    "death": 1348,
     "treating": 0,
-    "cases": 95250,
+    "cases": 97418,
     "recovered": 0,
-    "casesToday": 284
+    "casesToday": 213
   },
   {
     "name": "T\u00e2y Ninh",
-    "death": 509,
+    "death": 650,
     "treating": 0,
-    "cases": 65579,
+    "cases": 74058,
     "recovered": 0,
-    "casesToday": 947
-  },
-  {
-    "name": "Long An",
-    "death": 831,
-    "treating": 0,
-    "cases": 39762,
-    "recovered": 0,
-    "casesToday": 46
+    "casesToday": 938
   },
   {
     "name": "\u0110\u1ed3ng Th\u00e1p",
-    "death": 448,
+    "death": 554,
     "treating": 0,
-    "cases": 36460,
+    "cases": 43077,
     "recovered": 0,
-    "casesToday": 786
-  },
-  {
-    "name": "C\u1ea7n Th\u01a1",
-    "death": 465,
-    "treating": 0,
-    "cases": 34163,
-    "recovered": 0,
-    "casesToday": 773
-  },
-  {
-    "name": "Ti\u1ec1n Giang",
-    "death": 787,
-    "treating": 0,
-    "cases": 31274,
-    "recovered": 0,
-    "casesToday": 347
-  },
-  {
-    "name": "An Giang",
-    "death": 763,
-    "treating": 0,
-    "cases": 29732,
-    "recovered": 0,
-    "casesToday": 270
-  },
-  {
-    "name": "Ki\u00ean Giang",
-    "death": 413,
-    "treating": 0,
-    "cases": 27221,
-    "recovered": 0,
-    "casesToday": 302
-  },
-  {
-    "name": "S\u00f3c Tr\u0103ng",
-    "death": 238,
-    "treating": 0,
-    "cases": 27019,
-    "recovered": 0,
-    "casesToday": 448
+    "casesToday": 595
   },
   {
     "name": "H\u00e0 N\u1ed9i",
-    "death": 67,
+    "death": 120,
     "treating": 0,
-    "cases": 26021,
+    "cases": 42412,
     "recovered": 0,
-    "casesToday": 1612
+    "casesToday": 1766
+  },
+  {
+    "name": "C\u1ea7n Th\u01a1",
+    "death": 568,
+    "treating": 0,
+    "cases": 40322,
+    "recovered": 0,
+    "casesToday": 137
+  },
+  {
+    "name": "Long An",
+    "death": 881,
+    "treating": 0,
+    "cases": 40297,
+    "recovered": 0,
+    "casesToday": 59
+  },
+  {
+    "name": "Ti\u1ec1n Giang",
+    "death": 929,
+    "treating": 0,
+    "cases": 33282,
+    "recovered": 0,
+    "casesToday": 214
   },
   {
     "name": "C\u00e0 Mau",
-    "death": 98,
+    "death": 159,
     "treating": 0,
-    "cases": 25368,
+    "cases": 32718,
     "recovered": 0,
-    "casesToday": 967
+    "casesToday": 35
+  },
+  {
+    "name": "An Giang",
+    "death": 948,
+    "treating": 0,
+    "cases": 32011,
+    "recovered": 0,
+    "casesToday": 172
   },
   {
     "name": "Kh\u00e1nh H\u00f2a",
-    "death": 139,
+    "death": 167,
     "treating": 0,
-    "cases": 24508,
+    "cases": 31616,
     "recovered": 0,
-    "casesToday": 709
-  },
-  {
-    "name": "B\u00e0 R\u1ecba \u2013 V\u0169ng T\u00e0u",
-    "death": 104,
-    "treating": 0,
-    "cases": 24176,
-    "recovered": 0,
-    "casesToday": 273
-  },
-  {
-    "name": "B\u1ea1c Li\u00eau",
-    "death": 211,
-    "treating": 0,
-    "cases": 23529,
-    "recovered": 0,
-    "casesToday": 552
-  },
-  {
-    "name": "B\u00ecnh Thu\u1eadn",
-    "death": 240,
-    "treating": 0,
-    "cases": 23444,
-    "recovered": 0,
-    "casesToday": 222
+    "casesToday": 793
   },
   {
     "name": "V\u0129nh Long",
-    "death": 218,
+    "death": 324,
     "treating": 0,
-    "cases": 22819,
+    "cases": 30471,
     "recovered": 0,
-    "casesToday": 596
+    "casesToday": 917
+  },
+  {
+    "name": "S\u00f3c Tr\u0103ng",
+    "death": 314,
+    "treating": 0,
+    "cases": 29582,
+    "recovered": 0,
+    "casesToday": 200
+  },
+  {
+    "name": "Ki\u00ean Giang",
+    "death": 512,
+    "treating": 0,
+    "cases": 29532,
+    "recovered": 0,
+    "casesToday": 185
+  },
+  {
+    "name": "B\u1ea1c Li\u00eau",
+    "death": 247,
+    "treating": 0,
+    "cases": 28684,
+    "recovered": 0,
+    "casesToday": 593
+  },
+  {
+    "name": "B\u00e0 R\u1ecba \u2013 V\u0169ng T\u00e0u",
+    "death": 159,
+    "treating": 0,
+    "cases": 26220,
+    "recovered": 0,
+    "casesToday": 52
+  },
+  {
+    "name": "B\u00ecnh Thu\u1eadn",
+    "death": 278,
+    "treating": 0,
+    "cases": 25415,
+    "recovered": 0,
+    "casesToday": 159
   },
   {
     "name": "B\u1ebfn Tre",
-    "death": 121,
+    "death": 170,
     "treating": 0,
-    "cases": 22418,
+    "cases": 25267,
     "recovered": 0,
-    "casesToday": 985
+    "casesToday": 92
   },
   {
     "name": "B\u00ecnh Ph\u01b0\u1edbc",
-    "death": 45,
+    "death": 56,
     "treating": 0,
-    "cases": 19949,
+    "cases": 20309,
     "recovered": 0,
-    "casesToday": 78
+    "casesToday": 55
   },
   {
     "name": "Tr\u00e0 Vinh",
-    "death": 88,
+    "death": 124,
     "treating": 0,
-    "cases": 15568,
+    "cases": 20265,
     "recovered": 0,
-    "casesToday": 329
-  },
-  {
-    "name": "H\u1eadu Giang",
-    "death": 25,
-    "treating": 0,
-    "cases": 10515,
-    "recovered": 0,
-    "casesToday": 342
+    "casesToday": 337
   },
   {
     "name": "B\u00ecnh \u0110\u1ecbnh",
-    "death": 37,
-    "treating": 0,
-    "cases": 10284,
-    "recovered": 0,
-    "casesToday": 411
-  },
-  {
-    "name": "\u0110\u00e0 N\u1eb5ng",
-    "death": 107,
-    "treating": 0,
-    "cases": 9949,
-    "recovered": 0,
-    "casesToday": 142
-  },
-  {
-    "name": "\u0110\u1eafk L\u1eafk",
     "death": 56,
     "treating": 0,
-    "cases": 9818,
+    "cases": 14726,
     "recovered": 0,
-    "casesToday": 0
+    "casesToday": 432
   },
   {
     "name": "Th\u1eeba Thi\u00ean Hu\u1ebf",
     "death": 12,
     "treating": 0,
-    "cases": 9086,
+    "cases": 12504,
     "recovered": 0,
-    "casesToday": 228
+    "casesToday": 390
+  },
+  {
+    "name": "H\u1eadu Giang",
+    "death": 44,
+    "treating": 0,
+    "cases": 11907,
+    "recovered": 0,
+    "casesToday": 132
+  },
+  {
+    "name": "\u0110\u00e0 N\u1eb5ng",
+    "death": 109,
+    "treating": 0,
+    "cases": 11354,
+    "recovered": 0,
+    "casesToday": 180
+  },
+  {
+    "name": "\u0110\u1eafk L\u1eafk",
+    "death": 65,
+    "treating": 0,
+    "cases": 11285,
+    "recovered": 0,
+    "casesToday": 213
   },
   {
     "name": "B\u1eafc Ninh",
-    "death": 17,
+    "death": 18,
     "treating": 0,
-    "cases": 8432,
+    "cases": 10937,
     "recovered": 0,
-    "casesToday": 212
+    "casesToday": 263
+  },
+  {
+    "name": "L\u00e2m \u0110\u1ed3ng",
+    "death": 24,
+    "treating": 0,
+    "cases": 8482,
+    "recovered": 0,
+    "casesToday": 347
   },
   {
     "name": "B\u1eafc Giang",
     "death": 14,
     "treating": 0,
-    "cases": 7382,
+    "cases": 7768,
     "recovered": 0,
-    "casesToday": 21
+    "casesToday": 81
   },
   {
     "name": "Ngh\u1ec7 An",
-    "death": 33,
+    "death": 34,
     "treating": 0,
-    "cases": 6571,
+    "cases": 7622,
     "recovered": 0,
-    "casesToday": 116
-  },
-  {
-    "name": "L\u00e2m \u0110\u1ed3ng",
-    "death": 19,
-    "treating": 0,
-    "cases": 6204,
-    "recovered": 0,
-    "casesToday": 174
-  },
-  {
-    "name": "H\u00e0 Giang",
-    "death": 6,
-    "treating": 0,
-    "cases": 5939,
-    "recovered": 0,
-    "casesToday": 85
-  },
-  {
-    "name": "Gia Lai",
-    "death": 14,
-    "treating": 0,
-    "cases": 5609,
-    "recovered": 0,
-    "casesToday": 97
+    "casesToday": 88
   },
   {
     "name": "Thanh H\u00f3a",
     "death": 13,
     "treating": 0,
-    "cases": 5199,
+    "cases": 7583,
     "recovered": 0,
-    "casesToday": 246
-  },
-  {
-    "name": "Ph\u00fa Y\u00ean",
-    "death": 43,
-    "treating": 0,
-    "cases": 5184,
-    "recovered": 0,
-    "casesToday": 237
-  },
-  {
-    "name": "Ninh Thu\u1eadn",
-    "death": 49,
-    "treating": 0,
-    "cases": 5162,
-    "recovered": 0,
-    "casesToday": 50
-  },
-  {
-    "name": "Qu\u1ea3ng Nam",
-    "death": 17,
-    "treating": 0,
-    "cases": 4793,
-    "recovered": 0,
-    "casesToday": 129
-  },
-  {
-    "name": "Qu\u1ea3ng Ng\u00e3i",
-    "death": 22,
-    "treating": 0,
-    "cases": 4132,
-    "recovered": 0,
-    "casesToday": 31
-  },
-  {
-    "name": "\u0110\u1eafk N\u00f4ng",
-    "death": 12,
-    "treating": 0,
-    "cases": 4041,
-    "recovered": 0,
-    "casesToday": 63
+    "casesToday": 206
   },
   {
     "name": "H\u1ea3i Ph\u00f2ng",
-    "death": 6,
-    "treating": 0,
-    "cases": 4026,
-    "recovered": 0,
-    "casesToday": 95
-  },
-  {
-    "name": "Qu\u1ea3ng B\u00ecnh",
     "death": 8,
     "treating": 0,
-    "cases": 3284,
+    "cases": 7473,
     "recovered": 0,
-    "casesToday": 29
+    "casesToday": 271
   },
   {
-    "name": "H\u1ea3i D\u01b0\u01a1ng",
-    "death": 1,
+    "name": "H\u00e0 Giang",
+    "death": 6,
     "treating": 0,
-    "cases": 2507,
+    "cases": 6983,
     "recovered": 0,
-    "casesToday": 31
+    "casesToday": 174
   },
   {
-    "name": "Ph\u00fa Th\u1ecd",
-    "death": 2,
+    "name": "Gia Lai",
+    "death": 15,
     "treating": 0,
-    "cases": 2496,
+    "cases": 6867,
     "recovered": 0,
-    "casesToday": 16
+    "casesToday": 128
+  },
+  {
+    "name": "Ph\u00fa Y\u00ean",
+    "death": 49,
+    "treating": 0,
+    "cases": 6862,
+    "recovered": 0,
+    "casesToday": 686
+  },
+  {
+    "name": "Qu\u1ea3ng Nam",
+    "death": 20,
+    "treating": 0,
+    "cases": 5924,
+    "recovered": 0,
+    "casesToday": 291
+  },
+  {
+    "name": "Ninh Thu\u1eadn",
+    "death": 52,
+    "treating": 0,
+    "cases": 5610,
+    "recovered": 0,
+    "casesToday": 57
+  },
+  {
+    "name": "Qu\u1ea3ng Ng\u00e3i",
+    "death": 25,
+    "treating": 0,
+    "cases": 5426,
+    "recovered": 0,
+    "casesToday": 119
   },
   {
     "name": "H\u01b0ng Y\u00ean",
     "death": 2,
     "treating": 0,
-    "cases": 2487,
+    "cases": 4758,
     "recovered": 0,
-    "casesToday": 276
+    "casesToday": 249
+  },
+  {
+    "name": "\u0110\u1eafk N\u00f4ng",
+    "death": 13,
+    "treating": 0,
+    "cases": 4751,
+    "recovered": 0,
+    "casesToday": 120
+  },
+  {
+    "name": "Qu\u1ea3ng B\u00ecnh",
+    "death": 8,
+    "treating": 0,
+    "cases": 3591,
+    "recovered": 0,
+    "casesToday": 31
+  },
+  {
+    "name": "H\u1ea3i D\u01b0\u01a1ng",
+    "death": 1,
+    "treating": 0,
+    "cases": 3197,
+    "recovered": 0,
+    "casesToday": 0
   },
   {
     "name": "Nam \u0110\u1ecbnh",
     "death": 2,
     "treating": 0,
-    "cases": 2400,
+    "cases": 3192,
     "recovered": 0,
-    "casesToday": 45
-  },
-  {
-    "name": "Th\u00e1i B\u00ecnh",
-    "death": 0,
-    "treating": 0,
-    "cases": 2092,
-    "recovered": 0,
-    "casesToday": 46
-  },
-  {
-    "name": "V\u0129nh Ph\u00fac",
-    "death": 6,
-    "treating": 0,
-    "cases": 2065,
-    "recovered": 0,
-    "casesToday": 44
+    "casesToday": 85
   },
   {
     "name": "Qu\u1ea3ng Ninh",
     "death": 1,
     "treating": 0,
-    "cases": 1851,
+    "cases": 3076,
     "recovered": 0,
-    "casesToday": 136
+    "casesToday": 158
+  },
+  {
+    "name": "Ph\u00fa Th\u1ecd",
+    "death": 3,
+    "treating": 0,
+    "cases": 2948,
+    "recovered": 0,
+    "casesToday": 51
+  },
+  {
+    "name": "V\u0129nh Ph\u00fac",
+    "death": 6,
+    "treating": 0,
+    "cases": 2833,
+    "recovered": 0,
+    "casesToday": 98
+  },
+  {
+    "name": "Th\u00e1i B\u00ecnh",
+    "death": 0,
+    "treating": 0,
+    "cases": 2540,
+    "recovered": 0,
+    "casesToday": 42
   },
   {
     "name": "H\u00e0 Nam",
     "death": 0,
     "treating": 0,
-    "cases": 1700,
+    "cases": 2273,
     "recovered": 0,
-    "casesToday": 21
-  },
-  {
-    "name": "H\u00e0 T\u0129nh",
-    "death": 5,
-    "treating": 0,
-    "cases": 1455,
-    "recovered": 0,
-    "casesToday": 16
+    "casesToday": 92
   },
   {
     "name": "Qu\u1ea3ng Tr\u1ecb",
     "death": 4,
     "treating": 0,
-    "cases": 1399,
+    "cases": 2062,
     "recovered": 0,
-    "casesToday": 24
+    "casesToday": 106
   },
   {
     "name": "Th\u00e1i Nguy\u00ean",
     "death": 1,
     "treating": 0,
-    "cases": 1264,
+    "cases": 1674,
     "recovered": 0,
-    "casesToday": 10
+    "casesToday": 54
+  },
+  {
+    "name": "H\u00e0 T\u0129nh",
+    "death": 5,
+    "treating": 0,
+    "cases": 1594,
+    "recovered": 0,
+    "casesToday": 12
   },
   {
     "name": "L\u1ea1ng S\u01a1n",
-    "death": 3,
+    "death": 6,
     "treating": 0,
-    "cases": 1068,
+    "cases": 1385,
     "recovered": 0,
-    "casesToday": 52
+    "casesToday": 0
   },
   {
     "name": "H\u00f2a B\u00ecnh",
     "death": 3,
     "treating": 0,
-    "cases": 971,
+    "cases": 1327,
     "recovered": 0,
-    "casesToday": 59
+    "casesToday": 52
   },
   {
     "name": "Tuy\u00ean Quang",
     "death": 0,
     "treating": 0,
-    "cases": 861,
+    "cases": 1036,
     "recovered": 0,
-    "casesToday": 9
+    "casesToday": 37
   },
   {
     "name": "S\u01a1n La",
     "death": 0,
     "treating": 0,
-    "cases": 623,
+    "cases": 972,
     "recovered": 0,
-    "casesToday": 34
+    "casesToday": 58
   },
   {
     "name": "Kon Tum",
     "death": 0,
     "treating": 0,
-    "cases": 587,
+    "cases": 924,
     "recovered": 0,
-    "casesToday": 12
-  },
-  {
-    "name": "\u0110i\u1ec7n Bi\u00ean",
-    "death": 0,
-    "treating": 0,
-    "cases": 539,
-    "recovered": 0,
-    "casesToday": 3
+    "casesToday": 40
   },
   {
     "name": "Ninh B\u00ecnh",
     "death": 0,
     "treating": 0,
-    "cases": 508,
+    "cases": 645,
     "recovered": 0,
-    "casesToday": 39
+    "casesToday": 120
   },
   {
     "name": "Y\u00ean B\u00e1i",
     "death": 0,
     "treating": 0,
-    "cases": 453,
+    "cases": 596,
     "recovered": 0,
-    "casesToday": 10
+    "casesToday": 21
+  },
+  {
+    "name": "\u0110i\u1ec7n Bi\u00ean",
+    "death": 0,
+    "treating": 0,
+    "cases": 585,
+    "recovered": 0,
+    "casesToday": 7
   },
   {
     "name": "L\u00e0o Cai",
     "death": 0,
     "treating": 0,
-    "cases": 337,
+    "cases": 480,
     "recovered": 0,
-    "casesToday": 3
+    "casesToday": 37
   },
   {
     "name": "Cao B\u1eb1ng",
     "death": 1,
     "treating": 0,
-    "cases": 258,
+    "cases": 462,
     "recovered": 0,
-    "casesToday": 3
+    "casesToday": 7
   },
   {
     "name": "Lai Ch\u00e2u",
     "death": 0,
     "treating": 0,
-    "cases": 49,
+    "cases": 102,
     "recovered": 0,
-    "casesToday": 1
+    "casesToday": 5
   },
   {
     "name": "B\u1eafc K\u1ea1n",
     "death": 0,
     "treating": 0,
-    "cases": 38,
+    "cases": 55,
     "recovered": 0,
     "casesToday": 0
   }
