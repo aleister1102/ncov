@@ -1,4 +1,4 @@
-## Viết link tài liệu tham khảo ở đây nha mọi người
+# Link tài liệu tham khảo:
 
 https://pythontic.com/modules/socket/gethostbyname
 https://docs.python.org/3/library/socket.html
