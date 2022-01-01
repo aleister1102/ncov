@@ -13,7 +13,7 @@
 
 Mục đích của đồ án này là để **tra cứu thông tin Covid-19** của thế giới và các tỉnh thành trong Việt Nam.
 
-Đồ án sử dụng ngôn ngữ lập trình **Python**, ứng dụng lập trình Socket được học trong môn Mạng Máy Tính được giảng dạy tại HCMUS.
+Đồ án sử dụng ngôn ngữ lập trình **Python**, ứng dụng lập trình Socket trong môn học Mạng Máy Tính được giảng dạy tại HCMUS.
 
 ## Sử dụng
 
